@@ -43,19 +43,18 @@ def string_changer(root, names):
 	number = []
 
 	for child in root:
-		fikset_test = []
+		new_string = []
 		if (child.attrib["type"] == "gene"):
-			check = child.attrib["name"]
-			if (check.startswith("hsa:")):
-				test = check.split()
-				if(len(test) > 1):
-					number.append(len(test))
+			check_string = child.attrib["name"]
+			if (check_string.startswith("hsa:")):
+				namestring = check_string.split()
+				if(len(namestring) > 1):
+					number.append(len(namestring))
 					for underchild in child:
-						#print underchild.attrib['name']
-						for name in test:
-							fikset_test.append(names[name])
-							fult_navn = " ".join(fikset_test)
-							underchild.attrib['name'] = fult_navn
+						for name in namestring:
+							new_string.append(names[name])
+							finished_namestring = " ".join(new_string)
+							underchild.attrib['name'] = finished_namestring
 						
 
 
@@ -69,8 +68,6 @@ def ortholog_remover(root):
 	for child in root:
 		if (child.attrib["type"] == "ortholog"):
 			root.remove(child)
-	#Her brukes rekursjon, fordi når du fjerner noder blir det "feil" i rekkefølgen, og derfor
-	#trenger du å kjøre denne funksjonen flere ganger. 
 	if (number > 0):
 		ortholog_remover(root)
 
