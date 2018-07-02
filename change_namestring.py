@@ -19,7 +19,7 @@ def string_list():
 	"""
 	Opens the list of hsa:x and belonging gene names, and creates a list with hsa:x and only one corresponding name. 
 	Requires a downloaded version of all hsa:x IDs from KEGG.
-	LINK TO THIS
+	List is found at: http://rest.kegg.jp/list/hsa
 	Returns the finished list of one name for each ID. 
 
 	"""
@@ -60,7 +60,6 @@ def string_changer(root, names):
 
 
 def ortholog_remover(root):
-	print("orthologs")
 	number = 0;
 	for child in root:
 		if (child.attrib["type"] == "ortholog"):
