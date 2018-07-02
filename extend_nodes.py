@@ -15,30 +15,6 @@ def id_finder(root):
 				id_whole = new
 	return str(id_whole + 1)
 
-def number_of_cases(root):
-	""" Counts number of entries with multiple genes """
-	casenumber = 0
-	for child in root:
-		if (child.attrib["type"] == "gene"):
-			child_name = child.attrib["name"]
-			if (child_name.startswith("hsa:")):
-				split = child_name.split()
-				if(len(split) > 1):
-					casenumber = casenumber + 1
-	return casenumber
-
-def get_multiple_cases(root):
-	""" Counts number of entries with multiple genes """
-	entries = []
-	for child in root:
-		if (child.attrib["type"] == "gene"):
-			child_name = child.attrib["name"]
-			if (child_name.startswith("hsa:")):
-				split = child_name.split()
-				if(len(split) > 1):
-					entries.append(child)
-	return entries
-
 
 def create_new_component(assigned_id, name, source_node, counter):
 	""" Create a new component by copying an existing node
@@ -231,16 +207,9 @@ def fix_file(filename_in, filnavn_ut):
 	# Find the highest ID of the file
 	first_free_id = id_finder(root)
 
-	# First, we find how many cases of duplicates are in the file
-	number_of_multiples = number_of_cases(root)
-	
-	multiplied_entries = get_multiple_cases(root)
-
 	fix_duplicate_nodes(root)
 
 	ortholog_remover(root)
-
-	print "Made it"
 
 	tree.write(filnavn_ut)
 
@@ -250,10 +219,8 @@ def fix_file(filename_in, filnavn_ut):
 def main():	
 				
 	g = glob.glob('/Users/Profile/phd/testmappe/*.xml')
-	print "here"
 
 	for file in g:
-		print "Made it 1" 
 		filename = file.split("/")
 		out_file_name = "box_remove_" + filename[5]
 		fix_file(file, out_file_name)
