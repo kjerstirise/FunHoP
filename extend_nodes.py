@@ -39,23 +39,6 @@ def get_multiple_cases(root):
 					entries.append(child)
 	return entries
 
-def componentmaker(id, name1, name2, x, y):
-	child = ET.Element('entry')
-	child.attrib['id'] = id
-	child.attrib['name'] = name1
-	child.attrib['type'] = 'gene'
-	root.append(child)
-
-	underchild = ET.Element('graphics')
-	underchild.attrib['name'] = name2
-	underchild.attrib['type'] = 'rectangle'
-	underchild.attrib['bgcolor'] = "#FFFFFF"
-	underchild.attrib['fgcolor'] = "#000000"
-	underchild.attrib['height'] = '17'
-	underchild.attrib['width'] = '46'
-	underchild.attrib['x'] = x
-	underchild.attrib['y'] = y
-	child.append(underchild)
 
 def create_new_component(assigned_id, name, source_node, counter):
 	""" Create a new component by copying an existing node
@@ -138,35 +121,13 @@ def boxmaker(root, component, contained_ids):
 		underchild.attrib['y'] = new_y
 		child.append(underchild)
 	except:
-		underchild.attrib['coords'] = "1,2,3,4"
-		
+		underchild.attrib['coords'] = "1,2,3,4"	
 
 	for id_number in contained_ids:
 		comp = ET.Element('component')
 		comp.attrib['id'] = str(id_number)
 		child.append(comp)
 
-
-def height_finder(number):
-	height = str(number * 17)
-	return height
-	
-
-def attribute_finder(child_name, child_name_out, id, underchild_name, x, y):
-	for child in root:
-		if (child.attrib["type"] == "gene"):
-			child_name = child.attrib["name"]
-			if (child_name.startswith("hsa:")):
-				split = child_name.split()
-				if(len(split) > 1):
-					number = len(split)
-					id = child.attrib["id"]
-					child_name_out.append(split)
-					for underchild in child:
-						underchild_name_i = underchild.attrib["name"]
-						underchild_name.append(underchild_name_i)
-					
-					#return child_name, id, number, bgcolor, fgcolor, underchild_name, x, y
 
 def get_graphics_names(node):
 	"""Gets the name field of any graphics-sub node, asserts if more than one found """
@@ -201,7 +162,7 @@ def fix_duplicate_nodes(root):
 					graphics_child_name_list = get_graphics_names(child)
 					set_graphics_names(child, graphics_child_name_list[0])
 
-					id_liste = [ child.attrib["id"] ]
+					id_list = [ child.attrib["id"] ]
 				
 					nye_graphics_names = graphics_child_name_list[1:]
 
@@ -260,9 +221,9 @@ def ortholog_remover(root):
 
 
 		
-def fix_fil(filnavn_inn, filnavn_ut):
+def fix_file(filename_in, filnavn_ut):
 	# Read in XML-file
-	tree = ET.parse(filnavn_inn)
+	tree = ET.parse(filename_in)
 
 	# Get the root node
 	root = tree.getroot()
@@ -288,14 +249,14 @@ def fix_fil(filnavn_inn, filnavn_ut):
 
 def main():	
 				
-	g = glob.glob('/Users/Profile/phd/*.xml')
-	
+	g = glob.glob('/Users/Profile/phd/testmappe/*.xml')
+	print "here"
 
-	for filnavn in g:
+	for file in g:
 		print "Made it 1" 
-		filename = filnavn.split("/")
-		utfilnavn = "box_remove_" + filename[5]
-		fix_fil(filnavn, utfilnavn)
+		filename = file.split("/")
+		out_file_name = "box_remove_" + filename[5]
+		fix_file(file, out_file_name)
 
 	
 
