@@ -17,7 +17,6 @@ indicating which of them will need extended nodes. This file is used to calculat
 """
 
 
-def geneList(file):
 
 	# Read XML file
 	tree = ET.parse(file)
