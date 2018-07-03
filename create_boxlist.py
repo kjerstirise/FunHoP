@@ -38,7 +38,7 @@ def geneList(filnavn):
 	
 	divider = start + middle + final
 
-	print(divider)
+	
 
 	for child in root:
 		if (child.attrib["type"] == "gene"):
@@ -56,7 +56,15 @@ def geneList(filnavn):
 					if multiple_genes not in genlist:
 						genlist.append(multiple_genes)
 				
-	
+	outfile = open("genelist_FunHoP.txt", "a")
+	outfile.write(divider)
+	outfile.write("\n")
+	for line in genlist:
+ 		# write line to output file
+		outfile.write(line)
+		outfile.write("\n")
+	outfile.close()
+
 	
 	for element in genlist:
 		print(element)
@@ -64,6 +72,7 @@ def geneList(filnavn):
 
 	
 def main():
+	outfile = open("genelist_FunHoP.txt", "w")
 	g = glob.glob('/Users/Profile/phd/testmappe/*.xml')
 	
 
