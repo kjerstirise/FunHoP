@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 import glob 
 
 """	
-The create_boxlist code is made for extracting the gene names in the pathways, in order to create a list 
+The create_genlist code is made for extracting the gene names in the pathways, in order to create a list 
 of all of the genes. The code takes in the pathway files created by change_namestring, which has the complete namestrings 
 for each child. The result from this file is a .txt file with all the namestrings from all the children in all the files, 
 indicating which of them will need extended nodes. This file is used to calculate new values for the extended nodes.  
@@ -17,14 +17,10 @@ indicating which of them will need extended nodes. This file is used to calculat
 """
 
 
-def geneList(filnavn):
-	"""
-	Anyway! This function takes in the root of an xml-file, and goes through every child and underchild, to 
-	find all the genes and nodes to be extended, and writes them to files. 
-	"""
+def geneList(file):
 
 	# Read XML file
-	tree = ET.parse(filnavn)
+	tree = ET.parse(file)
 
 	# Get root node
 	root = tree.getroot()
@@ -56,11 +52,13 @@ def geneList(filnavn):
 					if multiple_genes not in genlist:
 						genlist.append(multiple_genes)
 				
+	# Start by adding the divider, this makes it easier to check the results in the txt file. 			
 	outfile = open("genelist_FunHoP.txt", "a")
 	outfile.write(divider)
 	outfile.write("\n")
+
+	# Write results to file 
 	for line in genlist:
- 		# write line to output file
 		outfile.write(line)
 		outfile.write("\n")
 	outfile.close()
@@ -72,9 +70,12 @@ def geneList(filnavn):
 
 	
 def main():
+
+	# Create a new file to write results to. 
 	outfile = open("genelist_FunHoP.txt", "w")
+
+	# Go through all pathway files in the folder
 	g = glob.glob('/Users/Profile/phd/testmappe/*.xml')
-	
 
 	for file in g:
 		geneList(file)
