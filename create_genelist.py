@@ -8,8 +8,8 @@ import xml.etree.ElementTree as ET
 import glob 
 
 """	
-The create_genlist code is made for extracting the gene names in the pathways, in order to create a list 
-of all of the genes. The code takes in the pathway files created by change_namestring, which has the complete namestrings 
+The create_genelist code is made for extracting the gene names in the pathways, in order to create a list 
+of all of the genes in all of the pathways of interest. The code takes in the pathway files created by change_namestring, which has the complete namestrings 
 for each child. The result from this file is a .txt file with all the namestrings from all the children in all the files, 
 indicating which of them will need extended nodes. This file is used to calculate new values for the extended nodes.  
 
