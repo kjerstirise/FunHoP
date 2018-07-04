@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Linja rett over er her bare for å la oss skrive æøå i python-fila
+
 
 import xml.etree.ElementTree as ET
 import glob
 import os
 
-def boxlistmaker(innfil, aleneliste, duplikatliste):
-	tree = ET.parse(innfil)
+def boxlistmaker(pathway, list_of_singles, list_of_duplicates):
+	tree = ET.parse(pathway)
 	root = tree.getroot()
 	out = []
 
@@ -27,10 +27,10 @@ def boxlistmaker(innfil, aleneliste, duplikatliste):
 					newnameback = 'B' + str(length)
 					newname = newnamefront + '-' + newnameback
 					print (newname)
-					if newname not in aleneliste:
-						aleneliste.append(newname)
+					if newname not in list_of_singles:
+						list_of_singles.append(newname)
 					else: 
-						duplikatliste.append(newname)
+						list_of_duplicates.append(newname)
 
 
 
