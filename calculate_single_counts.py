@@ -25,8 +25,8 @@ def boxfikser(boxfil):
 
 	liste.sort()
 	red = remove_duplicates(liste)
-	for rad in red:
-		print(rad)
+	#for rad in red:
+	#	print(rad)
 
 
 
@@ -54,10 +54,10 @@ def stringworker(string):
 
 	for i in range(0, teller - 1):
 		
-		prosent = testliste[i + teller+1]
+		prosent = testliste[i + teller + 1]
 		totalt = testliste[len(testliste) - teller]
 	
-		antall = (float(totalt)*float(prosent))
+		antall = (float(totalt) * float(prosent))
 	
 		if antall >= 0:
 			ut = testliste[i] + " " + str(antall)
@@ -68,20 +68,22 @@ def stringworker(string):
 
 def remove_duplicates(genelist):
 	counts = pd.DataFrame(data = genelist)
-	print(counts.head())
+	
 	counts.columns = ['Gene']
 
 
 	counts2 = counts.drop_duplicates(subset = 'Gene', keep = 'first')
-	counts2.to_csv('singel_gene_counts_test.txt', sep = '\t', mode ='w', header = False, index = None)
+	print(counts2.head())
+	#counts2.to_csv('singel_gene_counts_test.txt', sep = '\t', mode ='w', header = False, index = None)
 
 
 def main():
 	
-	mappesti = '/Users/profile/documents/GitHub/cell-lines'
+	#mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
-	innfil = 'boxinfo_metabolisme_Prensner_fpkm_LNCaP.txt'
-
+	#innfil = 'boxinfo_metabolisme_Prensner_fpkm_LNCaP.txt'
+	mappesti = '/Users/profile/phd/sammenligninger/'
+	innfil = 'boxinfo_test4_feb17.txt'
 	boxfil = os.path.join(mappesti, innfil)
 	boxfikser(boxfil)
 
