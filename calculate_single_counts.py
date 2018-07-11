@@ -5,76 +5,87 @@ import pandas as pd
 import numpy as np
 import os
 
-def boxfikser(boxfil):
+"""
+This file finds the counts from the calculated boxes. This was done this way in order to keep the same weights all over.
+The first function runs through each line, and if there's more than one gene, it passes it to the second function. 
+The second function then calculates the count for each of the genes, based on the total count and the percentage. 
+The final function removes the duplicates, and writes to file. The file can then be used to filter in Cytoscape. 
 
-	liste = []
+"""
+
+def split_lines(boxfil):
+
+	final_list = []
 	boxes = open(boxfil, 'r')
+
 	for line in boxes.readlines():
-		
 		split = line.split( )
+
 		if split[3] == '1.0':
-			
-			liste.append(split[0] + ' ' + split[2])
+			final_list.append(split[0] + ' ' + split[2])
+
 		if len(split) > 4:
-			out = " ".join(split)
-			store = stringworker(out)			
-			for linje in store:
-				
-				if linje[0] not in liste:
-					liste.append(linje)
+			extended_node = " ".join(split)
+			calculated_count = calculate_count(extended_node)	
 
-	liste.sort()
-	red = remove_duplicates(liste)
-	#for rad in red:
-	#	print(rad)
+			for line in calculated_count:	
+				if line[0] not in final_list:
+					final_list.append(line)
 
-
-
-def stringworker(string):
+	final_list.sort()
+	remove_duplicates(final_list)
 	
-	teller = 0
+
+
+
+def calculate_count(string):
+	
+	counter = 0
 	split = string.split()
-	utliste = []
-	testliste = []
-	for ting in split:
+	outlist = []
+	templist = []
+	for item in split:
 		
-		if ting == 'Not-found':
-			ting2 = ting.replace('Not-found', '-1')
-			teller = teller + 1
+		if item == 'Not-found':
+			replaced_nf = item.replace('Not-found', '-1')
+			counter = counter + 1
 		
-			testliste.append(ting2)
+			templist.append(replaced_nf)
 		else:
-			if(ting.replace('.', '').replace('e-', '').isdigit()):
-				teller = teller + 1 
-			testliste.append(ting)
+			if(item.replace('.', '').replace('e-', '').isdigit()):
+				counter = counter + 1 
+			templist.append(item)
+
 
 	
-	fikset = ' '.join(testliste)
+	fikset = ' '.join(templist)
+	print(templist)
 
 
-	for i in range(0, teller - 1):
+	for i in range(0, counter - 1):
 		
-		prosent = testliste[i + teller + 1]
-		totalt = testliste[len(testliste) - teller]
+		percentage = templist[i + counter + 1]
+		total_count = templist[len(templist) - counter]
 	
-		antall = (float(totalt) * float(prosent))
+		single_count = (float(total_count) * float(percentage))
 	
-		if antall >= 0:
-			ut = testliste[i] + " " + str(antall)
-			utliste.append(ut)
+		if single_count >= 0:
+			finished_pair = templist[i] + " " + str(single_count)
+			outlist.append(finished_pair)
 
 	
-	return(utliste)
+	return(outlist)
+
 
 def remove_duplicates(genelist):
-	counts = pd.DataFrame(data = genelist)
+	counts_with_duplicates = pd.DataFrame(data = genelist)
 	
-	counts.columns = ['Gene']
+	counts_with_duplicates.columns = ['Gene']
 
 
-	counts2 = counts.drop_duplicates(subset = 'Gene', keep = 'first')
-	print(counts2.head())
-	#counts2.to_csv('singel_gene_counts_test.txt', sep = '\t', mode ='w', header = False, index = None)
+	counts_without_duplicates = counts_with_duplicates.drop_duplicates(subset = 'Gene', keep = 'first')
+	print(counts_without_duplicates.head())
+	#counts_without_duplicates.to_csv('singel_gene_counts_test.txt', sep = '\t', mode ='w', header = False, index = None)
 
 
 def main():
@@ -85,7 +96,7 @@ def main():
 	mappesti = '/Users/profile/phd/sammenligninger/'
 	innfil = 'boxinfo_test4_feb17.txt'
 	boxfil = os.path.join(mappesti, innfil)
-	boxfikser(boxfil)
+	split_lines(boxfil)
 
 
 
