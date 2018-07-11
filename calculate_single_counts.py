@@ -59,7 +59,7 @@ def calculate_count(string):
 
 	
 	fikset = ' '.join(templist)
-	print(templist)
+
 
 
 	for i in range(0, counter - 1):
@@ -85,16 +85,16 @@ def remove_duplicates(genelist):
 
 	counts_without_duplicates = counts_with_duplicates.drop_duplicates(subset = 'Gene', keep = 'first')
 	print(counts_without_duplicates.head())
-	#counts_without_duplicates.to_csv('singel_gene_counts_test.txt', sep = '\t', mode ='w', header = False, index = None)
+	counts_without_duplicates.to_csv('singel_counts_LNCaP.txt', sep = '\t', mode ='w', header = False, index = None)
 
 
 def main():
 	
-	#mappesti = '/Users/profile/documents/GitHub/cell-lines'
+	mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
-	#innfil = 'boxinfo_metabolisme_Prensner_fpkm_LNCaP.txt'
-	mappesti = '/Users/profile/phd/sammenligninger/'
-	innfil = 'boxinfo_test4_feb17.txt'
+	innfil = 'boxinfo_metabolisme_Prensner_fpkm_LNCaP.txt'
+	#mappesti = '/Users/profile/phd/sammenligninger/'
+	#innfil = 'boxinfo_test4_feb17.txt'
 	boxfil = os.path.join(mappesti, innfil)
 	split_lines(boxfil)
 
