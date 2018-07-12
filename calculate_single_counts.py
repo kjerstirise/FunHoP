@@ -4,6 +4,8 @@
 import pandas as pd
 import numpy as np
 import os
+import sys
+
 
 """
 This file finds the counts from the calculated boxes. This was done this way in order to keep the same weights all over.
@@ -15,24 +17,32 @@ The final function removes the duplicates, and writes to file. The file can then
 
 def split_lines(boxfil):
 
-	final_list = []
+	temp_list = []
 	boxes = open(boxfil, 'r')
 
 	for line in boxes.readlines():
 		split = line.split( )
 
 		if split[3] == '1.0':
-			final_list.append(split[0] + ' ' + split[2])
+			temp_list.append(split[0] + ' ' + split[2])
 
 		if len(split) > 4:
 			extended_node = " ".join(split)
 			calculated_count = calculate_count(extended_node)	
 
 			for line in calculated_count:	
-				if line[0] not in final_list:
-					final_list.append(line)
+				if line[0] not in temp_list:
+					temp_list.append(line)
 
-	final_list.sort()
+	
+	temp_list.sort()
+	final_list = []
+
+	for item in temp_list:
+		two_columns = item.split(" ")
+		final_list.append(two_columns)
+	
+	
 	remove_duplicates(final_list)
 	
 
@@ -78,14 +88,14 @@ def calculate_count(string):
 
 
 def remove_duplicates(genelist):
-	counts_with_duplicates = pd.DataFrame(data = genelist)
 	
-	counts_with_duplicates.columns = ['Gene']
-
-
+	labels = ['Gene', 'Value']
+	counts_with_duplicates = pd.DataFrame.from_records(genelist, columns = labels)
+	
 	counts_without_duplicates = counts_with_duplicates.drop_duplicates(subset = 'Gene', keep = 'first')
-	print(counts_without_duplicates.head())
-	counts_without_duplicates.to_csv('singel_counts_LNCaP.txt', sep = '\t', mode ='w', header = False, index = None)
+	print(counts_without_duplicates.Value.astype(float).max())
+	
+	#counts_without_duplicates.to_csv('singel_counts_DU145_test.txt', sep = '\t', mode ='w', header = True, index = None)
 
 
 def main():
