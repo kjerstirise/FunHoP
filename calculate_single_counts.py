@@ -102,7 +102,7 @@ def main():
 	
 	mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
-	innfil = 'boxinfo_metabolisme_Prensner_fpkm_LNCaP.txt'
+	innfil = 'boxinfo_metabolisme_Prensner_fpkm_cancer-tissue.txt'
 	#mappesti = '/Users/profile/phd/sammenligninger/'
 	#innfil = 'boxinfo_test4_feb17.txt'
 	boxfil = os.path.join(mappesti, innfil)
