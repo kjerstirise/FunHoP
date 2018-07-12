@@ -15,8 +15,6 @@ def ortholog_remover(root):
 	for child in root:
 		if (child.attrib["type"] == "ortholog"):
 			root.remove(child)
-	#Her brukes rekursjon, fordi når du fjerner noder blir det "feil" i rekkefølgen, og derfor
-	#trenger du å kjøre denne funksjonen flere ganger. 
 	if (number > 0):
 		ortholog_remover(root)
 			
@@ -27,15 +25,15 @@ def boxadder(root):
 	for child in root:
 		counter = 0
 		if (child.attrib["type"] == "gene"):
-			lengthstring = child.attrib['name']
-			print lengthstring
+			hsa_string = child.attrib['name']
+			print hsa_string
 			for underchild in child:
 				name = underchild.attrib['name']
 				splitname = name.split(' ')
-				length = len(lengthstring.split())
-				print length
+				number_of_genes = len(hsa_string.split())
+				print number_of_genes
 				newnamefront = splitname[0].replace(',', '').replace(';', '')
-				newnameback = 'B' + str(length)
+				newnameback = 'B' + str(number_of_genes)
 				newname = newnamefront + '-' + newnameback
 				print (newname)
 				print (underchild.attrib['name'])
