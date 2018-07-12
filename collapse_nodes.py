@@ -7,7 +7,7 @@ import glob
 
 
 def ortholog_remover(root):
-	#print("orthologs")
+	print("orthologs")
 	number = 0;
 	for child in root:
 		if (child.attrib["type"] == "ortholog"):
@@ -32,16 +32,15 @@ def boxadder(root):
 			for underchild in child:
 				name = underchild.attrib['name']
 				splitname = name.split(' ')
-
 				length = len(lengthstring.split())
 				print length
 				newnamefront = splitname[0].replace(',', '').replace(';', '')
 				newnameback = 'B' + str(length)
 				newname = newnamefront + '-' + newnameback
 				print (newname)
-				#print (underchild.attrib['name'])
-				#isThere = duplicatefinder(root, newname)
-				#print(isThere)
+				print (underchild.attrib['name'])
+				isThere = duplicatefinder(root, newname)
+				print(isThere)
 				if isThere == False:
 					underchild.attrib['name'] = newname
 				if isThere == True:
@@ -51,20 +50,20 @@ def boxadder(root):
 
 
 def duplicatefinder(root, name):
-	
 
-	#for child in root:
-	#	if (child.attrib['type'] == 'gene'):
-	#		for underchild in child:
-	#			if underchild.attrib['name'] == name:
-	#				return True
-	#			else:
-	#				return False
+	for child in root:
+		if (child.attrib['type'] == 'gene'):
+			for underchild in child:
+				if underchild.attrib['name'] == name:
+					return True
+				else:
+					return False
 
 
 
 
 def main():
+
 	tree = ET.parse('/Users/profile/phd/Kode/fikset_hsa00564.xml')
 	#tree = ET.parse('/Users/Kjersti/phd/Kode/boxtester.xml')
 	root = tree.getroot()
