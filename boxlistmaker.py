@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 
@@ -22,7 +22,7 @@ def boxlistmaker(pathway, list_of_singles, list_of_duplicates):
 					print(test)
 
 					length = len(test)
-					print length
+					print(length)
 					newnamefront = test[0].replace(',', '').replace(';', '')
 					newnameback = 'B' + str(length)
 					newname = newnamefront + '-' + newnameback
@@ -38,18 +38,29 @@ def boxlistmaker(pathway, list_of_singles, list_of_duplicates):
 
 
 def main():
-	mappesti = '/Users/Kjersti/phd/kode/'
-	innfil = 'fikset_hsa00340_jan17.xml'
+	"""
+	mappesti = '/Users/profile/Documents/GitHub/cell-lines/changed_name/'
+	innfil = 'changed_name_hsa00010.xml'
+	
 
+	"""
 	duplikatliste = []
 	aleneliste = []
+	
+	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name/*.xml')
 
-	testfil = os.path.join(mappesti, innfil)
+	for file in g:
+		boxlistmaker(file, aleneliste, duplikatliste)
 
-	boxlistmaker(testfil, aleneliste, duplikatliste)
+	#testfil = os.path.join(mappesti, innfil)
 
-	print(aleneliste)
-	print(duplikatliste)
+	#boxlistmaker(testfil, aleneliste, duplikatliste)
+	
+	for ting in aleneliste:
+		print(ting)
+	
+	for ting in duplikatliste:
+		print(ting)
 
 if __name__ == '__main__':
 	main()
