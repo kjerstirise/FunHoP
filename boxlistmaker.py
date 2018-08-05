@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 
@@ -6,28 +6,23 @@ import xml.etree.ElementTree as ET
 import glob
 import os
 
-vi trenger at denne skjønner hvordan den skal returnere ting
-
-def boxlistmaker(pathway):
+def boxlistmaker(pathway, list_of_singles, list_of_duplicates):
 	tree = ET.parse(pathway)
 	root = tree.getroot()
 	out = []
 
-	list_of_singles = []
-	list_of_duplicates = []
-
 	for child in root:
 		if (child.attrib["type"] == "gene"):
-			name = child.attrib["name"]
-			split_name = name.split()
-			if len(split_name) > 1:
+			navn = child.attrib["name"]
+			antall = navn.split()
+			if len(antall) > 1:
 				for underchild in child:
-					namestring = underchild.attrib["name"]
-					split_namestring = namestring.split(" ")
-					print(split_namestring)
+					check = underchild.attrib["name"]
+					test = check.split(" ")
+					print(test)
 
-					length = len(split_namestring)
-					print length
+					length = len(test)
+					print(length)
 					newnamefront = test[0].replace(',', '').replace(';', '')
 					newnameback = 'B' + str(length)
 					newname = newnamefront + '-' + newnameback
@@ -43,19 +38,29 @@ def boxlistmaker(pathway):
 
 
 def main():
-	mappesti = '/Users/Kjersti/phd/kode/'
-	innfil = 'fikset_hsa00340_jan17.xml'
-
+	"""
+	mappesti = '/Users/profile/Documents/GitHub/cell-lines/changed_name/'
+	innfil = 'changed_name_hsa00010.xml'
 	
 
-	testfil = os.path.join(mappesti, innfil)
+	"""
+	duplikatliste = []
+	aleneliste = []
+	
+	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name/*.xml')
 
-	boxlistmaker(testfil, aleneliste, duplikatliste)
+	for file in g:
+		boxlistmaker(file, aleneliste, duplikatliste)
 
-	print(aleneliste)
-	print(duplikatliste)
+	#testfil = os.path.join(mappesti, innfil)
+
+	#boxlistmaker(testfil, aleneliste, duplikatliste)
+	
+	for ting in aleneliste:
+		print(ting)
+	
+	for ting in duplikatliste:
+		print(ting)
 
 if __name__ == '__main__':
 	main()
-
-	

@@ -24,7 +24,7 @@ def string_list():
 
 	"""
 	names = {}
-	with open('/Users/profile/phd/hsalist.txt', 'r') as searchfile:
+	with open('/Users/profile/Documents/GitHub/cell-lines/hsalist_july18.txt', 'r') as searchfile:
 		lines = searchfile.readlines()
 		for line in lines:
 			n = line.replace(";", "")
@@ -72,13 +72,23 @@ def ortholog_remover(root):
 
 
 def main():
-	tree = ET.parse('/Users/profile/phd/pathways/hsa03015.xml')
-	root = tree.getroot()
-	ortholog_remover(root)
 	names = string_list()
-	string_changer(root, names)
+	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/pathways/*.xml')
+
+	for file in g:
+		filename = file.split("/")
+		out_file_name = "changed_name_" + filename[7]
+		print(filename)
+		tree = ET.parse(file)
+		root = tree.getroot()
+		ortholog_remover(root)
+		
+		string_changer(root, names)
 	
-	tree.write("fikset_hsa03015_jan18.xml")
+		tree.write(out_file_name)
+		
+
+	
 	
 
 if __name__ == '__main__':
