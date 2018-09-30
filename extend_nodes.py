@@ -204,7 +204,7 @@ def test_fix_duplicate():
 	assert(len(root) == 3)
 
 	if len(root) != 3:
-		raise Exception("Hadde forventet 3 noder")
+		raise Exception("Would have expected 3 nodes")
 
 
 def ortholog_remover(root):
@@ -257,5 +257,40 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
