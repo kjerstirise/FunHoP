@@ -40,9 +40,22 @@ def remove_lose_metabolites(root):
 	print(len(connected))
 	print(connected)
 
+	return(connected)
+
+
+
+
+def remove_unconnected_metabolites(root, connected_metabolites):
+	number_of_unconnected = 0
 	for child in root:
-		if (child.attrib["type"] == "compound") and (child.attrib["id"] not in connected):
+		if (child.attrib["type"] == "compound") and (child.attrib["id"] not in connected_metabolites):
+			number_of_unconnected += 1
 			root.remove(child)
+			if (number_of_unconnected > 0):
+				remove_unconnected_metabolites(root, connected_metabolites)
+
+
+
 
 """
 
@@ -62,8 +75,9 @@ def main():
 	#tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_hsa00564.xml')
 	tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_hsa00564.xml')
 	root = tree.getroot()
-	remove_lose_metabolites(root)
-	tree.write("outfile_testfile_compoundremover_564.xml")
+	connected_metabolites = remove_lose_metabolites(root)
+	remove_unconnected_metabolites(root, connected_metabolites)
+	tree.write("changed_name_removed_compounds.xml")
 
 
 
