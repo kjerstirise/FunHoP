@@ -29,7 +29,7 @@ def fix_y(root):
 				nodes.append((int(child.attrib["id"]), int(length), int(underchild.attrib["y"])))
 
 	# Change to Pandas Dataframe to sort the whole thing
-	nodes_df = pd.DataFrame(genes_and_compounds)
+	nodes_df = pd.DataFrame(nodes)
 	nodes_df.columns = ["ID", "length", "y"]
 	nodes_df.sort_values(by = ['y'], ascending = True, inplace = True)
 	nodes_df = nodes_df.apply(pd.to_numeric, errors = 'ignore')
@@ -70,19 +70,13 @@ def fix_y(root):
 				new_y_insert = new_y[int(id_child)]
 				underchild.attrib["y"] = str(new_y_insert)
 
-							
-
-	
-					
-
-
+						
 
 def main():
-	tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_hsa00564.xml')
-	#tree = ET.parse('/Users/Kjersti/phd/Kode/boxtester.xml')
+	tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_removed_compounds.xml')
 	root = tree.getroot()
 	fix_y(root)
-	tree.write("outfile_testfile_564.xml")
+	tree.write("changed_name_removed_compounds_fixed_coords.xml")
 
 
 
