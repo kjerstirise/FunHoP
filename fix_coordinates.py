@@ -28,16 +28,16 @@ def fix_y(root):
 					length = len(split_namestring)
 				nodes.append((int(child.attrib["id"]), int(length), int(underchild.attrib["y"])))
 
+	# Change to Pandas Dataframe to sort the whole thing
 	nodes_df = pd.DataFrame(genes_and_compounds)
 	nodes_df.columns = ["ID", "length", "y"]
 	nodes_df.sort_values(by = ['y'], ascending = True, inplace = True)
 	nodes_df = nodes_df.apply(pd.to_numeric, errors = 'ignore')
 
-
+	# Back to list mode
 	nodes_list = nodes_df.values.tolist()
 	
-	
-
+	# Discover the y-coordinates 
 	y = 0
 	counter = 0
 	for row in nodes_list:
