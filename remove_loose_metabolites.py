@@ -43,8 +43,8 @@ def find_unconnected_metabolites(root):
 	connected = []
 
 	for compound in all_compounds:
-		if compund in all_connected_metabolites:
-			compound.append(thing)
+		if compound in all_connected_metabolites:
+			connected.append(compound)
 
 	return(connected)
 
@@ -70,7 +70,7 @@ def main():
 	root = tree.getroot()
 	connected_metabolites = find_unconnected_metabolites(root)
 	remove_unconnected_metabolites(root, connected_metabolites)
-	tree.write("changed_name_removed_compounds.xml")
+	tree.write("changed_name_removed_compounds_AFTER.xml")
 
 
 
