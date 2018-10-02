@@ -14,6 +14,7 @@ the networks. Consists of two functions: find_unconnected_metabolites and remove
 """
 
 def find_unconnected_metabolites(root):
+	#First, identify all children of type compound
 
 	all_compounds = []
 
@@ -23,7 +24,8 @@ def find_unconnected_metabolites(root):
 
 	x = list(set(all_compounds))
 
-
+	#Second, identify all compounds found among the relations. 
+	#These will be the compounds that are connected to the pathway
 	all_connected_metabolites = []
 
 	for child in root:
@@ -35,6 +37,9 @@ def find_unconnected_metabolites(root):
 
 	y = list(set(all_connected_metabolites))
 
+	#Third, compare the two lists, to find the compounds that are found in both. 
+	#This step could have been skipped, as the all_connected_metabolites would have been enough, 
+	#but was kept for verification. 
 	connected = []
 
 	for compound in all_compounds:
@@ -47,6 +52,8 @@ def find_unconnected_metabolites(root):
 
 
 def remove_unconnected_metabolites(root, connected_metabolites):
+	#Using the list of compounds that are connected, the compounds that does not have any connections are removed. 
+	#Recursion is used to make sure the entire xmls are checked. 
 	number_of_unconnected = 0
 	for child in root:
 		if (child.attrib["type"] == "compound") and (child.attrib["id"] not in connected_metabolites):
