@@ -15,28 +15,35 @@ the networks. Consists of two functions: find_unconnected_metabolites and remove
 
 def find_unconnected_metabolites(root):
 	#First, identify all children of type compound
-
+	
 	all_compounds = []
-
+	print(root.attrib["title"])
 	for child in root:
-			if (child.attrib["type"] == "compound"):
-				all_compounds.append(child.attrib["id"])
+		
+		if (child.attrib["type"] == "compound"):
+			all_compounds.append(child.attrib["id"])
 
 	x = list(set(all_compounds))
-
+	print(len(x))
+	print(x)
 	#Second, identify all compounds found among the relations. 
 	#These will be the compounds that are connected to the pathway
+	
 	all_connected_metabolites = []
 
 	for child in root:
 		if (child.attrib["type"] == "reversible") or (child.attrib["type"] == "irreversible"):
-			all_connected_metabolites.append(child.attrib["id"])
+			#all_connected_metabolites.append(child.attrib["id"])
 			for underchild in child:
 				all_connected_metabolites.append(underchild.attrib["id"])
 
 
 	y = list(set(all_connected_metabolites))
-
+	print(len(y))
+	print(y)
+	
+	#return(all_connected_metabolites)
+	
 	#Third, compare the two lists, to find the compounds that are found in both. 
 	#This step could have been skipped, as the all_connected_metabolites would have been enough, 
 	#but was kept for verification. 
@@ -46,8 +53,10 @@ def find_unconnected_metabolites(root):
 		if compound in all_connected_metabolites:
 			connected.append(compound)
 
+	
+	print(len(connected))
+	print(connected)
 	return(connected)
-
 
 
 
@@ -66,11 +75,14 @@ def remove_unconnected_metabolites(root, connected_metabolites):
 
 def main():
 	#tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_hsa00564.xml')
-	tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_hsa00564.xml')
-	root = tree.getroot()
-	connected_metabolites = find_unconnected_metabolites(root)
-	remove_unconnected_metabolites(root, connected_metabolites)
-	tree.write("changed_name_removed_compounds_AFTER.xml")
+	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name/*.xml')
+	
+	for file in g:
+		tree = ET.parse(file)
+		root = tree.getroot()
+		connected_metabolites = find_unconnected_metabolites(root)
+		remove_unconnected_metabolites(root, connected_metabolites)
+	#tree.write("changed_name_removed_compounds_threeLists.xml")
 
 
 
