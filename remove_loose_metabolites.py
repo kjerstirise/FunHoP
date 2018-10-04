@@ -25,7 +25,7 @@ def find_unconnected_metabolites(root):
 
 	x = list(set(all_compounds))
 	print(len(x))
-	print(x)
+	#print(x)
 	#Second, identify all compounds found among the relations. 
 	#These will be the compounds that are connected to the pathway
 	
@@ -40,7 +40,7 @@ def find_unconnected_metabolites(root):
 
 	y = list(set(all_connected_metabolites))
 	print(len(y))
-	print(y)
+	#print(y)
 	
 	#return(all_connected_metabolites)
 	
@@ -55,7 +55,7 @@ def find_unconnected_metabolites(root):
 
 	
 	print(len(connected))
-	print(connected)
+	#print(connected)
 	return(connected)
 
 
@@ -77,12 +77,15 @@ def main():
 	#tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_hsa00564.xml')
 	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name/*.xml')
 	
+	
 	for file in g:
+		filename = file.split("/")
+		out_file_name = "removed_loose_" + filename[7] 
 		tree = ET.parse(file)
 		root = tree.getroot()
 		connected_metabolites = find_unconnected_metabolites(root)
 		remove_unconnected_metabolites(root, connected_metabolites)
-	#tree.write("changed_name_removed_compounds_threeLists.xml")
+		tree.write(out_file_name)
 
 
 
