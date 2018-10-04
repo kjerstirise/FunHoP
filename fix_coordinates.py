@@ -61,7 +61,7 @@ def fix_y(root):
 	for line in nodes_list:
 		new_y[line[0]] = line[2]
 
-	print(new_y) 
+	#print(new_y) 
 	
 	for child in root:
 		if (child.attrib["type"] == "gene") or (child.attrib["type"] == "compound"):
@@ -73,10 +73,15 @@ def fix_y(root):
 						
 
 def main():
-	tree = ET.parse('/Users/profile/Documents/GitHub/cell-lines/changed_name/testmappe/changed_name_removed_compounds.xml')
-	root = tree.getroot()
-	fix_y(root)
-	tree.write("changed_name_removed_compounds_fixed_coords.xml")
+	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name_and_removed/*.xml')
+
+	for file in g:
+		filename = file.split("/")
+		out_file_name = "fixed_coords_" + filename[7] 
+		tree = ET.parse(file)
+		root = tree.getroot()
+		fix_y(root)
+		tree.write(out_file_name)
 
 
 
