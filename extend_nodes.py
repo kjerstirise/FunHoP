@@ -246,11 +246,11 @@ def fix_file(filename_in, filnavn_ut):
 
 def main():	
 				
-	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/changed_name/testmappe/*.xml')
+	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/changed_removed_fixed/*.xml')
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = "extended_nodes_TEST" + filename[8] 
+		out_file_name = "extended_nodes_" + filename[7] 
 		fix_file(file, out_file_name)
 		print("Done")
 	
