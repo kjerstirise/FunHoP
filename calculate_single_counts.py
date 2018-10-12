@@ -93,16 +93,18 @@ def remove_duplicates(genelist):
 	counts_with_duplicates = pd.DataFrame.from_records(genelist, columns = labels)
 	
 	counts_without_duplicates = counts_with_duplicates.drop_duplicates(subset = 'Gene', keep = 'first')
+	print("The highest value found is: ")
 	print(counts_without_duplicates.Value.astype(float).max())
-	
-	#counts_without_duplicates.to_csv('singel_counts_DU145_test.txt', sep = '\t', mode ='w', header = True, index = None)
+	print("The lowest value found is: ")
+	print(counts_without_duplicates.Value.astype(float).min())
+	counts_without_duplicates.to_csv('singel_FPKM_cancerTissue_oct18.txt', sep = '\t', mode ='w', header = True, index = None)
 
 
 def main():
 	
 	mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
-	innfil = 'boxinfo_metabolisme_Prensner_fpkm_cancer-tissue.txt'
+	innfil = 'boxinfo_cancerTissue_FPKM_updated_oct18.txt'
 	#mappesti = '/Users/profile/phd/sammenligninger/'
 	#innfil = 'boxinfo_test4_feb17.txt'
 	boxfil = os.path.join(mappesti, innfil)
