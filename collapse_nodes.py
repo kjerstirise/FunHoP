@@ -61,14 +61,17 @@ def duplicatefinder(root, name):
 
 
 def main():
+	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_removed_fixed/*.xml')
 
-	tree = ET.parse('/Users/profile/phd/Kode/fikset_hsa00564.xml')
-	#tree = ET.parse('/Users/Kjersti/phd/Kode/boxtester.xml')
-	root = tree.getroot()
-	ortholog_remover(root)
-	boxadder(root)
-	#tree.write("fikset_name_reducedbox_hsa00564_mar17.xml")
-	
+	for file in g:
+		filename = file.split("/")
+		out_file_name = "collapsed_" + filename[7] 
+		tree = ET.parse(file)
+		root = tree.getroot()
+		ortholog_remover(root)
+		boxadder(root)
+		tree.write(out_file_name)
+
 
 if __name__ == '__main__':
 	main()
