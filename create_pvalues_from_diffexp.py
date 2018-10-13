@@ -13,7 +13,7 @@ and the values are then exported.
 
 def extract_pvalue():
 
-	diffexp_results = pd.read_table('/Users/profile/Documents/GitHub/cell-lines/diffexp_updated_cancertissueVsDU145_FPKM_oct18.txt',
+	diffexp_results = pd.read_table('/Users/profile/Documents/GitHub/cell-lines/diffexp_updated_cancertissueVsDU145_boxes_FPKM_oct18.txt',
 		sep = "\t", header = 0, names = None)
 
 	significant_pvalues = diffexp_results.loc[diffexp_results.iloc[:,5] <= 0.05]
@@ -42,7 +42,7 @@ def extract_pvalue():
 	print("The lowest found value is: ")
 	print(final_pvalues.trans_pvalues.astype(float).min())
 	
-	#final_pvalues.to_csv('pvalues_diffexp_FPKM_cancerTissueVsDU145.txt', header = False, index = None, sep = '\t', mode = 'w') 
+	final_pvalues.to_csv('pvalues_diffexp_boxes_FPKM_cancerTissueVsDU145_oct18.txt', header = True, index = None, sep = '\t', mode = 'w') 
 	
 
 
