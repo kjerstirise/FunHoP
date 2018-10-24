@@ -99,6 +99,7 @@ def remove_duplicates(genelist):
 	counts_without_duplicates = counts_with_duplicates.drop_duplicates(subset = 'Gene', keep = 'first')
 	print("The highest value found is: ")
 	print(counts_without_duplicates.Value.astype(float).max())
+    #This one is not really needed, as the chance of the lowest value being 0.0 is pretty high. But still.. 
 	print("The lowest value found is: ")
 	print(counts_without_duplicates.Value.astype(float).min())
 	
