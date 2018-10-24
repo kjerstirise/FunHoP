@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 # -*- coding: utf-8 -*-
 
 import itertools
@@ -57,7 +58,7 @@ def geneList_with_id(file):
 						genlist.append(multiple_genes_id)
 				
 	# Start by adding the divider, this makes it easier to check the results in the txt file. 			
-	outfile = open("genelist_FunHoP_id.txt", "a")
+	outfile = open("genelist_test_python3.txt", "a")
 	outfile.write(divider)
 	outfile.write("\n")
 
@@ -131,10 +132,10 @@ def main():
 	outfile = open("genelist_cell-lines_noID.txt", "w")
 
 	# Go through all pathway files in the folder
-	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/changed_name/*.xml')
+	g = glob.glob('/Users/Kjersti/Documents/GitHub/cell-lines/changed_name/*.xml')
 
 	for file in g:
-		geneList_without_id(file)
+		geneList_with_id(file)
 		
 
 
