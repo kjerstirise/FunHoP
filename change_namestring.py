@@ -3,6 +3,7 @@
 
 import xml.etree.ElementTree as ET
 import glob
+import os
 
 """
 hsa:x = IDs created by KEGG for all genes in the KEGG database. 
@@ -15,7 +16,7 @@ by paralog names for other species.
 
 """
 
-def string_list():
+def string_list(hsalist_path):
 	"""
 	Opens the list of hsa:x and belonging gene names, and creates a list with hsa:x and only one corresponding name. 
 	Requires a downloaded version of all hsa:x IDs from KEGG.
@@ -24,7 +25,7 @@ def string_list():
 
 	"""
 	names = {}
-	with open('/Users/profile/Documents/GitHub/cell-lines/hsalist_july18.txt', 'r') as searchfile:
+	with open(hsalist_path, 'r') as searchfile:
 		lines = searchfile.readlines()
 		for line in lines:
 			n = line.replace(";", "")
@@ -71,9 +72,9 @@ def ortholog_remover(root):
 		ortholog_remover(root)
 
 
-def main():
-	names = string_list()
-	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/pathways/*.xml')
+def change_namestring(pathway_path, genelist_path):
+	names = string_list(hsalist_path = '/Users/profile/Documents/GitHub/cell-lines/hsalist_july18.txt')
+	g = glob.glob(os.path.join(pathway_path,'*.xml'))
 
 	for file in g:
 		filename = file.split("/")
@@ -92,4 +93,4 @@ def main():
 	
 
 if __name__ == '__main__':
-	main()
+	change_namestring(pathway_path = '/Users/Profile/Documents/GitHub/cell-lines/pathways')
