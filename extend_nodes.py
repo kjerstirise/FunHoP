@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import xml.etree.ElementTree as ET
@@ -204,7 +204,7 @@ def test_fix_duplicate():
 	assert(len(root) == 3)
 
 	if len(root) != 3:
-		raise Exception("Hadde forventet 3 noder")
+		raise Exception("Would have expected 3 nodes")
 
 
 def ortholog_remover(root):
@@ -246,16 +246,51 @@ def fix_file(filename_in, filnavn_ut):
 
 def main():	
 				
-	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/changed_name/*.xml')
+	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/changed_removed_fixed/*.xml')
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = "extended_nodes_" + filename[7]
+		out_file_name = "extended_nodes_" + filename[7] 
 		fix_file(file, out_file_name)
-
+		print("Done")
 	
 
 if __name__ == '__main__':
 	main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

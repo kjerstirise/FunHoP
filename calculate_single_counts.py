@@ -5,6 +5,10 @@ import pandas as pd
 import numpy as np
 import os
 import sys
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from collections import Counter
+from matplotlib import rcParams, rc
 
 
 """
@@ -93,16 +97,54 @@ def remove_duplicates(genelist):
 	counts_with_duplicates = pd.DataFrame.from_records(genelist, columns = labels)
 	
 	counts_without_duplicates = counts_with_duplicates.drop_duplicates(subset = 'Gene', keep = 'first')
+	print("The highest value found is: ")
 	print(counts_without_duplicates.Value.astype(float).max())
+	print("The lowest value found is: ")
+	print(counts_without_duplicates.Value.astype(float).min())
 	
-	#counts_without_duplicates.to_csv('singel_counts_DU145_test.txt', sep = '\t', mode ='w', header = True, index = None)
+	extract_values = counts_without_duplicates.iloc[:,1]
+	squeeze_values = extract_values.T.squeeze()
+	
+	below_100 = []
+	from_100_to_200 = []
+	from_200_to_500 = []
+	from_500_to_1000 = []
+	over_1000 = []
+
+	for element in squeeze_values:
+		if (float(element)) < 100:
+			below_100.append(element)
+		if (float(element)) >= 100 and (float(element)) < 200:
+			from_100_to_200.append(element)
+		if (float(element)) >= 200 and (float(element)) < 500:
+			from_200_to_500.append(element)
+		if (float(element)) >= 500 and (float(element)) < 1000:
+			from_500_to_1000.append(element)
+		if (float(element)) >= 1000:
+			over_1000.append(element)
+
+	print("below 100: ")
+	print(len(below_100))
+	print("100 to 200: ")
+	print(len(from_100_to_200))
+	print("200 to 500: ")
+	print(len(from_200_to_500))
+	print("500 to 1000: ")
+	print(len(from_500_to_1000))	
+	print("Above 1000: ")
+	print(len(over_1000))
+
+	
+	#counts_without_duplicates.to_csv('singel_FPKM_cancerTissue_oct18.txt', sep = '\t', mode ='w', header = True, index = None)
+	
+
 
 
 def main():
 	
 	mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
-	innfil = 'boxinfo_metabolisme_Prensner_fpkm_cancer-tissue.txt'
+	innfil = 'boxinfo_cancerTissue_FPKM_updated_oct18.txt'
 	#mappesti = '/Users/profile/phd/sammenligninger/'
 	#innfil = 'boxinfo_test4_feb17.txt'
 	boxfil = os.path.join(mappesti, innfil)

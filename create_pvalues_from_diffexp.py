@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import pandas as pd
@@ -13,19 +13,38 @@ and the values are then exported.
 
 def extract_pvalue():
 
-	diffexp_results = pd.read_table('/Users/profile/phd/sign_table_canctr_Prensner_Voom_oct2015.txt',
-		sep = "\t", header = None, names = None)
-    
+	diffexp_results = pd.read_table('/Users/profile/Documents/GitHub/cell-lines/diffexp_updated_cancertissueVsDU145_boxes_FPKM_oct18.txt',
+		sep = "\t", header = 0, names = None)
+
+	significant_pvalues = diffexp_results.loc[diffexp_results.iloc[:,5] <= 0.05]
+
 	
-	significant_pvalues = counts.loc[counts.iloc[:,5] <= 0.05]
-	creating_transformed_pvalues = np.log2(result.iloc[:,5]) * result.iloc[:,7] * -10
+	reg = []
+	for row in significant_pvalues['logFC']:
+		if row < 0:
+			reg.append(int('-1'))
+		else:
+			reg.append(int('1'))
+	
+	# This one creates a warning! But it still works..
+	significant_pvalues['regulation'] = reg
+	creating_transformed_pvalues = np.log2(significant_pvalues.iloc[:,5]) * significant_pvalues.iloc[:, 8] * -10
+
+	# Another warning from this one.. 
 	significant_pvalues['trans_pvalues'] = creating_transformed_pvalues
-	significant_pvalues = significant_pvalues.drop(significant_pvalues.columns[[1, 2, 3, 4, 5, 6, 7]], axis = 1)
-	final_pvalues = significant_pvalues[significant_pvalues.reg.notnull()]
-
-	final_pvalues.to_csv('pvalues_noneCorrigated_canctr_Prensner_sep17.txt', header = False, index = None, sep = '\t', mode = 'w') 
-
 	
+	significant_pvalues = significant_pvalues.drop(significant_pvalues.columns[[1, 2, 3, 4, 5, 6, 7,8]], axis = 1)
+	
+	final_pvalues = significant_pvalues[significant_pvalues.trans_pvalues.notnull()]
+	
+	print("The highest found value is: ")
+	print(final_pvalues.trans_pvalues.astype(float).max())
+	print("The lowest found value is: ")
+	print(final_pvalues.trans_pvalues.astype(float).min())
+	
+	final_pvalues.to_csv('pvalues_diffexp_boxes_FPKM_cancerTissueVsDU145_oct18.txt', header = True, index = None, sep = '\t', mode = 'w') 
+	
+
 
 def main():
 	extract_pvalue()
