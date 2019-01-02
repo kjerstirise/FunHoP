@@ -47,7 +47,7 @@ def split_lines(boxfil):
 		final_list.append(two_columns)
 	
 	
-	remove_duplicates(final_list)
+	print_values_for_colourscale(final_list)
 	
 
 
@@ -91,7 +91,7 @@ def calculate_count(string):
 	return(outlist)
 
 
-def remove_duplicates(genelist):
+def print_values_for_colourscale(genelist):
 	
 	labels = ['Gene', 'Value']
 	counts_with_duplicates = pd.DataFrame.from_records(genelist, columns = labels)
@@ -124,7 +124,7 @@ def remove_duplicates(genelist):
 		if (float(element)) >= 1000:
 			over_1000.append(element)
 
-	print("below 100: ")
+	print("Below 100: ")
 	print(len(below_100))
 	print("100 to 200: ")
 	print(len(from_100_to_200))
@@ -141,7 +141,7 @@ def remove_duplicates(genelist):
 
 
 
-def main():
+def calculate_single_counts():
 	
 	mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
@@ -154,6 +154,6 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	calculate_single_counts(boxinfo)
 
 	
