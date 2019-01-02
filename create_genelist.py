@@ -126,13 +126,14 @@ def geneList_without_id(file):
 
 
 	
-def main():
+def change_namestring():
 
 	# Create a new file to write results to. 
 	outfile = open("genelist_cell-lines_noID.txt", "w")
 
 	# Go through all pathway files in the folder
-	g = glob.glob('/Users/Kjersti/Documents/GitHub/cell-lines/changed_name/*.xml')
+	#g = glob.glob('/Users/Kjersti/Documents/GitHub/cell-lines/changed_name/*.xml')
+	g = glob.glob(changed_name)
 
 	for file in g:
 		geneList_with_id(file)
@@ -140,5 +141,5 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	change_namestring(changed_name)
 
