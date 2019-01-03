@@ -8,7 +8,7 @@ import shutil
 #import calculate_single_counts
 import change_namestring
 #import collapse_nodes
-#import create_genelist
+import create_genelist
 #import extend_nodes
 #import fix_coordinates
 #import remove_lose_metabolites
@@ -17,19 +17,19 @@ import change_namestring
 
 def main():
 
-	results_folder = '/Users/profile/Documents/GitHub/cell-lines/enkelt/resultater/'
-	if not os.path.exists(results_folder):
-		os.makedirs(results_folder)
+	start_folder = '/Users/profile/Documents/GitHub/cell-lines/enkelt/'
+	changed_name = start_folder + '/changed_name/'
 
+	if not os.path.exists(changed_name):
+		os.makedirs(changed_name)
 
-	change_namestring.change_namestring(pathway_path = '/Users/profile/Documents/GitHub/cell-lines/enkelt', 
-										hsalist_path = '/Users/profile/Documents/GitHub/cell-lines/old_data/hsalist_july18.txt', 
-										outfile_path = results_folder)
+	change_namestring.change_namestring(pathway_path = start_folder,
+										hsalist_path = start_folder + 'hsalist_july18.txt', 
+										outfile_path = changed_name)
 
+	create_genelist.create_genelist(changed_name, outfile_path = start_folder)
 
 """
-	genelist = create_genelist.create_genelist(changed_name)
-
 	changed_removed = remove_lose_metabolites.remove_lose_metabolites(changed_name)
 
 	changed_removed_fixed = fix_coordinates.fix_coordinates(changed_removed)
@@ -51,7 +51,7 @@ def main():
 	single_counts = calculate_single_counts.calculate_single_counts(boxinfo)
 
 	try:
-		shutil.rmtree(results_folder)
+		shutil.rmtree(changed_name)
 	except OSError as e:
 		print("Error: %s - %s." % (e.filename, e.strerror))
 

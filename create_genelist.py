@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as ET
 import glob 
+import os
 
 """	
 The create_genelist code is made for extracting the gene names in the pathways, in order to create a list 
@@ -71,7 +72,7 @@ def geneList_with_id(file):
 		print(element)
 
 
-def geneList_without_id(file):
+def geneList_without_id(file, outfile_path):
 
 	# Read XML file
 	tree = ET.parse(file)
@@ -107,7 +108,7 @@ def geneList_without_id(file):
 						genlist.append(multiple_genes)
 				
 	# Start by adding the divider, this makes it easier to check the results in the txt file. 			
-	outfile = open("genelist_cell-lines_noID.txt", "a")
+	outfile = open(outfile_path + "/nodelist.txt", "a")
 	outfile.write(divider)
 	outfile.write("\n")
 
@@ -118,26 +119,29 @@ def geneList_without_id(file):
 	outfile.close()
 
 	
-	for element in genlist:
-		print(element)
+	#for element in genlist:
+	#	print(element)
 
 
 
 	
-def change_namestring():
+def create_genelist(changed_name, outfile_path):
 
 	# Create a new file to write results to. 
-	outfile = open("genelist_cell-lines_noID.txt", "w")
+	#out_file_name = outfile_path + "/changed_name_" + filename[7]
+	outfile = open(outfile_path + "/nodelist.txt", "w")
 
 	# Go through all pathway files in the folder
 	#g = glob.glob('/Users/Kjersti/Documents/GitHub/cell-lines/changed_name/*.xml')
-	g = glob.glob(changed_name)
+
+	g = glob.glob(os.path.join(changed_name,'*.xml'))
 
 	for file in g:
-		geneList_with_id(file)
+		geneList_without_id(file, outfile_path)
+
 		
 
 
 if __name__ == '__main__':
-	change_namestring(changed_name)
+	create_genelist(changed_name, outfile_path)
 
