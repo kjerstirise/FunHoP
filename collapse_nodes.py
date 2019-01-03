@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import xml.etree.ElementTree as ET
@@ -26,17 +26,17 @@ def boxadder(root):
 		counter = 0
 		if (child.attrib["type"] == "gene"):
 			hsa_string = child.attrib['name']
-			print hsa_string
+			print(hsa_string)
 			for underchild in child:
 				name = underchild.attrib['name']
 				splitname = name.split(' ')
 				number_of_genes = len(hsa_string.split())
-				print number_of_genes
+				print(number_of_genes)
 				newnamefront = splitname[0].replace(',', '').replace(';', '')
 				newnameback = 'B' + str(number_of_genes)
 				newname = newnamefront + '-' + newnameback
-				print (newname)
-				print (underchild.attrib['name'])
+				print(newname)
+				print(underchild.attrib['name'])
 				isThere = duplicatefinder(root, newname)
 				print(isThere)
 				if isThere == False:

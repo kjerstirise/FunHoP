@@ -72,13 +72,13 @@ def ortholog_remover(root):
 		ortholog_remover(root)
 
 
-def change_namestring(pathway_path, genelist_path):
-	names = string_list(hsalist_path = '/Users/profile/Documents/GitHub/cell-lines/hsalist_july18.txt')
+def change_namestring(pathway_path, hsalist_path, outfile_path):
+	names = string_list(hsalist_path)
 	g = glob.glob(os.path.join(pathway_path,'*.xml'))
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = "changed_name_" + filename[7]
+		out_file_name = outfile_path + "/changed_name_" + filename[7]
 		print(filename)
 		tree = ET.parse(file)
 		root = tree.getroot()
@@ -93,4 +93,4 @@ def change_namestring(pathway_path, genelist_path):
 	
 
 if __name__ == '__main__':
-	change_namestring(pathway_path = '/Users/Profile/Documents/GitHub/cell-lines/pathways')
+	change_namestring(pathway_path, hsalist_path, outfile_path)

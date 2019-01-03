@@ -36,8 +36,6 @@ def geneList_with_id(file):
 	
 	divider = start + middle + final
 
-	
-
 	for child in root:
 		if (child.attrib["type"] == "gene"):
 			idnumber = child.attrib["id"]
