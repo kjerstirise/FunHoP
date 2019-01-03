@@ -11,27 +11,35 @@ import change_namestring
 import create_genelist
 #import extend_nodes
 #import fix_coordinates
-#import remove_lose_metabolites
+import remove_loose_metabolites
 
 
 
 def main():
 
 	start_folder = '/Users/profile/Documents/GitHub/cell-lines/enkelt/'
-	changed_name = start_folder + '/changed_name/'
+	hsa_file = 'hsalist_july18.txt'
 
+
+	changed_name = start_folder + 'changed_name/'
 	if not os.path.exists(changed_name):
 		os.makedirs(changed_name)
 
 	change_namestring.change_namestring(pathway_path = start_folder,
-										hsalist_path = start_folder + 'hsalist_july18.txt', 
+										hsalist_path = start_folder + hsa_file, 
 										outfile_path = changed_name)
 
 	create_genelist.create_genelist(changed_name, outfile_path = start_folder)
 
-"""
-	changed_removed = remove_lose_metabolites.remove_lose_metabolites(changed_name)
 
+	changed_removed = start_folder + 'changed_removed/'
+	if not os.path.exists(changed_removed):
+		os.makedirs(changed_removed)
+
+	remove_loose_metabolites.remove_loose_metabolites(pathway_path = changed_name, 
+														outfile_path = changed_removed)
+
+"""
 	changed_removed_fixed = fix_coordinates.fix_coordinates(changed_removed)
 
 	changed_removed_fixed_extended = extend_nodes.extend_nodes(changed_removed_fixed)

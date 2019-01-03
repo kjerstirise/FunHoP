@@ -77,9 +77,10 @@ def change_namestring(pathway_path, hsalist_path, outfile_path):
 	g = glob.glob(os.path.join(pathway_path,'*.xml'))
 
 	for file in g:
+		print(file)
 		filename = file.split("/")
 		out_file_name = outfile_path + "/changed_name_" + filename[7]
-		print(filename)
+		#print(filename)
 		tree = ET.parse(file)
 		root = tree.getroot()
 		ortholog_remover(root)
