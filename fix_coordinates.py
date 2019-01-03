@@ -5,6 +5,7 @@ import xml.etree.ElementTree as ET
 import copy
 import glob
 import pandas as pd
+import os
 """
 This code tries to improve the outputfiles, making it easier for the user to view and work with the files with extended 
 nodes in Cytoscape. Fix_y changes the coordinates of all nodes below a node that is extended, making the number of overlapping 
@@ -12,7 +13,7 @@ nodes smaller.
 
 """
 
-def fix_y(root):
+def fix_coords(root):
 
 	nodes = []
 
@@ -41,7 +42,7 @@ def fix_y(root):
 	y = 0
 	counter = 0
 	for row in nodes_list:
-		print(row)
+		#print(row)
 		counter = counter + 1
 		if row[2] > y:
 			y = row[2]
@@ -50,10 +51,10 @@ def fix_y(root):
 		gene_count = row[1]
 		if gene_count > 1:
 			value = gene_count * 17
-			print(type(value))
+			#print(type(value))
 
 			for i in range(counter, len(nodes_list)):	
-				print(nodes_list[i])
+				#print(nodes_list[i])
 				nodes_list[i][2] = nodes_list[i][2] + value
 
 	# Find and replace y-coordinates
@@ -72,20 +73,21 @@ def fix_y(root):
 
 						
 
-def main():
-	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name_and_removed/*.xml')
+def fix_coordinates(pathway_path, outfile_path):
+	#g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name_and_removed/*.xml')
+	g = glob.glob(os.path.join(pathway_path,'*.xml'))
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = "fixed_coords_" + filename[7] 
+		out_file_name = outfile_path + "fixed_coords_" + filename[8] 
 		tree = ET.parse(file)
 		root = tree.getroot()
-		fix_y(root)
+		fix_coords(root)
 		tree.write(out_file_name)
 
 
 
 if __name__ == '__main__':
-	main()
+	fix_coordinates(pathway_path, outfile_path)
 
 

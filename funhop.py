@@ -10,7 +10,7 @@ import change_namestring
 #import collapse_nodes
 import create_genelist
 #import extend_nodes
-#import fix_coordinates
+import fix_coordinates
 import remove_loose_metabolites
 
 
@@ -39,9 +39,15 @@ def main():
 	remove_loose_metabolites.remove_loose_metabolites(pathway_path = changed_name, 
 														outfile_path = changed_removed)
 
-"""
-	changed_removed_fixed = fix_coordinates.fix_coordinates(changed_removed)
+	changed_removed_fixed = start_folder + 'changed_removed_fixed/'
+	if not os.path.exists(changed_removed_fixed):
+		os.makedirs(changed_removed_fixed)
 
+	fix_coordinates.fix_coordinates(pathway_path = changed_removed, 
+									outfile_path = changed_removed_fixed)
+
+
+"""
 	changed_removed_fixed_extended = extend_nodes.extend_nodes(changed_removed_fixed)
 
 	collapsed = collapse_nodes.collapse_nodes(changed_removed)
