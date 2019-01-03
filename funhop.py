@@ -29,7 +29,8 @@ def main():
 										hsalist_path = start_folder + hsa_file, 
 										outfile_path = changed_name)
 
-	create_genelist.create_genelist(changed_name, outfile_path = start_folder)
+	create_genelist.create_genelist(pathway_path = changed_name, 
+									outfile_path = start_folder)
 
 
 	changed_removed = start_folder + 'changed_removed/'
@@ -38,6 +39,7 @@ def main():
 
 	remove_loose_metabolites.remove_loose_metabolites(pathway_path = changed_name, 
 														outfile_path = changed_removed)
+
 
 	changed_removed_fixed = start_folder + 'changed_removed_fixed/'
 	if not os.path.exists(changed_removed_fixed):
