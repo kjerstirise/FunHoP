@@ -3,7 +3,7 @@
 
 import os
 import shutil
-import boxlistmaker
+import create_connection
 #import calculate_counts
 #import calculate_single_counts
 import change_namestring
@@ -67,7 +67,7 @@ def main():
 									outfile_path = collapsed_nodes)
 
 
-	boxlistmaker.find_duplicates(pathway_path = changed_name)
+	create_connection.find_duplicates(pathway_path = changed_name)
 
 """
 	boxinfo = calculate_counts.calculate_counts(expression_path = 'expression_table_TCGA.txt', 
