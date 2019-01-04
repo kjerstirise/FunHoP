@@ -3,11 +3,11 @@
 
 import xml.etree.ElementTree as ET
 import glob
-
+import os
 
 
 def ortholog_remover(root):
-	print("orthologs")
+	#print("orthologs")
 	number = 0;
 	for child in root:
 		if (child.attrib["type"] == "ortholog"):
@@ -26,19 +26,19 @@ def boxadder(root):
 		counter = 0
 		if (child.attrib["type"] == "gene"):
 			hsa_string = child.attrib['name']
-			print(hsa_string)
+			#print(hsa_string)
 			for underchild in child:
 				name = underchild.attrib['name']
 				splitname = name.split(' ')
 				number_of_genes = len(hsa_string.split())
-				print(number_of_genes)
+				#print(number_of_genes)
 				newnamefront = splitname[0].replace(',', '').replace(';', '')
 				newnameback = 'B' + str(number_of_genes)
 				newname = newnamefront + '-' + newnameback
-				print(newname)
-				print(underchild.attrib['name'])
+				#print(newname)
+				#print(underchild.attrib['name'])
 				isThere = duplicatefinder(root, newname)
-				print(isThere)
+				#print(isThere)
 				if isThere == False:
 					underchild.attrib['name'] = newname
 				if isThere == True:
@@ -60,12 +60,14 @@ def duplicatefinder(root, name):
 
 
 
-def main():
-	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_removed_fixed/*.xml')
+def collapse_nodes(pathway_path, outfile_path):
+	g = glob.glob(os.path.join(pathway_path, '*.xml'))
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = "collapsed_" + filename[7] 
+		print(filename)
+		out_file_name = outfile_path + "collapsed_" + filename[8] 
+		print(outfile_path)
 		tree = ET.parse(file)
 		root = tree.getroot()
 		ortholog_remover(root)
@@ -74,4 +76,4 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	collapse_nodes(pathway_path, outfile_path)
