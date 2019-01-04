@@ -37,7 +37,7 @@ def boxlistmaker(pathway, list_of_singles, list_of_duplicates):
 
 
 
-def boxlistmaker(pathway_path):
+def find_duplicates(pathway_path):
 	"""
 	mappesti = '/Users/profile/Documents/GitHub/cell-lines/changed_name/'
 	innfil = 'changed_name_hsa00010.xml'
@@ -47,7 +47,7 @@ def boxlistmaker(pathway_path):
 	duplikatliste = []
 	aleneliste = []
 	
-	g = glob.glob(os.path.join(pathway_path, '*.xml')
+	g = glob.glob(os.path.join(pathway_path, '*.xml'))
 
 	for file in g:
 		boxlistmaker(file, aleneliste, duplikatliste)
@@ -63,4 +63,4 @@ def boxlistmaker(pathway_path):
 		print(ting)
 
 if __name__ == '__main__':
-	boxlistmaker(pathway_path)
+	find_cuplicates(pathway_path)

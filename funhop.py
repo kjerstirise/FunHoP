@@ -67,7 +67,7 @@ def main():
 									outfile_path = collapsed_nodes)
 
 
-	boxlistmaker.boxlistmaker(pathway_path = changed_name)
+	boxlistmaker.find_duplicates(pathway_path = changed_name)
 
 """
 	boxinfo = calculate_counts.calculate_counts(expression_path = 'expression_table_TCGA.txt', 
