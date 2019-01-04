@@ -251,11 +251,8 @@ def extend_nodes(pathway_path, outfile_path):
 
 	for file in g:
 		filename = file.split("/")
-		print(filename)
 		out_file_name = outfile_path + "extended_" + filename[8] 
-		print(out_file_name)
 		fix_file(file, out_file_name)
-		print("Done")
 	
 
 if __name__ == '__main__':
