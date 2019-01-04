@@ -26,19 +26,14 @@ def boxadder(root):
 		counter = 0
 		if (child.attrib["type"] == "gene"):
 			hsa_string = child.attrib['name']
-			#print(hsa_string)
 			for underchild in child:
 				name = underchild.attrib['name']
 				splitname = name.split(' ')
 				number_of_genes = len(hsa_string.split())
-				#print(number_of_genes)
 				newnamefront = splitname[0].replace(',', '').replace(';', '')
 				newnameback = 'B' + str(number_of_genes)
 				newname = newnamefront + '-' + newnameback
-				#print(newname)
-				#print(underchild.attrib['name'])
 				isThere = duplicatefinder(root, newname)
-				#print(isThere)
 				if isThere == False:
 					underchild.attrib['name'] = newname
 				if isThere == True:
@@ -65,9 +60,7 @@ def collapse_nodes(pathway_path, outfile_path):
 
 	for file in g:
 		filename = file.split("/")
-		print(filename)
 		out_file_name = outfile_path + "collapsed_" + filename[8] 
-		print(outfile_path)
 		tree = ET.parse(file)
 		root = tree.getroot()
 		ortholog_remover(root)
