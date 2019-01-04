@@ -7,9 +7,9 @@ import shutil
 #import calculate_counts
 #import calculate_single_counts
 import change_namestring
-#import collapse_nodes
+import collapse_nodes
 import create_genelist
-#import extend_nodes
+import extend_nodes
 import fix_coordinates
 import remove_loose_metabolites
 
@@ -21,19 +21,19 @@ def main():
 	hsa_file = 'hsalist_july18.txt'
 
 
-	changed_name = start_folder + 'changed_name/'
+	changed_name = os.path.join(start_folder,'changed_name/')
 	if not os.path.exists(changed_name):
 		os.makedirs(changed_name)
 
 	change_namestring.change_namestring(pathway_path = start_folder,
-										hsalist_path = start_folder + hsa_file, 
+										hsalist_path = os.path.join(start_folder,hsa_file), 
 										outfile_path = changed_name)
 
 	create_genelist.create_genelist(pathway_path = changed_name, 
 									outfile_path = start_folder)
 
 
-	changed_removed = start_folder + 'changed_removed/'
+	changed_removed = os.path.join(start_folder, 'changed_removed/')
 	if not os.path.exists(changed_removed):
 		os.makedirs(changed_removed)
 
@@ -41,7 +41,7 @@ def main():
 														outfile_path = changed_removed)
 
 
-	changed_removed_fixed = start_folder + 'changed_removed_fixed/'
+	changed_removed_fixed = os.path.join(start_folder, 'changed_removed_fixed/')
 	if not os.path.exists(changed_removed_fixed):
 		os.makedirs(changed_removed_fixed)
 
@@ -49,11 +49,24 @@ def main():
 									outfile_path = changed_removed_fixed)
 
 
+	changed_removed_fixed_extended = os.path.join(start_folder, 'changed_removed_fixed_extended/')
+
+	if not os.path.exists(changed_removed_fixed_extended):
+		os.makedirs(changed_removed_fixed_extended)
+
+	extend_nodes.extend_nodes(pathway_path = changed_removed_fixed, 
+								outfile_path = changed_removed_fixed_extended)
+
+
+	collapsed_nodes = os.path.join(start_folder, 'collapsed_nodes/')
+
+	if not os.path.exists(collapsed_nodes):
+		os.makedirs(collapsed_nodes)
+
+	collapse_nodes.collapse_nodes(pathway_path = changed_removed, 
+									outfile_path = collapsed_nodes)
+
 """
-	changed_removed_fixed_extended = extend_nodes.extend_nodes(changed_removed_fixed)
-
-	collapsed = collapse_nodes.collapse_nodes(changed_removed)
-
 	duplicates = boxlistmaker.boxlistmaker(changed_name)
 
 	boxinfo = calculate_counts.calculate_counts(expression_path = 'expression_table_TCGA.txt', 

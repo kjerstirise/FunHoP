@@ -4,6 +4,7 @@
 import xml.etree.ElementTree as ET
 import copy
 import glob
+import os
 
 def id_finder(root):
 	""" Finds the first free ID with no used IDs above it"""
@@ -244,19 +245,21 @@ def fix_file(filename_in, filnavn_ut):
 	
 	
 
-def main():	
+def extend_nodes(pathway_path, outfile_path):	
 				
-	g = glob.glob('/Users/Profile/Documents/GitHub/cell-lines/changed_removed_fixed/*.xml')
+	g = glob.glob(os.path.join(pathway_path, '*.xml'))
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = "extended_nodes_" + filename[7] 
+		print(filename)
+		out_file_name = outfile_path + "extended_" + filename[8] 
+		print(out_file_name)
 		fix_file(file, out_file_name)
 		print("Done")
 	
 
 if __name__ == '__main__':
-	main()
+	extend_nodes(pathway_path, outfile_path)
 
 
 
