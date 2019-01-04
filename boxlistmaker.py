@@ -19,14 +19,14 @@ def boxlistmaker(pathway, list_of_singles, list_of_duplicates):
 				for underchild in child:
 					check = underchild.attrib["name"]
 					test = check.split(" ")
-					print(test)
+					#print(test)
 
 					length = len(test)
-					print(length)
+					#print(length)
 					newnamefront = test[0].replace(',', '').replace(';', '')
 					newnameback = 'B' + str(length)
 					newname = newnamefront + '-' + newnameback
-					print (newname)
+					#print (newname)
 					if newname not in list_of_singles:
 						list_of_singles.append(newname)
 					else: 
@@ -37,7 +37,7 @@ def boxlistmaker(pathway, list_of_singles, list_of_duplicates):
 
 
 
-def main():
+def boxlistmaker(pathway_path):
 	"""
 	mappesti = '/Users/profile/Documents/GitHub/cell-lines/changed_name/'
 	innfil = 'changed_name_hsa00010.xml'
@@ -47,7 +47,7 @@ def main():
 	duplikatliste = []
 	aleneliste = []
 	
-	g = glob.glob('/Users/profile/Documents/GitHub/cell-lines/changed_name/*.xml')
+	g = glob.glob(os.path.join(pathway_path, '*.xml')
 
 	for file in g:
 		boxlistmaker(file, aleneliste, duplikatliste)
@@ -63,4 +63,4 @@ def main():
 		print(ting)
 
 if __name__ == '__main__':
-	main()
+	boxlistmaker(pathway_path)

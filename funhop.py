@@ -3,7 +3,7 @@
 
 import os
 import shutil
-#import boxlistmaker
+import boxlistmaker
 #import calculate_counts
 #import calculate_single_counts
 import change_namestring
@@ -66,9 +66,10 @@ def main():
 	collapse_nodes.collapse_nodes(pathway_path = changed_removed, 
 									outfile_path = collapsed_nodes)
 
-"""
-	duplicates = boxlistmaker.boxlistmaker(changed_name)
 
+	boxlistmaker.boxlistmaker(pathway_path = changed_name)
+
+"""
 	boxinfo = calculate_counts.calculate_counts(expression_path = 'expression_table_TCGA.txt', 
                      						meta_data_path = 'meta_data_TCGA_nov2016.txt', 
                      						count_file_path = 'TCGA_expression_counts.txt',
