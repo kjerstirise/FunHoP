@@ -78,9 +78,10 @@ def main():
                      						boxinfo_path = os.path.join(start_folder, 'testtable_tcga_boxinfo.txt'), 
                     						expression_table_path = os.path.join(start_folder, 'test_expression.txt'))
 
-"""
+
 	single_counts = calculate_single_counts.calculate_single_counts(boxinfo)
 
+"""
 	try:
 		shutil.rmtree(changed_name)
 	except OSError as e:
