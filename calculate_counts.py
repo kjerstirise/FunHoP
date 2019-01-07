@@ -247,13 +247,8 @@ def write_expression_table(ntbl2, ntbl, outfilepath):
 
 
 
-def calculate_counts(expression_path = 'expression_table_TCGA.txt', 
-                     meta_data_path = 'meta_data_TCGA_nov2016.txt', 
-                     count_file_path = 'TCGA_expression_counts.txt',
-                     changed_name_path = 'gene_symbol_update_file_jan2016.txt', 
-                     genelist_path = 'genliste_metabolism.txt', 
-                     boxinfo_path = 'testtable_tcga_boxinfo.txt', 
-                     expression_table_path = 'test_expression.txt'):
+def calculate_counts(expression_path, meta_data_path, count_file_path,
+                     changed_name_path, genelist_path, boxinfo_path, expression_table_path):
 
     # Load gene names
     gnms = load_genenames(expression_path)
@@ -274,9 +269,10 @@ def calculate_counts(expression_path = 'expression_table_TCGA.txt',
     ntbl2 = calculate_total_counts_and_ratios(vnames, ntbl, gnms, vals, canid, ctrid)
 
     # Write the results to file
-    write_boxinfo_table(ntbl2 = ntbl2, boxinfo_path)
-    write_expression_table(ntbl2 = ntbl2, ntbl = ntbl, expression_table_path)
+    write_boxinfo_table(ntbl2 = ntbl2, outfilepath = boxinfo_path)
+    write_expression_table(ntbl2 = ntbl2, ntbl = ntbl, outfilepath = expression_table_path)
 
 
 if __name__ == '__main__':
-    calculate_counts()
+    calculate_counts(expression_path, meta_data_path, count_file_path, changed_name_path, 
+                        genelist_path, boxinfo_path, expression_table_path)

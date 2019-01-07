@@ -3,8 +3,8 @@
 
 import os
 import shutil
-import create_connection
-#import calculate_counts
+#import create_connection
+import calculate_counts
 #import calculate_single_counts
 import change_namestring
 import collapse_nodes
@@ -67,17 +67,18 @@ def main():
 									outfile_path = collapsed_nodes)
 
 
-	create_connection.find_duplicates(pathway_path = changed_name)
+	#create_connection.find_duplicates(pathway_path = changed_name)
+
+
+	calculate_counts.calculate_counts(expression_path = os.path.join(start_folder, 'expression_table_TCGA.txt'), 
+                     						meta_data_path = os.path.join(start_folder, 'meta_data_TCGA_nov2016.txt'), 
+                     						count_file_path = os.path.join(start_folder, 'TCGA_expression_counts.txt'),
+                     						changed_name_path = os.path.join(start_folder,'gene_symbol_update_file_jan2016.txt'), 
+                    						genelist_path = os.path.join(start_folder, 'nodelist.txt'), 
+                     						boxinfo_path = os.path.join(start_folder, 'testtable_tcga_boxinfo.txt'), 
+                    						expression_table_path = os.path.join(start_folder, 'test_expression.txt'))
 
 """
-	boxinfo = calculate_counts.calculate_counts(expression_path = 'expression_table_TCGA.txt', 
-                     						meta_data_path = 'meta_data_TCGA_nov2016.txt', 
-                     						count_file_path = 'TCGA_expression_counts.txt',
-                     						changed_name_path = 'gene_symbol_update_file_jan2016.txt', 
-                    						genelist_path = 'genliste_metabolism.txt', 
-                     						boxinfo_path = 'testtable_tcga_boxinfo.txt', 
-                    						expression_table_path = 'test_expression.txt')
-
 	single_counts = calculate_single_counts.calculate_single_counts(boxinfo)
 
 	try:

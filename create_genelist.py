@@ -70,8 +70,8 @@ def geneList_with_id(file, outfile_path):
 	outfile.close()
 
 
-	for element in genlist:
-		print(element)
+	#for element in genlist:
+	#	print(element)
 
 
 def geneList_without_id(file, outfile_path):
