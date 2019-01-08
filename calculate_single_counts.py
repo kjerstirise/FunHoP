@@ -19,10 +19,10 @@ The final function removes the duplicates, and writes to file. The file can then
 
 """
 
-def split_lines(boxfil):
+def split_lines(counts, outfilepath):
 
 	temp_list = []
-	boxes = open(boxfil, 'r')
+	boxes = open(counts, 'r')
 
 	for line in boxes.readlines():
 		split = line.split( )
@@ -47,7 +47,7 @@ def split_lines(boxfil):
 		final_list.append(two_columns)
 	
 	
-	print_values_for_colourscale(final_list)
+	print_values_for_colourscale(final_list, outfilepath)
 	
 
 
@@ -91,7 +91,7 @@ def calculate_count(string):
 	return(outlist)
 
 
-def print_values_for_colourscale(genelist):
+def print_values_for_colourscale(genelist, outfilepath):
 	
 	labels = ['Gene', 'Value']
 	counts_with_duplicates = pd.DataFrame.from_records(genelist, columns = labels)
@@ -136,24 +136,24 @@ def print_values_for_colourscale(genelist):
 	print(len(over_1000))
 
 	
-	#counts_without_duplicates.to_csv('singel_FPKM_cancerTissue_oct18.txt', sep = '\t', mode ='w', header = True, index = None)
+	counts_without_duplicates.to_csv(outfilepath, sep = '\t', mode ='w', header = True, index = None)
 	
 
 
 
-def calculate_single_counts():
+def calculate_single_counts(counts, outfilepath):
 	
-	mappesti = '/Users/profile/documents/GitHub/cell-lines'
+	#mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
-	innfil = 'boxinfo_cancerTissue_FPKM_updated_oct18.txt'
+	#innfil = 'boxinfo_cancerTissue_FPKM_updated_oct18.txt'
 	#mappesti = '/Users/profile/phd/sammenligninger/'
 	#innfil = 'boxinfo_test4_feb17.txt'
-	boxfil = os.path.join(mappesti, innfil)
-	split_lines(boxfil)
+	#boxfil = os.path.join(mappesti, innfil)
+	split_lines(counts, outfilepath)
 
 
 
 if __name__ == '__main__':
-	calculate_single_counts(boxinfo)
+	calculate_single_counts(counts, outfilepath)
 
 	

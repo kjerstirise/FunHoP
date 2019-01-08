@@ -125,13 +125,13 @@ def geneList_without_id(file, outfile_path):
 def create_genelist(pathway_path, outfile_path):
 
 	# Create a new file to write results to. 
-	outfile = open(outfile_path + "/nodelist_ID.txt", "w")
+	outfile = open(outfile_path + "/nodelist.txt", "w")
 
 	# Go through all pathway files in the folder
 	g = glob.glob(os.path.join(pathway_path,'*.xml'))
 
 	for file in g:
-		geneList_with_id(file, outfile_path)
+		geneList_without_id(file, outfile_path)
 	
 
 

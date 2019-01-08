@@ -18,7 +18,7 @@ def find_unconnected_metabolites(root):
 	#First, identify all children of type compound
 	
 	all_compounds = []
-	print(root.attrib["title"])
+	#print(root.attrib["title"])
 	for child in root:
 		
 		if (child.attrib["type"] == "compound"):

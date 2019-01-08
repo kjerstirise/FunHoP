@@ -5,7 +5,7 @@ import os
 import shutil
 #import create_connection
 import calculate_counts
-#import calculate_single_counts
+import calculate_single_counts
 import change_namestring
 import collapse_nodes
 import create_genelist
@@ -28,6 +28,7 @@ def main():
 	change_namestring.change_namestring(pathway_path = start_folder,
 										hsalist_path = os.path.join(start_folder,hsa_file), 
 										outfile_path = changed_name)
+
 
 	create_genelist.create_genelist(pathway_path = changed_name, 
 									outfile_path = start_folder)
@@ -79,8 +80,8 @@ def main():
                     						expression_table_path = os.path.join(start_folder, 'test_expression.txt'))
 
 
-	single_counts = calculate_single_counts.calculate_single_counts(boxinfo)
-
+	calculate_single_counts.calculate_single_counts(counts = os.path.join(start_folder, 'testtable_tcga_boxinfo.txt'),
+													 outfilepath = os.path.join(start_folder, 'single_counts.txt'))
 """
 	try:
 		shutil.rmtree(changed_name)
