@@ -221,7 +221,7 @@ def ortholog_remover(root):
 
 
 		
-def fix_file(filename_in, filnavn_ut):
+def fix_file(filename_in, out_file_name):
 	# Read in XML-file
 	tree = ET.parse(filename_in)
 
@@ -240,7 +240,7 @@ def fix_file(filename_in, filnavn_ut):
 
 	ortholog_remover(root)
 
-	tree.write(filnavn_ut)
+	tree.write(out_file_name)
 
 	
 	
@@ -251,7 +251,7 @@ def extend_nodes(pathway_path, outfile_path):
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = outfile_path + "extended_" + filename[8] 
+		out_file_name = os.path.join(outfile_path, "extended_" + filename[8]) 
 		fix_file(file, out_file_name)
 	
 

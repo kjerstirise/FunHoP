@@ -9,8 +9,8 @@ import os
 
 """
 This code deals with loose metabolites. These metabolites means more work when looking at a pathway file for the first time, 
-as the user must remove them manually. Along with fix_coordinates, this code is made purely to make the experience better when looking at 
-the networks. Consists of two functions: find_unconnected_metabolites and removed_unconnected_metabolites. 
+as the user must remove them manually. Along with fix_coordinates, this code is made purely to make the experience better 
+when looking at the networks. Consists of two functions: find_unconnected_metabolites and removed_unconnected_metabolites. 
 
 """
 
@@ -73,7 +73,7 @@ def remove_loose_metabolites(pathway_path, outfile_path):
 	
 	for file in g:
 		filename = file.split("/")
-		out_file_name = outfile_path + "removed_lose_" + filename[8]
+		out_file_name = os.path.join(outfile_path, "removed_lose_" + filename[8])
 		tree = ET.parse(file)
 		root = tree.getroot()
 		connected_metabolites = find_unconnected_metabolites(root)

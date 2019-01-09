@@ -78,7 +78,7 @@ def change_namestring(pathway_path, hsalist_path, outfile_path):
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = outfile_path + "/changed_name_" + filename[7]
+		out_file_name = os.path.join(outfile_path, "changed_name_" + filename[7])
 		tree = ET.parse(file)
 		root = tree.getroot()
 		ortholog_remover(root)

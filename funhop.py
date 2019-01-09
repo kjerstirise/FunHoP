@@ -66,7 +66,7 @@ def main():
 
 	collapse_nodes.collapse_nodes(pathway_path = changed_removed, 
 									outfile_path = collapsed_nodes)
-
+"""
 
 	#create_connection.find_duplicates(pathway_path = changed_name)
 
@@ -82,7 +82,7 @@ def main():
 
 	calculate_single_counts.calculate_single_counts(counts = os.path.join(start_folder, 'testtable_tcga_boxinfo.txt'),
 													 outfilepath = os.path.join(start_folder, 'single_counts.txt'))
-"""
+
 	try:
 		shutil.rmtree(changed_name)
 	except OSError as e:
