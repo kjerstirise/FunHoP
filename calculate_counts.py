@@ -3,6 +3,7 @@
 
 import numpy as np
 import pandas as pd
+from collections import Counter
 
 
 def load_SINGLE(fnm):
@@ -143,6 +144,9 @@ def update_genenames(gnms, changed_name_path):
 def create_boxexpression_and_boxinfo(unpw, gnms, vals):
     ntbl = []
     vnames = []
+    templist = []
+    templist2 = []
+    vnmi2 = ""
     for i in np.arange(len(unpw)):
 
         bxi = unpw[i]
@@ -167,7 +171,28 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
         if len(cols) > 1:
             gnmm = cols[0]
             nmbg = len(cols)
+
             vnmi = gnmm + '-B' + str(nmbg)
+            while vnmi in templist:
+                number = templist.count(vnmi)
+                vnmi2 = vnmi + "-" + str(number+1)
+
+            templist.append(vnmi)
+            vnmi = vnmi2
+            """
+            templist2.append(vnmi)
+            counts = Counter(templist2) 
+            for s,num in counts.items():
+                if num > 1: # ignore strings that only appear once
+                    for suffix in range(2, num + 1): # suffix starts at 1 and increases by 1 each time
+                        templist2[templist2.index(s)] = s + '-' + str(suffix)
+            vnmi = templist2[-1]
+            """
+            
+            #if vnmi in templist2:
+            #    vnmi = vnmi + "-2"
+            #    templist.append(vnmi)
+           
             vi = np.zeros(len(vals))
             cnt = 0
             for j in np.arange(len(cols)):
@@ -181,9 +206,12 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
             if cnt == 0:
                 vi = -1 * np.ones(len(vals))
             ntbl.append(vi)
+         
             vec = [bxi, vnmi]
             vnames.append(vec)
 
+
+            
     ntbl = np.array(ntbl)
     vnames = np.array(vnames)
     return(ntbl, vnames)
