@@ -33,13 +33,17 @@ def boxadder(root):
 				newnamefront = splitname[0].replace(',', '').replace(';', '')
 				newnameback = 'B' + str(number_of_genes)
 				newname = newnamefront + '-' + newnameback
-				isThere = duplicatefinder(root, newname)
-				if isThere == False:
-					underchild.attrib['name'] = newname
-				if isThere == True:
-					counter = counter + 1
-					newname2 = newname + '-' + str(counter)
-					underchild.attrib['name'] = newname2
+				#isThere = duplicatefinder(root, newname)
+				underchild.attrib['name'] = newname
+				#if isThere == False:
+			#		underchild.attrib['name'] = newname
+			#	if isThere == True:
+			#		counter = counter + 1
+			#		newname2 = newname + '-' + str(counter)
+			#		underchild.attrib['name'] = newname2
+			#		print(root.attrib['title'])
+			#		print(child.attrib['id'])
+			#		print('it was true')
 
 
 def duplicatefinder(root, name):
