@@ -173,12 +173,17 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
             nmbg = len(cols)
 
             vnmi = gnmm + '-B' + str(nmbg)
-            while vnmi in templist:
-                number = templist.count(vnmi)
-                vnmi2 = vnmi + "-" + str(number+1)
-
+            
+            number = templist.count(vnmi)
             templist.append(vnmi)
-            vnmi = vnmi2
+            if number >= 1:
+                vnmi2 = vnmi + "-" + str(number + 1)
+                vnmi = vnmi2
+
+            
+
+
+            
             """
             templist2.append(vnmi)
             counts = Counter(templist2) 
@@ -209,8 +214,6 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
          
             vec = [bxi, vnmi]
             vnames.append(vec)
-
-
             
     ntbl = np.array(ntbl)
     vnames = np.array(vnames)
