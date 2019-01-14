@@ -20,7 +20,7 @@ def ortholog_remover(root):
 			
 
 
-def boxadder(root):
+def boxadder(root, duplicates):
 
 	for child in root:
 		counter = 0
@@ -29,21 +29,17 @@ def boxadder(root):
 			for underchild in child:
 				name = underchild.attrib['name']
 				splitname = name.split(' ')
-				number_of_genes = len(hsa_string.split())
-				newnamefront = splitname[0].replace(',', '').replace(';', '')
-				newnameback = 'B' + str(number_of_genes)
-				newname = newnamefront + '-' + newnameback
-				#isThere = duplicatefinder(root, newname)
-				underchild.attrib['name'] = newname
-				#if isThere == False:
-			#		underchild.attrib['name'] = newname
-			#	if isThere == True:
-			#		counter = counter + 1
-			#		newname2 = newname + '-' + str(counter)
-			#		underchild.attrib['name'] = newname2
-			#		print(root.attrib['title'])
-			#		print(child.attrib['id'])
-			#		print('it was true')
+
+				if name in duplicates.keys():
+					underchild.attrib['name'] = duplicates[name]
+
+				else:
+					number_of_genes = len(hsa_string.split())
+					newnamefront = splitname[0].replace(',', '').replace(';', '')
+					newnameback = 'B' + str(number_of_genes)
+					newname = newnamefront + '-' + newnameback
+					underchild.attrib['name'] = newname
+	
 
 
 def duplicatefinder(root, name):
@@ -59,7 +55,7 @@ def duplicatefinder(root, name):
 
 
 
-def collapse_nodes(pathway_path, outfile_path):
+def collapse_nodes(pathway_path, outfile_path, duplicates):
 	g = glob.glob(os.path.join(pathway_path, '*.xml'))
 
 	for file in g:
@@ -68,9 +64,9 @@ def collapse_nodes(pathway_path, outfile_path):
 		tree = ET.parse(file)
 		root = tree.getroot()
 		ortholog_remover(root)
-		boxadder(root)
+		boxadder(root, duplicates)
 		tree.write(out_file_name)
 
 
 if __name__ == '__main__':
-	collapse_nodes(pathway_path, outfile_path)
+	collapse_nodes(pathway_path, outfile_path, duplicates)
