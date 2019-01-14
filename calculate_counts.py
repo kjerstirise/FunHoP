@@ -145,11 +145,13 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
     ntbl = []
     vnames = []
     templist = []
-    templist2 = []
+    duplicates = {}
     vnmi2 = ""
+
     for i in np.arange(len(unpw)):
 
         bxi = unpw[i]
+        
 
         if bxi[:4] == '----':
             continue
@@ -179,6 +181,7 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
             if number >= 1:
                 vnmi2 = vnmi + "-" + str(number + 1)
                 vnmi = vnmi2
+                duplicates[bxi] = vnmi2
 
             
 
@@ -217,7 +220,12 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
             
     ntbl = np.array(ntbl)
     vnames = np.array(vnames)
-    return(ntbl, vnames)
+
+    for element in duplicates:
+        print("vi har nøkkel: {}, og streng: {}".format(element, duplicates[element]))
+
+        
+    return(ntbl, vnames, duplicates)
     
 
 # Calculate total counts and ratios for each box
@@ -295,13 +303,15 @@ def calculate_counts(expression_path, meta_data_path, count_file_path,
     unpw = load_KEGG_pathway_info(genelist_path)
 
     # Create the nodes to calculate
-    ntbl, vnames = create_boxexpression_and_boxinfo(unpw, gnms, vals)
+    ntbl, vnames, duplicates = create_boxexpression_and_boxinfo(unpw, gnms, vals)
     # Do the calculations
     ntbl2 = calculate_total_counts_and_ratios(vnames, ntbl, gnms, vals, canid, ctrid)
 
     # Write the results to file
     write_boxinfo_table(ntbl2 = ntbl2, outfilepath = boxinfo_path)
     write_expression_table(ntbl2 = ntbl2, ntbl = ntbl, outfilepath = expression_table_path)
+
+    return(duplicates)
 
 
 if __name__ == '__main__':
