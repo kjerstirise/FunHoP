@@ -3,7 +3,7 @@
 
 import os
 import shutil
-#import create_connection
+import create_connection
 import calculate_counts
 import calculate_single_counts
 import change_namestring
@@ -59,30 +59,30 @@ def main():
 								outfile_path = changed_removed_fixed_extended)
 
 
-	collapsed_nodes = os.path.join(start_folder, 'collapsed_nodes/')
+
+	#create_connection.find_duplicates(pathway_path = changed_name)
+
+	duplicates = calculate_counts.calculate_counts(expression_path = os.path.join(start_folder, 'expression_table_TCGA.txt'), 
+											meta_data_path = os.path.join(start_folder, 'meta_data_TCGA_nov2016.txt'), 
+					 						count_file_path = os.path.join(start_folder, 'TCGA_expression_counts.txt'),
+											changed_name_path = os.path.join(start_folder,'gene_symbol_update_file_jan2016.txt'), 
+											genelist_path = os.path.join(start_folder, 'nodelist.txt'), 
+											boxinfo_path = os.path.join(start_folder, 'testtable_tcga_boxinfo2.txt'), 
+											expression_table_path = os.path.join(start_folder, 'test_expression.txt'))
+
+	collapsed_nodes = os.path.join(start_folder, 'collapsed_nodes2/')
 
 	if not os.path.exists(collapsed_nodes):
 		os.makedirs(collapsed_nodes)
 
 	collapse_nodes.collapse_nodes(pathway_path = changed_removed, 
-									outfile_path = collapsed_nodes)
-"""
-
-	#create_connection.find_duplicates(pathway_path = changed_name)
-
-
-	calculate_counts.calculate_counts(expression_path = os.path.join(start_folder, 'expression_table_TCGA.txt'), 
-                     						meta_data_path = os.path.join(start_folder, 'meta_data_TCGA_nov2016.txt'), 
-                     						count_file_path = os.path.join(start_folder, 'TCGA_expression_counts.txt'),
-                     						changed_name_path = os.path.join(start_folder,'gene_symbol_update_file_jan2016.txt'), 
-                    						genelist_path = os.path.join(start_folder, 'nodelist.txt'), 
-                     						boxinfo_path = os.path.join(start_folder, 'testtable_tcga_boxinfo.txt'), 
-                    						expression_table_path = os.path.join(start_folder, 'test_expression.txt'))
+									outfile_path = collapsed_nodes, 
+									duplicates = duplicates)
 
 
 	calculate_single_counts.calculate_single_counts(counts = os.path.join(start_folder, 'testtable_tcga_boxinfo.txt'),
 													 outfilepath = os.path.join(start_folder, 'single_counts.txt'))
-
+"""
 	try:
 		shutil.rmtree(changed_name)
 	except OSError as e:
