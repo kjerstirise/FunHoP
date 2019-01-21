@@ -3,15 +3,20 @@
 
 import os
 import shutil
-import create_connection
-import calculate_counts
-import calculate_single_counts
-import change_namestring
+import argparse
+import extend_nodes
 import collapse_nodes
 import create_genelist
-import extend_nodes
 import fix_coordinates
+import calculate_counts
+import create_connection
+import change_namestring
+import calculate_single_counts
 import remove_loose_metabolites
+
+
+
+
 
 
 
@@ -21,6 +26,8 @@ def main():
 	start_folder = '/Users/profile/Documents/GitHub/cell-lines/enkelt/'
 	hsa_file = 'hsalist_july18.txt'
 
+	#cwd = os.getcwd()
+	#print(cwd)
 
 	changed_name = os.path.join(start_folder,'changed_name/')
 	if not os.path.exists(changed_name):
