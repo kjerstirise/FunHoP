@@ -184,23 +184,6 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
                 duplicates[bxi] = vnmi2
 
             
-
-
-            
-            """
-            templist2.append(vnmi)
-            counts = Counter(templist2) 
-            for s,num in counts.items():
-                if num > 1: # ignore strings that only appear once
-                    for suffix in range(2, num + 1): # suffix starts at 1 and increases by 1 each time
-                        templist2[templist2.index(s)] = s + '-' + str(suffix)
-            vnmi = templist2[-1]
-            """
-            
-            #if vnmi in templist2:
-            #    vnmi = vnmi + "-2"
-            #    templist.append(vnmi)
-           
             vi = np.zeros(len(vals))
             cnt = 0
             for j in np.arange(len(cols)):
@@ -221,10 +204,6 @@ def create_boxexpression_and_boxinfo(unpw, gnms, vals):
     ntbl = np.array(ntbl)
     vnames = np.array(vnames)
 
-    for element in duplicates:
-        print("vi har nøkkel: {}, og streng: {}".format(element, duplicates[element]))
-
-        
     return(ntbl, vnames, duplicates)
     
 
@@ -256,19 +235,8 @@ def calculate_total_counts_and_ratios(vnames, ntbl, gnms, vals, canid, ctrid):
     ntbl2 = np.array(ntbl2)
     return(ntbl2)
 
-def fix_duplicates(ntbl2):
-    # Replace duplicate names metabolism
-    ntbl2[29,1] = 'ACOT2-B4-2'
-    ntbl2[71,1] = 'AKR1C4-B4-2'
-    ntbl2[185,1] = 'B4GALT1-B3-2'
-    ntbl2[187,1] = 'B4GALT1-B3-3'
-    ntbl2[227,1] = 'CEPT1-B2-2'
-    ntbl2[303,1] = 'CYP1A1-B2-2'
-    ntbl2[316,1] = 'CYP2A6-B2-2'
-    ntbl2[635,1] = 'LPCAT3-B4-2'
 
 
-##########################################################
 
 def write_boxinfo_table(ntbl2, outfilepath):
     data = pd.DataFrame(data = ntbl2)
