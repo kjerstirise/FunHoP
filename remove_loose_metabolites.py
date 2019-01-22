@@ -73,7 +73,7 @@ def remove_loose_metabolites(pathway_path, outfile_path):
 	
 	for file in g:
 		filename = file.split("/")
-		out_file_name = os.path.join(outfile_path, "removed_lose_" + filename[8])
+		out_file_name = os.path.join(outfile_path, "removed_lose_" + filename[7])
 		tree = ET.parse(file)
 		root = tree.getroot()
 		connected_metabolites = find_unconnected_metabolites(root)
