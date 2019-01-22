@@ -72,8 +72,8 @@ def remove_loose_metabolites(pathway_path, outfile_path):
 	g = glob.glob(os.path.join(pathway_path,'*.xml'))
 	
 	for file in g:
-		filename = file.split("/")
-		out_file_name = os.path.join(outfile_path, "removed_lose_" + filename[7])
+		head, tail = os.path.split(os.path.split(file)[-1])	
+		out_file_name = os.path.join(outfile_path, "removed_lose_" + tail)
 		tree = ET.parse(file)
 		root = tree.getroot()
 		connected_metabolites = find_unconnected_metabolites(root)
