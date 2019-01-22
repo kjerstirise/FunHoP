@@ -44,7 +44,7 @@ def main():
 
 	print(args)
 	
-	
+
 	
 	changed_name = os.path.join(cwd,'changed_name/')
 	if not os.path.exists(changed_name):
