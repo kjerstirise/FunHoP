@@ -106,34 +106,34 @@ def print_values_for_colourscale(genelist, outfilepath):
 	extract_values = counts_without_duplicates.iloc[:,1]
 	squeeze_values = extract_values.T.squeeze()
 	
-	below_100 = []
-	from_100_to_200 = []
-	from_200_to_500 = []
-	from_500_to_1000 = []
-	over_1000 = []
+	below_200 = []
+	from_200_to_1000 = []
+	from_1000_to_5000 = []
+	from_5000_to_10000 = []
+	over_10000 = []
 
 	for element in squeeze_values:
-		if (float(element)) < 100:
-			below_100.append(element)
-		if (float(element)) >= 100 and (float(element)) < 200:
-			from_100_to_200.append(element)
-		if (float(element)) >= 200 and (float(element)) < 500:
-			from_200_to_500.append(element)
-		if (float(element)) >= 500 and (float(element)) < 1000:
-			from_500_to_1000.append(element)
-		if (float(element)) >= 1000:
-			over_1000.append(element)
+		if (float(element)) < 200:
+			below_200.append(element)
+		if (float(element)) >= 200 and (float(element)) < 1000:
+			from_200_to_1000.append(element)
+		if (float(element)) >= 1000 and (float(element)) < 5000:
+			from_1000_to_5000.append(element)
+		if (float(element)) >= 5000 and (float(element)) < 10000:
+			from_5000_to_10000.append(element)
+		if (float(element)) >= 10000:
+			over_10000.append(element)
 
-	print("Below 100: ")
-	print(len(below_100))
-	print("100 to 200: ")
-	print(len(from_100_to_200))
-	print("200 to 500: ")
-	print(len(from_200_to_500))
-	print("500 to 1000: ")
-	print(len(from_500_to_1000))	
-	print("Above 1000: ")
-	print(len(over_1000))
+	print("Below 200: ")
+	print(len(below_200))
+	print("200 to 1000: ")
+	print(len(from_200_to_1000))
+	print("1000 to 5000: ")
+	print(len(from_1000_to_5000))
+	print("5000 to 10000: ")
+	print(len(from_5000_to_10000))	
+	print("Above 10000: ")
+	print(len(over_10000))
 
 	
 	counts_without_duplicates.to_csv(outfilepath, sep = '\t', mode ='w', header = True, index = None)
@@ -142,13 +142,7 @@ def print_values_for_colourscale(genelist, outfilepath):
 
 
 def calculate_single_counts(counts, outfilepath):
-	
-	#mappesti = '/Users/profile/documents/GitHub/cell-lines'
 
-	#innfil = 'boxinfo_cancerTissue_FPKM_updated_oct18.txt'
-	#mappesti = '/Users/profile/phd/sammenligninger/'
-	#innfil = 'boxinfo_test4_feb17.txt'
-	#boxfil = os.path.join(mappesti, innfil)
 	split_lines(counts, outfilepath)
 
 
