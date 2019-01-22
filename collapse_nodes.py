@@ -60,7 +60,7 @@ def collapse_nodes(pathway_path, outfile_path, duplicates):
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = os.path.join(outfile_path, "collapsed_" + filename[8]) 
+		out_file_name = os.path.join(outfile_path, "collapsed_" + filename[7]) 
 		tree = ET.parse(file)
 		root = tree.getroot()
 		ortholog_remover(root)
