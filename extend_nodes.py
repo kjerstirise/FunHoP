@@ -251,7 +251,7 @@ def extend_nodes(pathway_path, outfile_path):
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = os.path.join(outfile_path, "extended_" + filename[8]) 
+		out_file_name = os.path.join(outfile_path, "extended_" + filename[7]) 
 		fix_file(file, out_file_name)
 	
 
