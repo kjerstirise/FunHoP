@@ -23,28 +23,50 @@ import remove_loose_metabolites
 def main():
 
 
-	start_folder = '/Users/profile/Documents/GitHub/cell-lines/enkelt/'
-	hsa_file = 'hsalist_july18.txt'
+	cwd = os.getcwd()
+	
 
-	#cwd = os.getcwd()
-	#print(cwd)
+	ap = argparse.ArgumentParser()
+	#ap.add_argument("-i", "--input", required = True, 
+	#		help = "Add the hsa list")
+	ap.add_argument("hsa_file", 
+		help = "You need the path to the hsa list")
+	ap.add_argument("expression_table", 
+		help = "You need the path to the expression table")
+	ap.add_argument("metadata", 
+		help = "You need the path to the metadata")
+	ap.add_argument("expression_counts", 
+		help = "you need the path to the expression counts")
+	ap.add_argument("updated_gene_symbol", 
+		help = "updated gene symbols")
 
-	changed_name = os.path.join(start_folder,'changed_name/')
+	args = vars(ap.parse_args())
+
+	print(args)
+	
+	
+	
+	changed_name = os.path.join(cwd,'changed_name/')
 	if not os.path.exists(changed_name):
 		os.makedirs(changed_name)
 
-	change_namestring.change_namestring(pathway_path = start_folder,
-										hsalist_path = os.path.join(start_folder,hsa_file), 
+	#hslist = os.path.join(cwd,args['hsa_file'])
+	#hsalist2 = hslist.replace("'", "")
+	#print(hslist)
+	#print(hsalist2)
+	
+	change_namestring.change_namestring(pathway_path = cwd,
+										hsalist_path = os.path.join(cwd, args['hsa_file']), 
 										outfile_path = changed_name)
 
 	print("Namestrings have been changed to include all genes")
 
 	create_genelist.create_genelist(pathway_path = changed_name, 
-									outfile_path = start_folder)
+									outfile_path = cwd)
 
 	print("The list of all nodes has been extracted from the pathways")
 
-	changed_removed = os.path.join(start_folder, 'changed_removed/')
+	changed_removed = os.path.join(cwd, 'changed_removed/')
 	if not os.path.exists(changed_removed):
 		os.makedirs(changed_removed)
 
@@ -53,7 +75,7 @@ def main():
 
 	print("Loose metabolites have been removed")
 
-	changed_removed_fixed = os.path.join(start_folder, 'changed_removed_fixed/')
+	changed_removed_fixed = os.path.join(cwd, 'changed_removed_fixed/')
 	if not os.path.exists(changed_removed_fixed):
 		os.makedirs(changed_removed_fixed)
 
@@ -62,7 +84,7 @@ def main():
 
 	print("Coordinates have been stretched to make more room for the expanded files")
 
-	changed_removed_fixed_extended = os.path.join(start_folder, 'changed_removed_fixed_extended/')
+	changed_removed_fixed_extended = os.path.join(cwd, 'changed_removed_fixed_extended/')
 
 	if not os.path.exists(changed_removed_fixed_extended):
 		os.makedirs(changed_removed_fixed_extended)
@@ -74,17 +96,17 @@ def main():
 
 	#create_connection.find_duplicates(pathway_path = changed_name)
 
-	duplicates = calculate_counts.calculate_counts(expression_path = os.path.join(start_folder, 'expression_table_TCGA.txt'), 
-											meta_data_path = os.path.join(start_folder, 'meta_data_TCGA_nov2016.txt'), 
-					 						count_file_path = os.path.join(start_folder, 'TCGA_expression_counts.txt'),
-											changed_name_path = os.path.join(start_folder,'gene_symbol_update_file_jan2016.txt'), 
-											genelist_path = os.path.join(start_folder, 'nodelist.txt'), 
-											boxinfo_path = os.path.join(start_folder, 'testtable_tcga_boxinfo2.txt'), 
-											expression_table_path = os.path.join(start_folder, 'test_expression.txt'))
+	duplicates = calculate_counts.calculate_counts(expression_path =  os.path.join(cwd, args['expression_table']), 
+											meta_data_path = os.path.join(cwd, args['metadata']), 
+					 						count_file_path = os.path.join(cwd, args['expression_counts']),
+											changed_name_path = os.path.join(cwd,args['updated_gene_symbol']), 
+											genelist_path = os.path.join(cwd, 'nodelist.txt'), 
+											boxinfo_path = os.path.join(cwd, 'testtable_tcga_boxinfo.txt'), 
+											expression_table_path = os.path.join(cwd, 'test_expression.txt'))
 
 	print("The counts for each node have been calculated")
 
-	collapsed_nodes = os.path.join(start_folder, 'collapsed_nodes2/')
+	collapsed_nodes = os.path.join(cwd, 'collapsed_nodes2/')
 
 	if not os.path.exists(collapsed_nodes):
 		os.makedirs(collapsed_nodes)
@@ -96,10 +118,11 @@ def main():
 	print("Nodes with multiple genes have been collapsed, in order to show simpler pathways")
 
 
-	calculate_single_counts.calculate_single_counts(counts = os.path.join(start_folder, 'testtable_tcga_boxinfo.txt'),
-													 outfilepath = os.path.join(start_folder, 'single_counts.txt'))
+	calculate_single_counts.calculate_single_counts(counts = os.path.join(cwd, 'testtable_tcga_boxinfo.txt'),
+													 outfilepath = os.path.join(cwd, 'single_counts.txt'))
 
 	print("The count for each single gene has been calculated based on the weights from the multiple gene nodes")
+
 """
 	try:
 		shutil.rmtree(changed_name)
@@ -108,6 +131,8 @@ def main():
 
 """
 
-
 if __name__ == '__main__':
-    main()
+	
+
+	main()
+
