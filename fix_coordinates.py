@@ -79,7 +79,7 @@ def fix_coordinates(pathway_path, outfile_path):
 
 	for file in g:
 		filename = file.split("/")
-		out_file_name = os.path.join(outfile_path, "fixed_coords_" + filename[8]) 
+		out_file_name = os.path.join(outfile_path, "fixed_coords_" + filename[7]) 
 		tree = ET.parse(file)
 		root = tree.getroot()
 		fix_coords(root)
