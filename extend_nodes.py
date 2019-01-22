@@ -250,8 +250,8 @@ def extend_nodes(pathway_path, outfile_path):
 	g = glob.glob(os.path.join(pathway_path, '*.xml'))
 
 	for file in g:
-		filename = file.split("/")
-		out_file_name = os.path.join(outfile_path, "extended_" + filename[7]) 
+		head, tail = os.path.split(os.path.split(file)[-1])	
+		out_file_name = os.path.join(outfile_path, "extended_" + tail) 
 		fix_file(file, out_file_name)
 	
 
