@@ -106,7 +106,7 @@ def main():
 
 	print("The counts for each node have been calculated")
 
-	collapsed_nodes = os.path.join(cwd, 'collapsed_nodes2/')
+	collapsed_nodes = os.path.join(cwd, 'collapsed_nodes/')
 
 	if not os.path.exists(collapsed_nodes):
 		os.makedirs(collapsed_nodes)
