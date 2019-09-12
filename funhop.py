@@ -30,15 +30,15 @@ def main():
 	#ap.add_argument("-i", "--input", required = True, 
 	#		help = "Add the hsa list")
 	ap.add_argument("hsa_file", 
-		help = "You need the path to the hsa list")
+		help = "You need the hsa/gene name converter list")
 	ap.add_argument("expression_table", 
-		help = "You need the path to the expression table")
+		help = "You need the expression table")
 	ap.add_argument("metadata", 
-		help = "You need the path to the metadata")
+		help = "You need the metadata")
 	ap.add_argument("expression_counts", 
-		help = "you need the path to the expression counts")
+		help = "you need the expression counts")
 	ap.add_argument("updated_gene_symbol", 
-		help = "updated gene symbols")
+		help = "you need a list of updated gene symbols")
 
 	args = vars(ap.parse_args())
 
@@ -82,7 +82,7 @@ def main():
 	fix_coordinates.fix_coordinates(pathway_path = changed_removed, 
 									outfile_path = changed_removed_fixed)
 
-	print("Coordinates have been stretched to make more room for the expanded files")
+	print("Coordinates have been stretched to make more room for the expanded nodes")
 
 	changed_removed_fixed_extended = os.path.join(cwd, 'changed_removed_fixed_extended/')
 

@@ -72,7 +72,7 @@ def main():
 	
 	mappesti = '/Users/profile/documents/GitHub/cell-lines/'
 
-	innfil = 'enkelt/genelist_test_python3.txt'
+	innfil = 'enkelt/nodelist.txt'
 	#mappesti = '/Users/profile/phd/sammenligninger/'
 	#innfil = 'boxinfo_test4_feb17.txt'
 	boxfil = os.path.join(mappesti, innfil)
