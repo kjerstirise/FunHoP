@@ -8,7 +8,7 @@ FunHoP is a method for improving pathway analysis based on differentiated RNA-se
 	   Further it collapses all the reads for all the homologs into a new value, showing the overall regulation in the node 
 
 ## 2. Getting Started
-Download the FunHoP «download» folder, which contains the ten files required to run FunHoP. 
+Download the ten files required to run FunHoP. 
 From KEGG, download the pathways and add them to the folder, along with the has-ID conversion list. It is advised to get updated pathway files and HSA list from time to time, as KEGG is constantly updated (although this is not always shown in the log). 
 
 ## 3. Requirements
