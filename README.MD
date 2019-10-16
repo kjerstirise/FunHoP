@@ -47,5 +47,9 @@ The file "Calculate_counts.py" still contains three cases of hard coding:
 * In regards to correcting on gene length or not. If the data is not corrected on gene length, "correct" should be set to True when calling the load_countdata function. 
 
 
+## 5. Future
+The following will be added to FunHoP in near future:
+* A small set of test data to run locally to test FunHoP
+* The hardcoding parts of calculating counts will be moved and running this part will a more user friendly approach
 
 
