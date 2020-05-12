@@ -1,0 +1,238 @@
+<pathway image="http://www.kegg.jp/kegg/pathway/hsa/hsa00360.png" link="http://www.kegg.jp/kegg-bin/show_pathway?hsa00360" name="path:hsa00360" number="00360" org="hsa" title="Phenylalanine metabolism">
+    <entry id="57" link="http://www.kegg.jp/dbget-bin/www_bget?map00960" name="path:map00960" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="34" name="Tropane, piperidine and pyridine alkaloid biosynthesis" type="roundrectangle" width="160" x="244" y="172" />
+    </entry>
+    <entry id="58" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:218+hsa:220+hsa:221+hsa:222" name="hsa:218 hsa:220 hsa:221 hsa:222" reaction="rn:R02536 rn:R02537" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="ALDH3A1 ALDH1A3 ALDH3B1 ALDH3B2" type="rectangle" width="46" x="269" y="490" />
+    </entry>
+    <entry id="61" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10249" name="hsa:10249" reaction="rn:R05841" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="GLYAT, ACGNAT, CAT, GAT" type="rectangle" width="46" x="225" y="727" />
+    </entry>
+    <entry id="69" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1644" name="hsa:1644" reaction="rn:R00699" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="DDC, AADC" type="rectangle" width="46" x="245" y="282" />
+    </entry>
+    <entry id="72" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:314+hsa:8639" name="hsa:314 hsa:8639" reaction="rn:R02613" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="AOC2 AOC3" type="rectangle" width="46" x="245" y="401" />
+    </entry>
+    <entry id="73" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4128+hsa:4129" name="hsa:4128 hsa:4129" reaction="rn:R02613" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="MAOA MAOB" type="rectangle" width="46" x="269" y="382" />
+    </entry>
+    <entry id="74" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3242" name="hsa:3242" reaction="rn:R01372" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="HPD, 4-HPPD, 4HPPD, GLOD3, HPPDASE, PPD" type="rectangle" width="46" x="418" y="428" />
+    </entry>
+    <entry id="80" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6898" name="hsa:6898" reaction="rn:R00694" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="TAT" type="rectangle" width="46" x="393" y="285" />
+    </entry>
+    <entry id="81" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2805+hsa:2806" name="hsa:2805 hsa:2806" reaction="rn:R00694" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="GOT1 GOT2" type="rectangle" width="46" x="443" y="266" />
+    </entry>
+    <entry id="83" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4282" name="hsa:4282" reaction="rn:R01378" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="MIF, GIF, GLIF, MMIF" type="rectangle" width="46" x="585" y="395" />
+    </entry>
+    <entry id="90" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:259307" name="hsa:259307" reaction="rn:R00689" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="IL4I1, FIG1, LAAO, LAO" type="rectangle" width="46" x="496" y="289" />
+    </entry>
+    <entry id="105" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00010" name="path:hsa00010" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="26" name="Glycolysis / Gluconeogenesis" type="roundrectangle" width="68" x="1000" y="762" />
+    </entry>
+    <entry id="106" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00020" name="path:hsa00020" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Citrate cycle (TCA cycle)" type="roundrectangle" width="77" x="1005" y="627" />
+    </entry>
+    <entry id="120" link="http://www.kegg.jp/dbget-bin/www_bget?C02763" name="cpd:C02763" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C02763" type="circle" width="8" x="586" y="436" />
+    </entry>
+    <entry id="121" link="http://www.kegg.jp/dbget-bin/www_bget?C00166" name="cpd:C00166" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00166" type="circle" width="8" x="418" y="354" />
+    </entry>
+    <entry id="122" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00360" name="path:hsa00360" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="TITLE:Phenylalanine metabolism" type="roundrectangle" width="236" x="158" y="58" />
+    </entry>
+    <entry id="123" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00400" name="path:hsa00400" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="34" name="Phenylalanine, tyrosine and tryptophan biosynthesis" type="roundrectangle" width="154" x="418" y="127" />
+    </entry>
+    <entry id="124" link="http://www.kegg.jp/dbget-bin/www_bget?map00362" name="path:map00362" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Benzoate degradation" type="roundrectangle" width="125" x="1285" y="453" />
+    </entry>
+    <entry id="126" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00020" name="path:hsa00020" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Citrate cycle (TCA cycle)" type="roundrectangle" width="73" x="765" y="859" />
+    </entry>
+    <entry id="127" link="http://www.kegg.jp/dbget-bin/www_bget?map00362" name="path:map00362" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Benzoate degradation" type="roundrectangle" width="120" x="1218" y="185" />
+    </entry>
+    <entry id="138" link="http://www.kegg.jp/dbget-bin/www_bget?C00079" name="cpd:C00079" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00079" type="circle" width="8" x="418" y="216" />
+    </entry>
+    <entry id="141" link="http://www.kegg.jp/dbget-bin/www_bget?C05852" name="cpd:C05852" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C05852" type="circle" width="8" x="418" y="536" />
+    </entry>
+    <entry id="145" link="http://www.kegg.jp/dbget-bin/www_bget?C00582" name="cpd:C00582" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00582" type="circle" width="8" x="274" y="648" />
+    </entry>
+    <entry id="149" link="http://www.kegg.jp/dbget-bin/www_bget?C05598" name="cpd:C05598" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C05598" type="circle" width="8" x="200" y="767" />
+    </entry>
+    <entry id="150" link="http://www.kegg.jp/dbget-bin/www_bget?C05332" name="cpd:C05332" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C05332" type="circle" width="8" x="270" y="336" />
+    </entry>
+    <entry id="156" link="http://www.kegg.jp/dbget-bin/www_bget?C07086" name="cpd:C07086" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C07086" type="circle" width="8" x="270" y="533" />
+    </entry>
+    <entry id="157" link="http://www.kegg.jp/dbget-bin/www_bget?C00601" name="cpd:C00601" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00601" type="circle" width="8" x="270" y="448" />
+    </entry>
+    <entry id="164" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5053" name="hsa:5053" reaction="rn:R01795" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="PAH, PH, PKU, PKU1" type="rectangle" width="46" x="127" y="210" />
+    </entry>
+    <entry id="165" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00350" name="path:hsa00350" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="34" name="Tyrosine metabolism" type="roundrectangle" width="72" x="72" y="301" />
+    </entry>
+    <entry id="174" link="http://www.kegg.jp/dbget-bin/www_bget?map00362" name="path:map00362" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Benzoate degradation" type="roundrectangle" width="120" x="697" y="649" />
+    </entry>
+    <entry id="179" link="http://www.kegg.jp/dbget-bin/www_bget?map00643" name="path:map00643" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Styrene degradation" type="roundrectangle" width="111" x="561" y="537" />
+    </entry>
+    <entry id="214" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00280" name="path:hsa00280" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="34" name="Valine, leucine and isoleucine degradation" type="roundrectangle" width="145" x="1249" y="550" />
+    </entry>
+    <entry id="222" link="http://www.kegg.jp/dbget-bin/www_bget?C00082" name="cpd:C00082" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00082" type="circle" width="8" x="70" y="209" />
+    </entry>
+    <relation entry1="69" entry2="80" type="ECrel">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="69" entry2="81" type="ECrel">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="69" entry2="90" type="ECrel">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="69" entry2="73" type="ECrel">
+        <subtype name="compound" value="150" />
+    </relation>
+    <relation entry1="69" entry2="72" type="ECrel">
+        <subtype name="compound" value="150" />
+    </relation>
+    <relation entry1="83" entry2="90" type="ECrel">
+        <subtype name="compound" value="121" />
+    </relation>
+    <relation entry1="81" entry2="83" type="ECrel">
+        <subtype name="compound" value="121" />
+    </relation>
+    <relation entry1="80" entry2="83" type="ECrel">
+        <subtype name="compound" value="121" />
+    </relation>
+    <relation entry1="74" entry2="83" type="ECrel">
+        <subtype name="compound" value="121" />
+    </relation>
+    <relation entry1="74" entry2="90" type="ECrel">
+        <subtype name="compound" value="121" />
+    </relation>
+    <relation entry1="74" entry2="81" type="ECrel">
+        <subtype name="compound" value="121" />
+    </relation>
+    <relation entry1="74" entry2="80" type="ECrel">
+        <subtype name="compound" value="121" />
+    </relation>
+    <relation entry1="58" entry2="73" type="ECrel">
+        <subtype name="compound" value="157" />
+    </relation>
+    <relation entry1="58" entry2="72" type="ECrel">
+        <subtype name="compound" value="157" />
+    </relation>
+    <relation entry1="57" entry2="123" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="69" entry2="57" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="80" entry2="57" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="81" entry2="57" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="90" entry2="57" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="69" entry2="123" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="80" entry2="123" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="81" entry2="123" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="90" entry2="123" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="165" entry2="164" type="maplink">
+        <subtype name="compound" value="222" />
+    </relation>
+    <relation entry1="81" entry2="164" type="ECrel">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="80" entry2="164" type="ECrel">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="69" entry2="164" type="ECrel">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="164" entry2="57" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="164" entry2="123" type="maplink">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="164" entry2="90" type="ECrel">
+        <subtype name="compound" value="138" />
+    </relation>
+    <relation entry1="74" entry2="179" type="maplink">
+        <subtype name="compound" value="141" />
+    </relation>
+    <reaction id="58" name="rn:R02536 rn:R02537" type="reversible">
+        <substrate id="157" name="cpd:C00601" />
+        <product id="156" name="cpd:C07086" />
+    </reaction>
+    <reaction id="61" name="rn:R05841" type="irreversible">
+        <substrate id="145" name="cpd:C00582" />
+        <product id="149" name="cpd:C05598" />
+    </reaction>
+    <reaction id="69" name="rn:R00699" type="irreversible">
+        <substrate id="138" name="cpd:C00079" />
+        <product id="150" name="cpd:C05332" />
+    </reaction>
+    <reaction id="72" name="rn:R02613" type="reversible">
+        <substrate id="150" name="cpd:C05332" />
+        <product id="157" name="cpd:C00601" />
+    </reaction>
+    <reaction id="73" name="rn:R02613" type="reversible">
+        <substrate id="150" name="cpd:C05332" />
+        <product id="157" name="cpd:C00601" />
+    </reaction>
+    <reaction id="74" name="rn:R01372" type="irreversible">
+        <substrate id="121" name="cpd:C00166" />
+        <product id="141" name="cpd:C05852" />
+    </reaction>
+    <reaction id="80" name="rn:R00694" type="reversible">
+        <substrate id="121" name="cpd:C00166" />
+        <product id="138" name="cpd:C00079" />
+    </reaction>
+    <reaction id="81" name="rn:R00694" type="reversible">
+        <substrate id="121" name="cpd:C00166" />
+        <product id="138" name="cpd:C00079" />
+    </reaction>
+    <reaction id="83" name="rn:R01378" type="reversible">
+        <substrate id="121" name="cpd:C00166" />
+        <product id="120" name="cpd:C02763" />
+    </reaction>
+    <reaction id="90" name="rn:R00689" type="irreversible">
+        <substrate id="138" name="cpd:C00079" />
+        <product id="121" name="cpd:C00166" />
+    </reaction>
+    <reaction id="164" name="rn:R01795" type="irreversible">
+        <substrate id="138" name="cpd:C00079" />
+        <product id="222" name="cpd:C00082" />
+    </reaction>
+</pathway>

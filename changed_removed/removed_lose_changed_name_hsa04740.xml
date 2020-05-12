@@ -1,0 +1,176 @@
+<pathway image="http://www.kegg.jp/kegg/pathway/hsa/hsa04740.png" link="http://www.kegg.jp/kegg-bin/show_pathway?hsa04740" name="path:hsa04740" number="04740" org="hsa" title="Olfactory transduction">
+    <entry id="1" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04740" name="path:hsa04740" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="TITLE:Olfactory transduction" type="roundrectangle" width="220" x="150" y="58" />
+    </entry>
+    <entry id="6" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2774+hsa:2782+hsa:2788+hsa:51764" name="hsa:2774 hsa:2782 hsa:2788 hsa:51764" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="GNAL GNB1 GNG7 GNG13" type="rectangle" width="46" x="400" y="184" />
+    </entry>
+    <entry id="7" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:109" name="hsa:109" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="ADCY3, AC3" type="rectangle" width="46" x="801" y="184" />
+    </entry>
+    <entry id="8" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723532+hsa:10798+hsa:119678+hsa:119679+hsa:119682+hsa:119687+hsa:119692+hsa:119694+hsa:119695+hsa:119749+hsa:119764+hsa:119765+hsa:119772+hsa:119774+hsa:120065+hsa:120066+hsa:120586+hsa:120775+hsa:120776+hsa:120787+hsa:120793+hsa:120796+hsa:121129+hsa:121130+hsa:121275+hsa:121364+hsa:122740+hsa:122742+hsa:122748+hsa:124538+hsa:125958+hsa:125962+hsa:125963+hsa:126370+hsa:126541+hsa:127059+hsa:127062+hsa:127064+hsa:127066+hsa:127068+hsa:127069+hsa:127074+hsa:127077+hsa:127385+hsa:127623+hsa:128360+hsa:128366+hsa:128367+hsa:128368+hsa:128371+hsa:128372+hsa:130075+hsa:134083+hsa:135924+hsa:135941+hsa:135946+hsa:135948+hsa:138799+hsa:138802+hsa:138803+hsa:138804+hsa:138805+hsa:138881+hsa:138882+hsa:138883+hsa:143496+hsa:143502+hsa:143503+hsa:144124+hsa:144125+hsa:150681+hsa:158131+hsa:162998+hsa:196335+hsa:219417+hsa:219428+hsa:219429+hsa:219431+hsa:219432+hsa:219436+hsa:219437+hsa:219438+hsa:219447+hsa:219453+hsa:219464+hsa:219469+hsa:219473+hsa:219477+hsa:219479+hsa:219482+hsa:219484+hsa:219487+hsa:219493+hsa:219858+hsa:219865+hsa:219869+hsa:219870+hsa:219873+hsa:219874+hsa:219875+hsa:219952+hsa:219954+hsa:219956+hsa:219957+hsa:219958+hsa:219959+hsa:219960+hsa:219965+hsa:219968+hsa:219981+hsa:219982+hsa:219983+hsa:219986+hsa:23538+hsa:254783+hsa:254786+hsa:254879+hsa:254973+hsa:255725+hsa:256144+hsa:256148+hsa:256892+hsa:26188+hsa:26189+hsa:26211+hsa:26212+hsa:26219+hsa:26245+hsa:26246+hsa:26248+hsa:26333+hsa:26338+hsa:26339+hsa:26341+hsa:26476+hsa:26492+hsa:26493+hsa:26494+hsa:26496+hsa:26529+hsa:26531+hsa:26532+hsa:26533+hsa:26534+hsa:26538+hsa:26539+hsa:26595+hsa:26648+hsa:26658+hsa:26659+hsa:26664+hsa:26682+hsa:26683+hsa:26686+hsa:26689+hsa:26692+hsa:26693+hsa:26696+hsa:26707+hsa:26716+hsa:26735+hsa:26737+hsa:26740+hsa:282763+hsa:282770+hsa:282775+hsa:283092+hsa:283093+hsa:283111+hsa:283159+hsa:283160+hsa:283162+hsa:283189+hsa:283297+hsa:283365+hsa:283694+hsa:284383+hsa:284433+hsa:284521+hsa:284532+hsa:285659+hsa:286362+hsa:286365+hsa:338662+hsa:338674+hsa:338675+hsa:338751+hsa:338755+hsa:340980+hsa:341152+hsa:341276+hsa:341416+hsa:341418+hsa:341568+hsa:341799+hsa:343169+hsa:343171+hsa:343172+hsa:343173+hsa:343406+hsa:343563+hsa:346517+hsa:346525+hsa:346528+hsa:347168+hsa:347169+hsa:347468+hsa:387748+hsa:389090+hsa:390036+hsa:390037+hsa:390038+hsa:390054+hsa:390058+hsa:390059+hsa:390061+hsa:390063+hsa:390064+hsa:390066+hsa:390067+hsa:390072+hsa:390075+hsa:390077+hsa:390078+hsa:390079+hsa:390081+hsa:390083+hsa:390084+hsa:390093+hsa:390113+hsa:390142+hsa:390144+hsa:390148+hsa:390151+hsa:390152+hsa:390154+hsa:390155+hsa:390157+hsa:390162+hsa:390167+hsa:390168+hsa:390174+hsa:390181+hsa:390190+hsa:390191+hsa:390195+hsa:390197+hsa:390199+hsa:390201+hsa:390260+hsa:390261+hsa:390264+hsa:390265+hsa:390271+hsa:390275+hsa:390321+hsa:390323+hsa:390326+hsa:390327+hsa:390429+hsa:390431+hsa:390433+hsa:390436+hsa:390437+hsa:390439+hsa:390442+hsa:390445+hsa:390538+hsa:390648+hsa:390649+hsa:390882+hsa:390883+hsa:390892+hsa:391107+hsa:391109+hsa:391112+hsa:391114+hsa:391189+hsa:391190+hsa:391191+hsa:391192+hsa:391194+hsa:391195+hsa:391196+hsa:391211+hsa:392138+hsa:392309+hsa:392376+hsa:392390+hsa:392391+hsa:392392+hsa:393046+hsa:401427+hsa:401665+hsa:401666+hsa:401667+hsa:401992+hsa:401993+hsa:401994+hsa:402135+hsa:402317+hsa:403239+hsa:403253+hsa:403257+hsa:403273+hsa:403277+hsa:403278+hsa:403282+hsa:403284+hsa:440153+hsa:441308+hsa:441608+hsa:441639+hsa:441669+hsa:441670+hsa:441911+hsa:441933+hsa:442184+hsa:442186+hsa:442191+hsa:442194+hsa:442361+hsa:4991+hsa:4992+hsa:4993+hsa:4994+hsa:4995+hsa:504189+hsa:504190+hsa:504191+hsa:56656+hsa:729759+hsa:79290+hsa:79295+hsa:79310+hsa:79317+hsa:7932+hsa:79324+hsa:79339+hsa:79345+hsa:79473+hsa:79501+hsa:79541+hsa:79544+hsa:81050+hsa:81061+hsa:81099+hsa:81127+hsa:81168+hsa:81282+hsa:81285+hsa:81300+hsa:81309+hsa:81318+hsa:81327+hsa:81328+hsa:81341+hsa:81392+hsa:81399+hsa:81442+hsa:81448+hsa:81466+hsa:81469+hsa:81470+hsa:81472+hsa:81696+hsa:81697+hsa:81797+hsa:8383+hsa:8386+hsa:8387+hsa:8388+hsa:8390+hsa:8392+hsa:8590" name="hsa:102723532 hsa:10798 hsa:119678 hsa:119679 hsa:119682 hsa:119687 hsa:119692 hsa:119694 hsa:119695 hsa:119749 hsa:119764 hsa:119765 hsa:119772 hsa:119774 hsa:120065 hsa:120066 hsa:120586 hsa:120775 hsa:120776 hsa:120787 hsa:120793 hsa:120796 hsa:121129 hsa:121130 hsa:121275 hsa:121364 hsa:122740 hsa:122742 hsa:122748 hsa:124538 hsa:125958 hsa:125962 hsa:125963 hsa:126370 hsa:126541 hsa:127059 hsa:127062 hsa:127064 hsa:127066 hsa:127068 hsa:127069 hsa:127074 hsa:127077 hsa:127385 hsa:127623 hsa:128360 hsa:128366 hsa:128367 hsa:128368 hsa:128371 hsa:128372 hsa:130075 hsa:134083 hsa:135924 hsa:135941 hsa:135946 hsa:135948 hsa:138799 hsa:138802 hsa:138803 hsa:138804 hsa:138805 hsa:138881 hsa:138882 hsa:138883 hsa:143496 hsa:143502 hsa:143503 hsa:144124 hsa:144125 hsa:150681 hsa:158131 hsa:162998 hsa:196335 hsa:219417 hsa:219428 hsa:219429 hsa:219431 hsa:219432 hsa:219436 hsa:219437 hsa:219438 hsa:219447 hsa:219453 hsa:219464 hsa:219469 hsa:219473 hsa:219477 hsa:219479 hsa:219482 hsa:219484 hsa:219487 hsa:219493 hsa:219858 hsa:219865 hsa:219869 hsa:219870 hsa:219873 hsa:219874 hsa:219875 hsa:219952 hsa:219954 hsa:219956 hsa:219957 hsa:219958 hsa:219959 hsa:219960 hsa:219965 hsa:219968 hsa:219981 hsa:219982 hsa:219983 hsa:219986 hsa:23538 hsa:254783 hsa:254786 hsa:254879 hsa:254973 hsa:255725 hsa:256144 hsa:256148 hsa:256892 hsa:26188 hsa:26189 hsa:26211 hsa:26212 hsa:26219 hsa:26245 hsa:26246 hsa:26248 hsa:26333 hsa:26338 hsa:26339 hsa:26341 hsa:26476 hsa:26492 hsa:26493 hsa:26494 hsa:26496 hsa:26529 hsa:26531 hsa:26532 hsa:26533 hsa:26534 hsa:26538 hsa:26539 hsa:26595 hsa:26648 hsa:26658 hsa:26659 hsa:26664 hsa:26682 hsa:26683 hsa:26686 hsa:26689 hsa:26692 hsa:26693 hsa:26696 hsa:26707 hsa:26716 hsa:26735 hsa:26737 hsa:26740 hsa:282763 hsa:282770 hsa:282775 hsa:283092 hsa:283093 hsa:283111 hsa:283159 hsa:283160 hsa:283162 hsa:283189 hsa:283297 hsa:283365 hsa:283694 hsa:284383 hsa:284433 hsa:284521 hsa:284532 hsa:285659 hsa:286362 hsa:286365 hsa:338662 hsa:338674 hsa:338675 hsa:338751 hsa:338755 hsa:340980 hsa:341152 hsa:341276 hsa:341416 hsa:341418 hsa:341568 hsa:341799 hsa:343169 hsa:343171 hsa:343172 hsa:343173 hsa:343406 hsa:343563 hsa:346517 hsa:346525 hsa:346528 hsa:347168 hsa:347169 hsa:347468 hsa:387748 hsa:389090 hsa:390036 hsa:390037 hsa:390038 hsa:390054 hsa:390058 hsa:390059 hsa:390061 hsa:390063 hsa:390064 hsa:390066 hsa:390067 hsa:390072 hsa:390075 hsa:390077 hsa:390078 hsa:390079 hsa:390081 hsa:390083 hsa:390084 hsa:390093 hsa:390113 hsa:390142 hsa:390144 hsa:390148 hsa:390151 hsa:390152 hsa:390154 hsa:390155 hsa:390157 hsa:390162 hsa:390167 hsa:390168 hsa:390174 hsa:390181 hsa:390190 hsa:390191 hsa:390195 hsa:390197 hsa:390199 hsa:390201 hsa:390260 hsa:390261 hsa:390264 hsa:390265 hsa:390271 hsa:390275 hsa:390321 hsa:390323 hsa:390326 hsa:390327 hsa:390429 hsa:390431 hsa:390433 hsa:390436 hsa:390437 hsa:390439 hsa:390442 hsa:390445 hsa:390538 hsa:390648 hsa:390649 hsa:390882 hsa:390883 hsa:390892 hsa:391107 hsa:391109 hsa:391112 hsa:391114 hsa:391189 hsa:391190 hsa:391191 hsa:391192 hsa:391194 hsa:391195 hsa:391196 hsa:391211 hsa:392138 hsa:392309 hsa:392376 hsa:392390 hsa:392391 hsa:392392 hsa:393046 hsa:401427 hsa:401665 hsa:401666 hsa:401667 hsa:401992 hsa:401993 hsa:401994 hsa:402135 hsa:402317 hsa:403239 hsa:403253 hsa:403257 hsa:403273 hsa:403277 hsa:403278 hsa:403282 hsa:403284 hsa:440153 hsa:441308 hsa:441608 hsa:441639 hsa:441669 hsa:441670 hsa:441911 hsa:441933 hsa:442184 hsa:442186 hsa:442191 hsa:442194 hsa:442361 hsa:4991 hsa:4992 hsa:4993 hsa:4994 hsa:4995 hsa:504189 hsa:504190 hsa:504191 hsa:56656 hsa:729759 hsa:79290 hsa:79295 hsa:79310 hsa:79317 hsa:7932 hsa:79324 hsa:79339 hsa:79345 hsa:79473 hsa:79501 hsa:79541 hsa:79544 hsa:81050 hsa:81061 hsa:81099 hsa:81127 hsa:81168 hsa:81282 hsa:81285 hsa:81300 hsa:81309 hsa:81318 hsa:81327 hsa:81328 hsa:81341 hsa:81392 hsa:81399 hsa:81442 hsa:81448 hsa:81466 hsa:81469 hsa:81470 hsa:81472 hsa:81696 hsa:81697 hsa:81797 hsa:8383 hsa:8386 hsa:8387 hsa:8388 hsa:8390 hsa:8392 hsa:8590" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="LOC102723532 OR5I1 OR52E2 OR52J3 OR51L1 OR51A7 OR51S1 OR51F2 OR52R1 OR4C46 OR4X2 OR4B1 OR52M1 OR52K2 OR5P2 OR5P3 OR8I2 OR2D3 OR2D2 OR52W1 OR56A4 OR56A1 OR2AP1 OR10P1 OR10AD1 OR10A7 OR4K14 OR4L1 OR11H6 OR4D2 OR7D4 OR7G1 OR1M1 OR1I1 OR10H4 OR2M5 OR2M3 OR2T12 OR14C36 OR2T34 OR2T10 OR2T4 OR2T11 OR10J5 OR2B11 OR10T2 OR6P1 OR10X1 OR10Z1 OR6K6 OR6N1 OR9A4 OR2Y1 OR9A2 OR2A14 OR6B1 OR2F2 OR13C5 OR13C8 OR13C3 OR13C4 OR13F1 OR1L8 OR1N2 OR1N1 OR52B4 OR52I2 OR51E1 OR10A5 OR2AG1 OR6B3 OR1Q1 OR7D2 OR56B4 OR8U1 OR4C16 OR4C11 OR4S2 OR4C6 OR5D14 OR5L1 OR5D18 OR5AS1 OR8K5 OR5T2 OR8H1 OR8K3 OR8J1 OR5R1 OR5M3 OR5M8 OR5M11 OR5AR1 OR8B12 OR8G5 OR10G8 OR10G9 OR10S1 OR6T1 OR4D5 OR6Q1 OR9I1 OR9Q1 OR9Q2 OR1S2 OR1S1 OR10Q1 OR5B17 OR5B21 OR5A2 OR5A1 OR4D6 OR4D11 OR52A1 OR6C74 OR6C3 OR2T6 OR1L4 OR52B2 OR4C3 OR4S1 OR51F1 OR1C1 OR1A2 OR2F1 OR2B6 OR1J4 OR2M4 OR2L2 OR2K2 OR7A17 OR5L2 OR5K1 OR5H1 OR10J1 OR8G2P OR8B8 OR8G1 OR10A3 OR12D2 OR11A1 OR10H3 OR10G3 OR10G2 OR10H2 OR10H1 OR8B2 OR7E24 OR7C2 OR7A5 OR7C1 OR4F4 OR4F3 OR4E2 OR4D1 OR2W1 OR2V1 OR2T1 OR2J2 OR2H1 OR1L3 OR1L1 OR1J2 OR51B5 OR10AG1 OR5J2 OR4C13 OR4C12 OR51V1 OR8D1 OR8D2 OR8B4 OR9G4 OR10A4 OR6C6 OR4N4 OR2Z1 OR10H5 OR2L13 OR14A16 OR2V2 OR13C9 OR13D1 OR8D4 OR5F1 OR5AP2 OR52L1 OR2AG2 OR52B6 OR2AT4 OR10A2 OR6C2 OR6C4 OR8S1 OR6S1 OR6F1 OR2W3 OR2T8 OR2T3 OR10R2 OR2T29 OR6V1 OR2A12 OR2A1 OR1J1 OR1B1 OR13H1 OR56B1 OR6B2 OR52K1 OR52I1 OR51D1 OR52A5 OR51B6 OR51M1 OR51Q1 OR51I1 OR51I2 OR52D1 OR52H1 OR52N4 OR52N5 OR52N2 OR52E6 OR52E8 OR52E4 OR56A3 OR56A5 OR10A6 OR4X1 OR5D13 OR5D16 OR5W2 OR8H2 OR8H3 OR5T3 OR5T1 OR8K1 OR5M9 OR5M10 OR5M1 OR9G1 OR5AK2 OR5B2 OR5B12 OR5AN1 OR4D10 OR4D9 OR10V1 OR6X1 OR6M1 OR10G4 OR10G7 OR8B3 OR8A1 OR6C1 OR6C75 OR6C76 OR6C70 OR4N2 OR4K2 OR4K13 OR4K17 OR4N5 OR11G2 OR11H4 OR5AU1 OR4M2 OR4F6 OR4F15 OR7G2 OR7G3 OR7A10 OR10K2 OR10K1 OR6Y1 OR6K3 OR11L1 OR2L8 OR2AK2 OR2L3 OR2M2 OR2T33 OR2M7 OR2G6 OR2A25 OR13J1 OR13C2 OR1L6 OR5C1 OR1K1 OR2A5 OR2A7 OR51T1 OR51A4 OR51A2 OR2T2 OR2T5 OR14I1 OR5K2 OR2A42 OR2T27 OR4A47 OR4C45 OR5H14 OR5K3 OR5K4 OR6C65 OR6C68 OR11H12 OR4F21 OR5B3 OR9K2 OR4Q3 OR4M1 OR10J3 OR13G1 OR2B3 OR2J3 OR14J1 OR10C1 OR2A2 OR1D2 OR1F1 OR2C1 OR3A1 OR3A2 OR8U8 OR8U9 OR9G9 OR2S2 OR4F29 OR13A1 OR5H6 OR5H2 OR4K5 OR2H2 OR51G1 OR51B4 OR51B2 OR52N1 OR4F5 OR2A4 OR4K1 OR5AC2 OR11H1 OR4F17 OR4K15 OR8J3 OR51G2 OR51E2 OR4P4 OR4C15 OR4A5 OR4A16 OR4A15 OR10W1 OR2AE1 OR4F16 OR6N2 OR6K2 OR2L5 OR2G3 OR2G2 OR2C3 OR5V1 OR2B2 OR12D3 OR1A1 OR1D5 OR1E1 OR1E2 OR1G1 OR3A3 OR6A2" type="rectangle" width="46" x="226" y="184" />
+    </entry>
+    <entry id="9" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1258+hsa:1260+hsa:1262" name="hsa:1258 hsa:1260 hsa:1262" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="CNGB1 CNGA2 CNGA4" type="rectangle" width="46" x="801" y="227" />
+    </entry>
+    <entry id="10" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:57101" name="hsa:57101" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="ANO2, C12orf3, TMEM16B" type="rectangle" width="46" x="801" y="278" />
+    </entry>
+    <entry id="12" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3000" name="hsa:3000" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="GUCY2D, CORD5, CORD6, CYGD, GUC1A4, GUC2D, LCA, LCA1, RCD2, RETGC-1, ROS-GC1, ROSGC, retGC" type="rectangle" width="46" x="226" y="331" />
+    </entry>
+    <entry id="13" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1261" name="hsa:1261" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="CNGA3, ACHM2, CCNC1, CCNCa, CCNCalpha, CNCG3, CNG3" type="rectangle" width="46" x="801" y="331" />
+    </entry>
+    <entry id="16" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5592+hsa:5593" name="hsa:5592 hsa:5593" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="PRKG1 PRKG2" type="rectangle" width="46" x="400" y="287" />
+    </entry>
+    <entry id="18" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:815+hsa:816+hsa:817+hsa:818" name="hsa:815 hsa:816 hsa:817 hsa:818" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="CAMK2A CAMK2B CAMK2D CAMK2G" type="rectangle" width="46" x="723" y="532" />
+    </entry>
+    <entry id="19" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2774+hsa:2782+hsa:2788+hsa:51764" name="hsa:2774 hsa:2782 hsa:2788 hsa:51764" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="GNAL GNB1 GNG7 GNG13" type="rectangle" width="46" x="400" y="498" />
+    </entry>
+    <entry id="20" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:163688+hsa:51806+hsa:801+hsa:805+hsa:808+hsa:810" name="hsa:163688 hsa:51806 hsa:801 hsa:805 hsa:808 hsa:810" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="CALML6 CALML5 CALM1 CALM2 CALM3 CALML3" type="rectangle" width="46" x="640" y="581" />
+    </entry>
+    <entry id="21" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5136+hsa:5137+hsa:5153" name="hsa:5136 hsa:5137 hsa:5153" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="PDE1A PDE1C PDE1B" type="rectangle" width="46" x="552" y="581" />
+    </entry>
+    <entry id="22" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568" name="hsa:5566 hsa:5567 hsa:5568" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="PRKACA PRKACB PRKACG" type="rectangle" width="46" x="400" y="558" />
+    </entry>
+    <entry id="23" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:109" name="hsa:109" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="ADCY3, AC3" type="rectangle" width="46" x="801" y="499" />
+    </entry>
+    <entry id="24" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723532+hsa:10798+hsa:119678+hsa:119679+hsa:119682+hsa:119687+hsa:119692+hsa:119694+hsa:119695+hsa:119749+hsa:119764+hsa:119765+hsa:119772+hsa:119774+hsa:120065+hsa:120066+hsa:120586+hsa:120775+hsa:120776+hsa:120787+hsa:120793+hsa:120796+hsa:121129+hsa:121130+hsa:121275+hsa:121364+hsa:122740+hsa:122742+hsa:122748+hsa:124538+hsa:125958+hsa:125962+hsa:125963+hsa:126370+hsa:126541+hsa:127059+hsa:127062+hsa:127064+hsa:127066+hsa:127068+hsa:127069+hsa:127074+hsa:127077+hsa:127385+hsa:127623+hsa:128360+hsa:128366+hsa:128367+hsa:128368+hsa:128371+hsa:128372+hsa:130075+hsa:134083+hsa:135924+hsa:135941+hsa:135946+hsa:135948+hsa:138799+hsa:138802+hsa:138803+hsa:138804+hsa:138805+hsa:138881+hsa:138882+hsa:138883+hsa:143496+hsa:143502+hsa:143503+hsa:144124+hsa:144125+hsa:150681+hsa:158131+hsa:162998+hsa:196335+hsa:219417+hsa:219428+hsa:219429+hsa:219431+hsa:219432+hsa:219436+hsa:219437+hsa:219438+hsa:219447+hsa:219453+hsa:219464+hsa:219469+hsa:219473+hsa:219477+hsa:219479+hsa:219482+hsa:219484+hsa:219487+hsa:219493+hsa:219858+hsa:219865+hsa:219869+hsa:219870+hsa:219873+hsa:219874+hsa:219875+hsa:219952+hsa:219954+hsa:219956+hsa:219957+hsa:219958+hsa:219959+hsa:219960+hsa:219965+hsa:219968+hsa:219981+hsa:219982+hsa:219983+hsa:219986+hsa:23538+hsa:254783+hsa:254786+hsa:254879+hsa:254973+hsa:255725+hsa:256144+hsa:256148+hsa:256892+hsa:26188+hsa:26189+hsa:26211+hsa:26212+hsa:26219+hsa:26245+hsa:26246+hsa:26248+hsa:26333+hsa:26338+hsa:26339+hsa:26341+hsa:26476+hsa:26492+hsa:26493+hsa:26494+hsa:26496+hsa:26529+hsa:26531+hsa:26532+hsa:26533+hsa:26534+hsa:26538+hsa:26539+hsa:26595+hsa:26648+hsa:26658+hsa:26659+hsa:26664+hsa:26682+hsa:26683+hsa:26686+hsa:26689+hsa:26692+hsa:26693+hsa:26696+hsa:26707+hsa:26716+hsa:26735+hsa:26737+hsa:26740+hsa:282763+hsa:282770+hsa:282775+hsa:283092+hsa:283093+hsa:283111+hsa:283159+hsa:283160+hsa:283162+hsa:283189+hsa:283297+hsa:283365+hsa:283694+hsa:284383+hsa:284433+hsa:284521+hsa:284532+hsa:285659+hsa:286362+hsa:286365+hsa:338662+hsa:338674+hsa:338675+hsa:338751+hsa:338755+hsa:340980+hsa:341152+hsa:341276+hsa:341416+hsa:341418+hsa:341568+hsa:341799+hsa:343169+hsa:343171+hsa:343172+hsa:343173+hsa:343406+hsa:343563+hsa:346517+hsa:346525+hsa:346528+hsa:347168+hsa:347169+hsa:347468+hsa:387748+hsa:389090+hsa:390036+hsa:390037+hsa:390038+hsa:390054+hsa:390058+hsa:390059+hsa:390061+hsa:390063+hsa:390064+hsa:390066+hsa:390067+hsa:390072+hsa:390075+hsa:390077+hsa:390078+hsa:390079+hsa:390081+hsa:390083+hsa:390084+hsa:390093+hsa:390113+hsa:390142+hsa:390144+hsa:390148+hsa:390151+hsa:390152+hsa:390154+hsa:390155+hsa:390157+hsa:390162+hsa:390167+hsa:390168+hsa:390174+hsa:390181+hsa:390190+hsa:390191+hsa:390195+hsa:390197+hsa:390199+hsa:390201+hsa:390260+hsa:390261+hsa:390264+hsa:390265+hsa:390271+hsa:390275+hsa:390321+hsa:390323+hsa:390326+hsa:390327+hsa:390429+hsa:390431+hsa:390433+hsa:390436+hsa:390437+hsa:390439+hsa:390442+hsa:390445+hsa:390538+hsa:390648+hsa:390649+hsa:390882+hsa:390883+hsa:390892+hsa:391107+hsa:391109+hsa:391112+hsa:391114+hsa:391189+hsa:391190+hsa:391191+hsa:391192+hsa:391194+hsa:391195+hsa:391196+hsa:391211+hsa:392138+hsa:392309+hsa:392376+hsa:392390+hsa:392391+hsa:392392+hsa:393046+hsa:401427+hsa:401665+hsa:401666+hsa:401667+hsa:401992+hsa:401993+hsa:401994+hsa:402135+hsa:402317+hsa:403239+hsa:403253+hsa:403257+hsa:403273+hsa:403277+hsa:403278+hsa:403282+hsa:403284+hsa:440153+hsa:441308+hsa:441608+hsa:441639+hsa:441669+hsa:441670+hsa:441911+hsa:441933+hsa:442184+hsa:442186+hsa:442191+hsa:442194+hsa:442361+hsa:4991+hsa:4992+hsa:4993+hsa:4994+hsa:4995+hsa:504189+hsa:504190+hsa:504191+hsa:56656+hsa:729759+hsa:79290+hsa:79295+hsa:79310+hsa:79317+hsa:7932+hsa:79324+hsa:79339+hsa:79345+hsa:79473+hsa:79501+hsa:79541+hsa:79544+hsa:81050+hsa:81061+hsa:81099+hsa:81127+hsa:81168+hsa:81282+hsa:81285+hsa:81300+hsa:81309+hsa:81318+hsa:81327+hsa:81328+hsa:81341+hsa:81392+hsa:81399+hsa:81442+hsa:81448+hsa:81466+hsa:81469+hsa:81470+hsa:81472+hsa:81696+hsa:81697+hsa:81797+hsa:8383+hsa:8386+hsa:8387+hsa:8388+hsa:8390+hsa:8392+hsa:8590" name="hsa:102723532 hsa:10798 hsa:119678 hsa:119679 hsa:119682 hsa:119687 hsa:119692 hsa:119694 hsa:119695 hsa:119749 hsa:119764 hsa:119765 hsa:119772 hsa:119774 hsa:120065 hsa:120066 hsa:120586 hsa:120775 hsa:120776 hsa:120787 hsa:120793 hsa:120796 hsa:121129 hsa:121130 hsa:121275 hsa:121364 hsa:122740 hsa:122742 hsa:122748 hsa:124538 hsa:125958 hsa:125962 hsa:125963 hsa:126370 hsa:126541 hsa:127059 hsa:127062 hsa:127064 hsa:127066 hsa:127068 hsa:127069 hsa:127074 hsa:127077 hsa:127385 hsa:127623 hsa:128360 hsa:128366 hsa:128367 hsa:128368 hsa:128371 hsa:128372 hsa:130075 hsa:134083 hsa:135924 hsa:135941 hsa:135946 hsa:135948 hsa:138799 hsa:138802 hsa:138803 hsa:138804 hsa:138805 hsa:138881 hsa:138882 hsa:138883 hsa:143496 hsa:143502 hsa:143503 hsa:144124 hsa:144125 hsa:150681 hsa:158131 hsa:162998 hsa:196335 hsa:219417 hsa:219428 hsa:219429 hsa:219431 hsa:219432 hsa:219436 hsa:219437 hsa:219438 hsa:219447 hsa:219453 hsa:219464 hsa:219469 hsa:219473 hsa:219477 hsa:219479 hsa:219482 hsa:219484 hsa:219487 hsa:219493 hsa:219858 hsa:219865 hsa:219869 hsa:219870 hsa:219873 hsa:219874 hsa:219875 hsa:219952 hsa:219954 hsa:219956 hsa:219957 hsa:219958 hsa:219959 hsa:219960 hsa:219965 hsa:219968 hsa:219981 hsa:219982 hsa:219983 hsa:219986 hsa:23538 hsa:254783 hsa:254786 hsa:254879 hsa:254973 hsa:255725 hsa:256144 hsa:256148 hsa:256892 hsa:26188 hsa:26189 hsa:26211 hsa:26212 hsa:26219 hsa:26245 hsa:26246 hsa:26248 hsa:26333 hsa:26338 hsa:26339 hsa:26341 hsa:26476 hsa:26492 hsa:26493 hsa:26494 hsa:26496 hsa:26529 hsa:26531 hsa:26532 hsa:26533 hsa:26534 hsa:26538 hsa:26539 hsa:26595 hsa:26648 hsa:26658 hsa:26659 hsa:26664 hsa:26682 hsa:26683 hsa:26686 hsa:26689 hsa:26692 hsa:26693 hsa:26696 hsa:26707 hsa:26716 hsa:26735 hsa:26737 hsa:26740 hsa:282763 hsa:282770 hsa:282775 hsa:283092 hsa:283093 hsa:283111 hsa:283159 hsa:283160 hsa:283162 hsa:283189 hsa:283297 hsa:283365 hsa:283694 hsa:284383 hsa:284433 hsa:284521 hsa:284532 hsa:285659 hsa:286362 hsa:286365 hsa:338662 hsa:338674 hsa:338675 hsa:338751 hsa:338755 hsa:340980 hsa:341152 hsa:341276 hsa:341416 hsa:341418 hsa:341568 hsa:341799 hsa:343169 hsa:343171 hsa:343172 hsa:343173 hsa:343406 hsa:343563 hsa:346517 hsa:346525 hsa:346528 hsa:347168 hsa:347169 hsa:347468 hsa:387748 hsa:389090 hsa:390036 hsa:390037 hsa:390038 hsa:390054 hsa:390058 hsa:390059 hsa:390061 hsa:390063 hsa:390064 hsa:390066 hsa:390067 hsa:390072 hsa:390075 hsa:390077 hsa:390078 hsa:390079 hsa:390081 hsa:390083 hsa:390084 hsa:390093 hsa:390113 hsa:390142 hsa:390144 hsa:390148 hsa:390151 hsa:390152 hsa:390154 hsa:390155 hsa:390157 hsa:390162 hsa:390167 hsa:390168 hsa:390174 hsa:390181 hsa:390190 hsa:390191 hsa:390195 hsa:390197 hsa:390199 hsa:390201 hsa:390260 hsa:390261 hsa:390264 hsa:390265 hsa:390271 hsa:390275 hsa:390321 hsa:390323 hsa:390326 hsa:390327 hsa:390429 hsa:390431 hsa:390433 hsa:390436 hsa:390437 hsa:390439 hsa:390442 hsa:390445 hsa:390538 hsa:390648 hsa:390649 hsa:390882 hsa:390883 hsa:390892 hsa:391107 hsa:391109 hsa:391112 hsa:391114 hsa:391189 hsa:391190 hsa:391191 hsa:391192 hsa:391194 hsa:391195 hsa:391196 hsa:391211 hsa:392138 hsa:392309 hsa:392376 hsa:392390 hsa:392391 hsa:392392 hsa:393046 hsa:401427 hsa:401665 hsa:401666 hsa:401667 hsa:401992 hsa:401993 hsa:401994 hsa:402135 hsa:402317 hsa:403239 hsa:403253 hsa:403257 hsa:403273 hsa:403277 hsa:403278 hsa:403282 hsa:403284 hsa:440153 hsa:441308 hsa:441608 hsa:441639 hsa:441669 hsa:441670 hsa:441911 hsa:441933 hsa:442184 hsa:442186 hsa:442191 hsa:442194 hsa:442361 hsa:4991 hsa:4992 hsa:4993 hsa:4994 hsa:4995 hsa:504189 hsa:504190 hsa:504191 hsa:56656 hsa:729759 hsa:79290 hsa:79295 hsa:79310 hsa:79317 hsa:7932 hsa:79324 hsa:79339 hsa:79345 hsa:79473 hsa:79501 hsa:79541 hsa:79544 hsa:81050 hsa:81061 hsa:81099 hsa:81127 hsa:81168 hsa:81282 hsa:81285 hsa:81300 hsa:81309 hsa:81318 hsa:81327 hsa:81328 hsa:81341 hsa:81392 hsa:81399 hsa:81442 hsa:81448 hsa:81466 hsa:81469 hsa:81470 hsa:81472 hsa:81696 hsa:81697 hsa:81797 hsa:8383 hsa:8386 hsa:8387 hsa:8388 hsa:8390 hsa:8392 hsa:8590" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="LOC102723532 OR5I1 OR52E2 OR52J3 OR51L1 OR51A7 OR51S1 OR51F2 OR52R1 OR4C46 OR4X2 OR4B1 OR52M1 OR52K2 OR5P2 OR5P3 OR8I2 OR2D3 OR2D2 OR52W1 OR56A4 OR56A1 OR2AP1 OR10P1 OR10AD1 OR10A7 OR4K14 OR4L1 OR11H6 OR4D2 OR7D4 OR7G1 OR1M1 OR1I1 OR10H4 OR2M5 OR2M3 OR2T12 OR14C36 OR2T34 OR2T10 OR2T4 OR2T11 OR10J5 OR2B11 OR10T2 OR6P1 OR10X1 OR10Z1 OR6K6 OR6N1 OR9A4 OR2Y1 OR9A2 OR2A14 OR6B1 OR2F2 OR13C5 OR13C8 OR13C3 OR13C4 OR13F1 OR1L8 OR1N2 OR1N1 OR52B4 OR52I2 OR51E1 OR10A5 OR2AG1 OR6B3 OR1Q1 OR7D2 OR56B4 OR8U1 OR4C16 OR4C11 OR4S2 OR4C6 OR5D14 OR5L1 OR5D18 OR5AS1 OR8K5 OR5T2 OR8H1 OR8K3 OR8J1 OR5R1 OR5M3 OR5M8 OR5M11 OR5AR1 OR8B12 OR8G5 OR10G8 OR10G9 OR10S1 OR6T1 OR4D5 OR6Q1 OR9I1 OR9Q1 OR9Q2 OR1S2 OR1S1 OR10Q1 OR5B17 OR5B21 OR5A2 OR5A1 OR4D6 OR4D11 OR52A1 OR6C74 OR6C3 OR2T6 OR1L4 OR52B2 OR4C3 OR4S1 OR51F1 OR1C1 OR1A2 OR2F1 OR2B6 OR1J4 OR2M4 OR2L2 OR2K2 OR7A17 OR5L2 OR5K1 OR5H1 OR10J1 OR8G2P OR8B8 OR8G1 OR10A3 OR12D2 OR11A1 OR10H3 OR10G3 OR10G2 OR10H2 OR10H1 OR8B2 OR7E24 OR7C2 OR7A5 OR7C1 OR4F4 OR4F3 OR4E2 OR4D1 OR2W1 OR2V1 OR2T1 OR2J2 OR2H1 OR1L3 OR1L1 OR1J2 OR51B5 OR10AG1 OR5J2 OR4C13 OR4C12 OR51V1 OR8D1 OR8D2 OR8B4 OR9G4 OR10A4 OR6C6 OR4N4 OR2Z1 OR10H5 OR2L13 OR14A16 OR2V2 OR13C9 OR13D1 OR8D4 OR5F1 OR5AP2 OR52L1 OR2AG2 OR52B6 OR2AT4 OR10A2 OR6C2 OR6C4 OR8S1 OR6S1 OR6F1 OR2W3 OR2T8 OR2T3 OR10R2 OR2T29 OR6V1 OR2A12 OR2A1 OR1J1 OR1B1 OR13H1 OR56B1 OR6B2 OR52K1 OR52I1 OR51D1 OR52A5 OR51B6 OR51M1 OR51Q1 OR51I1 OR51I2 OR52D1 OR52H1 OR52N4 OR52N5 OR52N2 OR52E6 OR52E8 OR52E4 OR56A3 OR56A5 OR10A6 OR4X1 OR5D13 OR5D16 OR5W2 OR8H2 OR8H3 OR5T3 OR5T1 OR8K1 OR5M9 OR5M10 OR5M1 OR9G1 OR5AK2 OR5B2 OR5B12 OR5AN1 OR4D10 OR4D9 OR10V1 OR6X1 OR6M1 OR10G4 OR10G7 OR8B3 OR8A1 OR6C1 OR6C75 OR6C76 OR6C70 OR4N2 OR4K2 OR4K13 OR4K17 OR4N5 OR11G2 OR11H4 OR5AU1 OR4M2 OR4F6 OR4F15 OR7G2 OR7G3 OR7A10 OR10K2 OR10K1 OR6Y1 OR6K3 OR11L1 OR2L8 OR2AK2 OR2L3 OR2M2 OR2T33 OR2M7 OR2G6 OR2A25 OR13J1 OR13C2 OR1L6 OR5C1 OR1K1 OR2A5 OR2A7 OR51T1 OR51A4 OR51A2 OR2T2 OR2T5 OR14I1 OR5K2 OR2A42 OR2T27 OR4A47 OR4C45 OR5H14 OR5K3 OR5K4 OR6C65 OR6C68 OR11H12 OR4F21 OR5B3 OR9K2 OR4Q3 OR4M1 OR10J3 OR13G1 OR2B3 OR2J3 OR14J1 OR10C1 OR2A2 OR1D2 OR1F1 OR2C1 OR3A1 OR3A2 OR8U8 OR8U9 OR9G9 OR2S2 OR4F29 OR13A1 OR5H6 OR5H2 OR4K5 OR2H2 OR51G1 OR51B4 OR51B2 OR52N1 OR4F5 OR2A4 OR4K1 OR5AC2 OR11H1 OR4F17 OR4K15 OR8J3 OR51G2 OR51E2 OR4P4 OR4C15 OR4A5 OR4A16 OR4A15 OR10W1 OR2AE1 OR4F16 OR6N2 OR6K2 OR2L5 OR2G3 OR2G2 OR2C3 OR5V1 OR2B2 OR12D3 OR1A1 OR1D5 OR1E1 OR1E2 OR1G1 OR3A3 OR6A2" type="rectangle" width="46" x="226" y="498" />
+    </entry>
+    <entry id="25" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:408+hsa:409" name="hsa:408 hsa:409" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="ARRB1 ARRB2" type="rectangle" width="46" x="312" y="481" />
+    </entry>
+    <entry id="26" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:156+hsa:157" name="hsa:156 hsa:157" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="GRK2 GRK3" type="rectangle" width="46" x="272" y="461" />
+    </entry>
+    <entry id="28" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:123041+hsa:6543+hsa:6546+hsa:6547" name="hsa:123041 hsa:6543 hsa:6546 hsa:6547" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SLC24A4 SLC8A2 SLC8A1 SLC8A3" type="rectangle" width="46" x="801" y="610" />
+    </entry>
+    <entry id="32" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3000" name="hsa:3000" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="GUCY2D, CORD5, CORD6, CYGD, GUC1A4, GUC2D, LCA, LCA1, RCD2, RETGC-1, ROS-GC1, ROSGC, retGC" type="rectangle" width="46" x="226" y="677" />
+    </entry>
+    <entry id="33" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1261" name="hsa:1261" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="CNGA3, ACHM2, CCNC1, CCNCa, CCNCalpha, CNCG3, CNG3" type="rectangle" width="46" x="801" y="677" />
+    </entry>
+    <entry id="37" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1258+hsa:1260+hsa:1262" name="hsa:1258 hsa:1260 hsa:1262" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="CNGB1 CNGA2 CNGA4" type="rectangle" width="46" x="801" y="558" />
+    </entry>
+    <entry id="39" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5592+hsa:5593" name="hsa:5592 hsa:5593" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="PRKG1 PRKG2" type="rectangle" width="46" x="400" y="633" />
+    </entry>
+    <entry id="42" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5138" name="hsa:5138" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="PDE2A, CGS-PDE, PDE2A1, PED2A4, cGSPDE" type="rectangle" width="46" x="495" y="695" />
+    </entry>
+    <entry id="44" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:83988" name="hsa:83988" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="NCALD" type="rectangle" width="43" x="510" y="357" />
+    </entry>
+    <entry id="46" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04024" name="path:hsa04024" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="cAMP signaling pathway" type="roundrectangle" width="133" x="513" y="225" />
+    </entry>
+    <entry id="47" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00230" name="path:hsa00230" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Purine metabolism" type="roundrectangle" width="102" x="330" y="708" />
+    </entry>
+    <entry id="48" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5997" name="hsa:5997" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="RGS2, G0S8" type="rectangle" width="46" x="723" y="470" />
+    </entry>
+    <relation entry1="8" entry2="6" type="PPrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="6" entry2="7" type="PPrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="7" entry2="2" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="2" entry2="9" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="3" entry2="10" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="12" entry2="11" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="11" entry2="16" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="11" entry2="13" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="44" entry2="12" type="PPrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="24" entry2="19" type="PPrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="19" entry2="23" type="PPrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="23" entry2="17" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="17" entry2="22" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="17" entry2="37" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="32" entry2="31" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="31" entry2="39" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="31" entry2="33" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="26" entry2="24" type="PPrel">
+        <subtype name="inhibition" value="--|" />
+        <subtype name="phosphorylation" value="+p" />
+    </relation>
+    <relation entry1="25" entry2="24" type="PPrel">
+        <subtype name="inhibition" value="--|" />
+        <subtype name="phosphorylation" value="+p" />
+    </relation>
+    <relation entry1="22" entry2="24" type="PPrel">
+        <subtype name="inhibition" value="--|" />
+        <subtype name="phosphorylation" value="+p" />
+    </relation>
+    <relation entry1="18" entry2="23" type="PPrel">
+        <subtype name="inhibition" value="--|" />
+        <subtype name="phosphorylation" value="+p" />
+    </relation>
+    <relation entry1="48" entry2="23" type="PPrel">
+        <subtype name="inhibition" value="--|" />
+    </relation>
+    <relation entry1="20" entry2="37" type="PPrel">
+        <subtype name="inhibition" value="--|" />
+    </relation>
+    <relation entry1="20" entry2="18" type="PPrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="20" entry2="21" type="PPrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="31" entry2="42" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+    </relation>
+    <relation entry1="45" entry2="44" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+        <subtype name="binding/association" value="---" />
+    </relation>
+    <relation entry1="40" entry2="20" type="PCrel">
+        <subtype name="activation" value="--&gt;" />
+        <subtype name="binding/association" value="---" />
+    </relation>
+</pathway>

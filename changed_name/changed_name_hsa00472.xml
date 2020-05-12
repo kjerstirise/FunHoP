@@ -1,0 +1,52 @@
+<pathway image="http://www.kegg.jp/kegg/pathway/hsa/hsa00472.png" link="http://www.kegg.jp/kegg-bin/show_pathway?hsa00472" name="path:hsa00472" number="00472" org="hsa" title="D-Arginine and D-ornithine metabolism">
+    <entry id="11" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00472" name="path:hsa00472" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="TITLE:D-Arginine and D-ornithine metabolism" type="roundrectangle" width="331" x="206" y="58" />
+    </entry>
+    <entry id="14" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1610" name="hsa:1610" reaction="rn:R02457" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="DAO, DAAO, DAMOX, OXDA" type="rectangle" width="46" x="242" y="308" />
+    </entry>
+    <entry id="19" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00220" name="path:hsa00220" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="Arginine biosynthesis" type="roundrectangle" width="187" x="388" y="147" />
+    </entry>
+    <entry id="20" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1610" name="hsa:1610" reaction="rn:R02923" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="DAO, DAAO, DAMOX, OXDA" type="rectangle" width="46" x="391" y="337" />
+    </entry>
+    <entry id="24" link="http://www.kegg.jp/dbget-bin/www_bget?C03564" name="cpd:C03564" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C03564" type="circle" width="8" x="62" y="307" />
+    </entry>
+    <entry id="25" link="http://www.kegg.jp/dbget-bin/www_bget?C01110" name="cpd:C01110" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C01110" type="circle" width="8" x="170" y="307" />
+    </entry>
+    <entry id="26" link="http://www.kegg.jp/dbget-bin/www_bget?C03341" name="cpd:C03341" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C03341" type="circle" width="8" x="222" y="140" />
+    </entry>
+    <entry id="27" link="http://www.kegg.jp/dbget-bin/www_bget?C03943" name="cpd:C03943" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C03943" type="circle" width="8" x="222" y="210" />
+    </entry>
+    <entry id="28" link="http://www.kegg.jp/dbget-bin/www_bget?C03771" name="cpd:C03771" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C03771" type="circle" width="8" x="311" y="390" />
+    </entry>
+    <entry id="29" link="http://www.kegg.jp/dbget-bin/www_bget?C00077" name="cpd:C00077" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00077" type="circle" width="8" x="311" y="210" />
+    </entry>
+    <entry id="30" link="http://www.kegg.jp/dbget-bin/www_bget?C00515" name="cpd:C00515" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00515" type="circle" width="8" x="311" y="307" />
+    </entry>
+    <entry id="31" link="http://www.kegg.jp/dbget-bin/www_bget?C01667" name="cpd:C01667" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C01667" type="circle" width="8" x="401" y="210" />
+    </entry>
+    <entry id="32" link="http://www.kegg.jp/dbget-bin/www_bget?C00062" name="cpd:C00062" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00062" type="circle" width="8" x="460" y="210" />
+    </entry>
+    <entry id="33" link="http://www.kegg.jp/dbget-bin/www_bget?C00792" name="cpd:C00792" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00792" type="circle" width="8" x="460" y="307" />
+    </entry>
+    <reaction id="14" name="rn:R02457" type="irreversible">
+        <substrate id="30" name="cpd:C00515" />
+        <product id="25" name="cpd:C01110" />
+    </reaction>
+    <reaction id="20" name="rn:R02923" type="irreversible">
+        <substrate id="33" name="cpd:C00792" />
+        <product id="28" name="cpd:C03771" />
+    </reaction>
+</pathway>

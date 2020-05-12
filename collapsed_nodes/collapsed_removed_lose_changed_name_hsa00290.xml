@@ -1,0 +1,78 @@
+<pathway image="http://www.kegg.jp/kegg/pathway/hsa/hsa00290.png" link="http://www.kegg.jp/kegg-bin/show_pathway?hsa00290" name="path:hsa00290" number="00290" org="hsa" title="Valine, leucine and isoleucine biosynthesis">
+    <entry id="23" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10993+hsa:113675" name="hsa:10993 hsa:113675" reaction="rn:R00996" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SDS-B2" type="rectangle" width="46" x="129" y="240" />
+    </entry>
+    <entry id="24" link="http://www.kegg.jp/dbget-bin/www_bget?C00188" name="cpd:C00188" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00188" type="circle" width="8" x="93" y="240" />
+    </entry>
+    <entry id="29" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00290" name="path:hsa00290" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="TITLE:Valine, leucine and isoleucine biosynthesis" type="roundrectangle" width="383" x="232" y="58" />
+    </entry>
+    <entry id="30" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00260" name="path:hsa00260" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="34" name="Glycine, serine and threonine metabolism" type="roundrectangle" width="119" x="94" y="140" />
+    </entry>
+    <entry id="31" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:586+hsa:587" name="hsa:586 hsa:587" reaction="rn:R02199" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="BCAT1-B2" type="rectangle" width="46" x="154" y="565" />
+    </entry>
+    <entry id="33" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:586+hsa:587" name="hsa:586 hsa:587" reaction="rn:R01090" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="BCAT1-B2" type="rectangle" width="46" x="676" y="704" />
+    </entry>
+    <entry id="40" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:586+hsa:587" name="hsa:586 hsa:587" reaction="rn:R01214" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="BCAT1-B2" type="rectangle" width="46" x="296" y="565" />
+    </entry>
+    <entry id="48" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00280" name="path:hsa00280" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="34" name="Valine, leucine and isoleucine degradation" type="roundrectangle" width="127" x="325" y="741" />
+    </entry>
+    <entry id="49" link="http://www.kegg.jp/dbget-bin/www_bget?hsa00620" name="path:hsa00620" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="34" name="Pyruvate metabolism" type="roundrectangle" width="74" x="475" y="392" />
+    </entry>
+    <entry id="55" link="http://www.kegg.jp/dbget-bin/www_bget?C00109" name="cpd:C00109" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00109" type="circle" width="8" x="179" y="240" />
+    </entry>
+    <entry id="59" link="http://www.kegg.jp/dbget-bin/www_bget?C00671" name="cpd:C00671" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00671" type="circle" width="8" x="179" y="529" />
+    </entry>
+    <entry id="60" link="http://www.kegg.jp/dbget-bin/www_bget?C00407" name="cpd:C00407" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00407" type="circle" width="8" x="179" y="599" />
+    </entry>
+    <entry id="61" link="http://www.kegg.jp/dbget-bin/www_bget?C00183" name="cpd:C00183" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00183" type="circle" width="8" x="321" y="599" />
+    </entry>
+    <entry id="62" link="http://www.kegg.jp/dbget-bin/www_bget?C00141" name="cpd:C00141" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00141" type="circle" width="8" x="321" y="529" />
+    </entry>
+    <entry id="70" link="http://www.kegg.jp/dbget-bin/www_bget?C00233" name="cpd:C00233" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00233" type="circle" width="8" x="701" y="650" />
+    </entry>
+    <entry id="71" link="http://www.kegg.jp/dbget-bin/www_bget?C00123" name="cpd:C00123" type="compound">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="8" name="C00123" type="circle" width="8" x="701" y="741" />
+    </entry>
+    <relation entry1="23" entry2="30" type="maplink">
+        <subtype name="compound" value="24" />
+    </relation>
+    <relation entry1="31" entry2="48" type="maplink">
+        <subtype name="compound" value="60" />
+    </relation>
+    <relation entry1="40" entry2="48" type="maplink">
+        <subtype name="compound" value="61" />
+    </relation>
+    <relation entry1="33" entry2="48" type="maplink">
+        <subtype name="compound" value="71" />
+    </relation>
+    <reaction id="23" name="rn:R00996" type="irreversible">
+        <substrate id="24" name="cpd:C00188" />
+        <product id="55" name="cpd:C00109" />
+    </reaction>
+    <reaction id="31" name="rn:R02199" type="irreversible">
+        <substrate id="59" name="cpd:C00671" />
+        <product id="60" name="cpd:C00407" />
+    </reaction>
+    <reaction id="33" name="rn:R01090" type="reversible">
+        <substrate id="71" name="cpd:C00123" />
+        <product id="70" name="cpd:C00233" />
+    </reaction>
+    <reaction id="40" name="rn:R01214" type="irreversible">
+        <substrate id="62" name="cpd:C00141" />
+        <product id="61" name="cpd:C00183" />
+    </reaction>
+</pathway>

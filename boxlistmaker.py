@@ -55,12 +55,15 @@ def find_duplicates(pathway_path):
 	#testfil = os.path.join(mappesti, innfil)
 
 	#boxlistmaker(testfil, aleneliste, duplikatliste)
-	
+	print("aleneliste")
 	for ting in aleneliste:
 		print(ting)
 	
+	print(" ")
+	print("duplikatliste")
 	for ting in duplikatliste:
 		print(ting)
 
 if __name__ == '__main__':
 	find_cuplicates(pathway_path)
+

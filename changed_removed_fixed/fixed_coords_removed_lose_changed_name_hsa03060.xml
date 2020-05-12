@@ -1,0 +1,71 @@
+<pathway image="http://www.kegg.jp/kegg/pathway/hsa/hsa03060.png" link="http://www.kegg.jp/kegg-bin/show_pathway?hsa03060" name="path:hsa03060" number="03060" org="hsa" title="Protein export">
+    <entry id="3" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5018" name="hsa:5018" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="OXA1L, OXA1" type="rectangle" width="46" x="105" y="230" />
+    </entry>
+    <entry id="15" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6727" name="hsa:6727" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRP14, ALURBP" type="rectangle" width="46" x="297" y="308" />
+    </entry>
+    <entry id="16" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6731" name="hsa:6731" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRP72, BMFF, BMFS1, HEL103" type="rectangle" width="46" x="346" y="291" />
+    </entry>
+    <entry id="17" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6730" name="hsa:6730" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRP68" type="rectangle" width="46" x="346" y="308" />
+    </entry>
+    <entry id="18" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6729" name="hsa:6729" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRP54" type="rectangle" width="46" x="395" y="308" />
+    </entry>
+    <entry id="19" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6728" name="hsa:6728" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRP19" type="rectangle" width="46" x="395" y="291" />
+    </entry>
+    <entry id="20" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6734" name="hsa:6734" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRPR, DP, Sralpha" type="rectangle" width="46" x="297" y="339" />
+    </entry>
+    <entry id="21" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6726" name="hsa:6726" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRP9, ALURBP" type="rectangle" width="46" x="297" y="291" />
+    </entry>
+    <entry id="23" link="http://www.kegg.jp/dbget-bin/www_bget?hsa03060" name="path:hsa03060" type="map">
+        <graphics bgcolor="#FFFFFF" fgcolor="#000000" height="25" name="TITLE:Protein export" type="roundrectangle" width="136" x="108" y="58" />
+    </entry>
+    <entry id="25" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6729" name="hsa:6729" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRP54" type="rectangle" width="46" x="105" y="291" />
+    </entry>
+    <entry id="27" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7095" name="hsa:7095" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SEC62, Dtrp1, HTP1, TLOC1, TP-1" type="rectangle" width="46" x="297" y="215" />
+    </entry>
+    <entry id="28" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:11231" name="hsa:11231" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SEC63, DNAJC23, ERdj2, PRO2507, SEC63L" type="rectangle" width="46" x="343" y="215" />
+    </entry>
+    <entry id="29" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:28972" name="hsa:28972" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SPCS1, SPC1, SPC12, YJR010C-A" type="rectangle" width="46" x="295" y="547" />
+    </entry>
+    <entry id="30" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:9789" name="hsa:9789" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SPCS2" type="rectangle" width="46" x="340" y="547" />
+    </entry>
+    <entry id="31" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:29927+hsa:55176" name="hsa:29927 hsa:55176" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SEC61A1 SEC61A2" type="rectangle" width="46" x="297" y="154" />
+    </entry>
+    <entry id="32" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:60559" name="hsa:60559" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SPCS3, PRO3567, SPC22/23, SPC3, YLR066W" type="rectangle" width="46" x="386" y="547" />
+    </entry>
+    <entry id="33" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23478+hsa:90701" name="hsa:23478 hsa:90701" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SEC11A SEC11C" type="rectangle" width="46" x="432" y="547" />
+    </entry>
+    <entry id="34" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:196294" name="hsa:196294" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="IMMP1L, IMP1, IMP1-LIKE" type="rectangle" width="46" x="295" y="603" />
+    </entry>
+    <entry id="35" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:83943" name="hsa:83943" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="IMMP2L, IMMP2L-IT1, IMP2, IMP2-LIKE" type="rectangle" width="46" x="341" y="603" />
+    </entry>
+    <entry id="36" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:58477" name="hsa:58477" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SRPRB, APMCF1" type="rectangle" width="46" x="297" y="356" />
+    </entry>
+    <entry id="37" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10952" name="hsa:10952" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SEC61B" type="rectangle" width="46" x="343" y="154" />
+    </entry>
+    <entry id="38" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23480" name="hsa:23480" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="SEC61G, SSS1" type="rectangle" width="46" x="389" y="188" />
+    </entry>
+    <entry id="39" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3309" name="hsa:3309" type="gene">
+        <graphics bgcolor="#BFFFBF" fgcolor="#000000" height="17" name="HSPA5, BIP, GRP78, HEL-S-89n, MIF2" type="rectangle" width="46" x="297" y="242" />
+    </entry>
+    </pathway>
