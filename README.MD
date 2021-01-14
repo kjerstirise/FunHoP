@@ -52,4 +52,4 @@ The following will be added to FunHoP in near future:
 * A small set of test data to run locally to test FunHoP
 * The hardcoding parts of calculating counts will be moved and running this part will a more user friendly approach
 
-
+## 6. Slette dette
