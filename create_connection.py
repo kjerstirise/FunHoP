@@ -60,6 +60,7 @@ def split_lines(boxfil):
 	
 	print(len(list_of_singles))	
 	print(len(list_of_duplicates))
+	print("The duplicate nodes are:")
 	for word in list_of_duplicates:
 		print(word)
 
