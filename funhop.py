@@ -55,7 +55,7 @@ def main():
 	#print(hslist)
 	#print(hsalist2)
 	
-	change_namestring.change_namestring(pathway_path = cwd,
+	change_namestring.change_namestring(pathway_path = os.path.join(cwd, 'paths'),
 										hsalist_path = os.path.join(cwd, args['hsa_file']), 
 										outfile_path = changed_name)
 
