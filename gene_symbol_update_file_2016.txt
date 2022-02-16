@@ -1,0 +1,2504 @@
+A2BP1	Synonyms	RBFOX1
+A2LD1	Previous symbol	GGACT
+AAA1	Synonyms	NPSR1-AS1
+AACSL	Previous symbol	AACSP1
+ABP1	Previous symbol	AOC1
+ACAT2	Synonyms	SOAT2
+ACCN1	Previous symbol	ASIC2
+ACCN2	Previous symbol	ASIC1
+ACCN3	Previous symbol	ASIC3
+ACCN4	Previous symbol	ASIC4
+ACCN5	Previous symbol	ASIC5
+ACN9	Previous symbol	SDHAF3
+ACPL2	Previous symbol	PXYLP1
+ADAM23	Synonyms	ADAM28
+ADAM5P	Previous symbol	ADAM5
+ADC	Previous symbol	AZIN2
+ADCY3	Previous symbol	ADCY8
+ADRA1A	Synonyms	ADRA1D
+AFARP1	Synonyms	AKR7A2P1
+AFG3L1	Previous symbol	AFG3L1P
+AG2	Synonyms	AGR2
+AG2	Synonyms	C11orf96
+AGAP7	Previous symbol	AGAP7P
+AGAP8	Previous symbol	AGAP4
+AGPAT6	Previous symbol	GPAT4
+AGPAT9	Synonyms	LPCAT1
+AGPAT9	Previous symbol	GPAT3
+AGPHD1	Previous symbol	HYKK
+AGT	Synonyms	AGXT
+AGXT2L1	Previous symbol	ETNPPL
+AGXT2L2	Previous symbol	PHYKPL
+AIP	Synonyms	AURKAIP1
+AK3	Previous symbol	AK4
+AK3L1	Previous symbol	AK4
+AK3L1	Previous symbol	AK3
+AK6	Previous symbol	AK3
+AKD1	Previous symbol	AK9
+AKR1CL1	Previous symbol	AKR1C8P
+ALB	Synonyms	FBF1
+ALMS1P	Previous symbol	ALMS1P1
+ALS2CR4	Previous symbol	TMEM237
+ALS2CR8	Previous symbol	CARF
+AMAC1	Previous symbol	SLC35G3
+AMAC1L2	Previous symbol	SLC35G5
+AMAC1L3	Previous symbol	SLC35G6
+AMICA1	Previous symbol	JAML
+AMN	Synonyms	ABCD1
+ANKRD19	Previous symbol	ANKRD19P
+ANKRD20B	Previous symbol	ANKRD20A8P
+ANKRD30BP3	Previous symbol	ANKRD30BL
+ANKRD32	Previous symbol	SLF1
+ANKRD43	Previous symbol	SOWAHA
+ANKRD5	Previous symbol	ANKEF1
+ANKRD56	Previous symbol	SOWAHB
+ANKRD57	Previous symbol	SOWAHC
+ANKRD58	Previous symbol	SOWAHD
+ANUBL1	Previous symbol	ZFAND4
+ANXA8L2	Previous symbol	ANXA8L1
+APC2	Synonyms	ANAPC2
+APC2	Synonyms	SLC25A23
+APOB48R	Synonyms	APOBR
+APPL2	Previous symbol	APLP2
+AQP9	Synonyms	AQP7
+AQPEP	Synonyms	LVRN
+AR	Synonyms	AKR1B1
+ARC	Synonyms	NOL3
+ARFGAP1	Previous symbol	ARFGAP3
+ARG1	Synonyms	TINAGL1
+ARHGAP10	Synonyms	ARHGAP21
+ARL1	Synonyms	AKR1B10
+ARPM1	Synonyms	ACTRT3
+ARX	Synonyms	UBA2
+ASAM	Synonyms	CLMP
+ASFMR1	Synonyms	FMR1-AS1
+ASIP	Synonyms	PARD3
+ATF1	Synonyms	GDNF
+ATF2	Synonyms	GDNF
+ATP1A1OS	Previous symbol	ATP1A1-AS1
+ATP2B2	Previous symbol	ATP2B4
+ATPBD4	Previous symbol	DPH6
+ATPBD4-AS1	Previous symbol	DPH6-AS1
+ATR	Synonyms	SERPINA2
+ATR	Synonyms	ANTXR1
+AVP	Synonyms	NLRP3
+AZI1	Previous symbol	CEP131
+B3GALTL	Previous symbol	B3GLCT
+B3GNT1	Previous symbol	B4GAT1
+B3GNT1	Previous symbol	B3GNT2
+B3GNT6	Previous symbol	B4GAT1
+B3GNT8	Synonyms	B3GNTL1
+BACH1	Synonyms	BRIP1
+BAI1	Previous symbol	ADGRB1
+BAI2	Previous symbol	ADGRB2
+BAI3	Previous symbol	ADGRB3
+BAP1	Synonyms	RNF2
+BAP1	Synonyms	MAGI1
+BASE	Synonyms	BPIFA4P
+BAT1	Previous symbol	DDX39B
+BAT2	Previous symbol	PRRC2A
+BAT2L1	Previous symbol	PRRC2B
+BAT2L2	Previous symbol	PRRC2C
+BAT3	Previous symbol	BAG6
+BAT4	Previous symbol	GPANK1
+BAT5	Previous symbol	ABHD16A
+BCAM	Synonyms	BCAT2
+BCL8	Previous symbol	NBEAP1
+BCMO1	Previous symbol	BCO1
+BCORL2	Previous symbol	BCORP1
+BCRP2	Synonyms	DCAF5
+BDNFOS	Previous symbol	BDNF-AS
+BDP1	Synonyms	PTPN18
+BET3L	Previous symbol	TRAPPC3L
+BEYLA	Synonyms	LINC00293
+BNC1	Synonyms	ASIC2
+BOD1L	Previous symbol	BOD1L1
+BPIL1	Previous symbol	BPIFB2
+BPIL2	Previous symbol	BPIFC
+BPIL3	Previous symbol	BPIFB6
+BRAP	Synonyms	C6orf89
+BRCC3	Synonyms	DEPDC1B
+BRF1	Previous symbol	ZFP36L1
+BRF2	Previous symbol	ZFP36L2
+BRI3	Synonyms	ITM2C
+BRIP1	Synonyms	MRPL36
+BRMS1	Previous symbol	BRMS1L
+BRP44	Previous symbol	MPC2
+BRP44L	Previous symbol	MPC1
+BRWD1-IT2	Previous symbol	BRWD1-AS2
+BTBD12	Previous symbol	SLX4
+BTF3	Synonyms	BTN3A3
+BTF3L1	Previous symbol	BTF3P11
+BTN2A3	Previous symbol	BTN2A3P
+C10orf108	Previous symbol	PRR26
+C10orf110	Previous symbol	IDI2-AS1
+C10orf114	Previous symbol	CASC10
+C10orf116	Previous symbol	ADIRF
+C10orf118	Previous symbol	CCDC186
+C10orf119	Previous symbol	MCMBP
+C10orf122	Previous symbol	TEX36
+C10orf125	Previous symbol	FUOM
+C10orf129	Previous symbol	ACSM6
+C10orf137	Previous symbol	EDRF1
+C10orf140	Previous symbol	SKIDA1
+C10orf18	Previous symbol	FAM208B
+C10orf26	Previous symbol	WBP1L
+C10orf27	Previous symbol	TBATA
+C10orf28	Previous symbol	R3HCC1L
+C10orf32	Previous symbol	BORCS7
+C10orf4	Previous symbol	FRA10AC1
+C10orf40	Previous symbol	LINC01553
+C10orf41	Previous symbol	ZNF503-AS2
+C10orf46	Previous symbol	CACUL1
+C10orf47	Previous symbol	PROSER2
+C10orf50	Previous symbol	LINC00264
+C10orf57	Previous symbol	TMEM254
+C10orf58	Previous symbol	FAM213A
+C10orf68	Previous symbol	CCDC7
+C10orf72	Previous symbol	VSTM4
+C10orf75	Previous symbol	OLMALINC
+C10orf78	Previous symbol	SFR1
+C10orf79	Previous symbol	CFAP43
+C10orf81	Previous symbol	PLEKHS1
+C10orf84	Previous symbol	FAM204A
+C10orf93	Previous symbol	CFAP46
+C10orf96	Previous symbol	CCDC172
+C11orf10	Previous symbol	TMEM258
+C11orf17	Previous symbol	AKIP1
+C11orf2	Previous symbol	VPS51
+C11orf2	Synonyms	IFT46
+C11orf20	Previous symbol	TEX40
+C11orf30	Previous symbol	EMSY
+C11orf34	Previous symbol	PLET1
+C11orf35	Previous symbol	LMNTD2
+C11orf36	Previous symbol	MRGPRG-AS1
+C11orf41	Previous symbol	KIAA1549L
+C11orf46	Previous symbol	ARL14EP
+C11orf48	Previous symbol	C11orf98
+C11orf48	Previous symbol	LBHD1
+C11orf51	Previous symbol	ANAPC15
+C11orf59	Previous symbol	LAMTOR1
+C11orf61	Previous symbol	MSANTD2
+C11orf64	Previous symbol	LINC00301
+C11orf66	Previous symbol	PPP1R32
+C11orf67	Previous symbol	AAMDC
+C11orf75	Previous symbol	SMCO4
+C11orf82	Previous symbol	DDIAS
+C11orf83	Previous symbol	UQCC3
+C11orf9	Previous symbol	MYRF
+C11orf90	Previous symbol	VSTM5
+C11orf92	Previous symbol	COLCA1
+C11orf93	Previous symbol	COLCA2
+C12orf11	Previous symbol	ASUN
+C12orf12	Previous symbol	CCER1
+C12orf23	Previous symbol	TMEM263
+C12orf24	Previous symbol	FAM216A
+C12orf26	Previous symbol	METTL25
+C12orf27	Previous symbol	HNF1A-AS1
+C12orf32	Previous symbol	RHNO1
+C12orf34	Previous symbol	FAM222A
+C12orf35	Previous symbol	KIAA1551
+C12orf36	Previous symbol	LINC01559
+C12orf39	Previous symbol	SPX
+C12orf41	Previous symbol	KANSL2
+C12orf44	Previous symbol	ATG101
+C12orf47	Previous symbol	MAPKAPK5-AS1
+C12orf48	Previous symbol	PARPBP
+C12orf5	Previous symbol	TIGAR
+C12orf51	Previous symbol	HECTD4
+C12orf52	Previous symbol	RITA1
+C12orf53	Previous symbol	PIANP
+C12orf59	Previous symbol	TMEM52B
+C12orf61	Previous symbol	LINC01465
+C12orf62	Previous symbol	COX14
+C12orf63	Previous symbol	CFAP54
+C12orf68	Previous symbol	CCDC184
+C12orf69	Previous symbol	SMCO3
+C12orf70	Previous symbol	SMCO2
+C12orf72	Previous symbol	METTL20
+C13orf1	Previous symbol	SPRYD7
+C13orf15	Previous symbol	RGCC
+C13orf16	Previous symbol	TEX29
+C13orf18	Previous symbol	KIAA0226L
+C13orf23	Previous symbol	PROSER1
+C13orf26	Previous symbol	TEX26
+C13orf27	Previous symbol	TEX30
+C13orf28	Previous symbol	SPACA7
+C13orf29	Previous symbol	LINC00346
+C13orf30	Previous symbol	FAM216B
+C13orf31	Previous symbol	LACC1
+C13orf33	Previous symbol	MEDAG
+C13orf34	Previous symbol	BORA
+C13orf35	Previous symbol	ATP11AUN
+C13orf36	Previous symbol	SERTM1
+C13orf37	Previous symbol	MZT1
+C13orf38	Previous symbol	CCDC169
+C13orf39	Previous symbol	METTL21C
+C13orf45	Previous symbol	LMO7DN
+C14orf101	Previous symbol	TMEM260
+C14orf102	Previous symbol	NRDE2
+C14orf104	Previous symbol	DNAAF2
+C14orf106	Previous symbol	MIS18BP1
+C14orf109	Previous symbol	TMEM251
+C14orf115	Previous symbol	VRTN
+C14orf118	Previous symbol	GPATCH2L
+C14orf126	Previous symbol	DTD2
+C14orf128	Previous symbol	ARHGAP5-AS1
+C14orf129	Previous symbol	GSKIP
+C14orf135	Previous symbol	PCNXL4
+C14orf138	Previous symbol	VCPKMT
+C14orf139	Previous symbol	LINC00341
+C14orf143	Previous symbol	EFCAB11
+C14orf145	Previous symbol	CEP128
+C14orf147	Previous symbol	SPTSSA
+C14orf148	Previous symbol	NOXRED1
+C14orf149	Previous symbol	L3HYPDH
+C14orf153	Previous symbol	APOPT1
+C14orf156	Previous symbol	SLIRP
+C14orf162	Previous symbol	CCDC177
+C14orf165	Previous symbol	LINC00596
+C14orf166B	Previous symbol	LRRC74A
+C14orf167	Previous symbol	DHRS4-AS1
+C14orf174	Previous symbol	SAMD15
+C14orf176	Previous symbol	TMEM253
+C14orf179	Previous symbol	IFT43
+C14orf182	Previous symbol	LINC01588
+C14orf183	Previous symbol	LINC01599
+C14orf19	Previous symbol	IGBP1P1
+C14orf21	Previous symbol	NOP9
+C14orf23	Previous symbol	LINC01551
+C14orf33	Previous symbol	KTN1-AS1
+C14orf34	Previous symbol	LINC00520
+C14orf4	Previous symbol	IRF2BPL
+C14orf43	Previous symbol	ELMSAN1
+C14orf45	Previous symbol	BBOF1
+C14orf48	Previous symbol	LINC00521
+C14orf49	Previous symbol	SYNE3
+C14orf50	Previous symbol	PPP1R36
+C14orf53	Previous symbol	LINC00238
+C14orf64	Previous symbol	LINC01550
+C14orf68	Previous symbol	SLC25A47
+C14orf70	Previous symbol	LINC00523
+C14orf72	Previous symbol	LINC00239
+C14orf73	Previous symbol	EXOC3L4
+C14orf86	Previous symbol	FAM181A-AS1
+C15orf17	Previous symbol	FAM219B
+C15orf2	Previous symbol	NPAP1
+C15orf21	Previous symbol	HMGN2P46
+C15orf23	Previous symbol	KNSTRN
+C15orf24	Previous symbol	EMC7
+C15orf26	Previous symbol	CFAP161
+C15orf27	Previous symbol	TMEM266
+C15orf28	Previous symbol	ANP32A-IT1
+C15orf29	Previous symbol	KATNBL1
+C15orf33	Previous symbol	FAM227B
+C15orf34	Previous symbol	HEXA-AS1
+C15orf37	Previous symbol	ST20-AS1
+C15orf38	Previous symbol	ARPIN
+C15orf42	Previous symbol	TICRR
+C15orf44	Previous symbol	VWA9
+C15orf5	Previous symbol	LINC00597
+C15orf50	Previous symbol	LINC00593
+C15orf51	Previous symbol	DNM1P46
+C15orf55	Previous symbol	NUTM1
+C15orf58	Previous symbol	GDPGP1
+C15orf60	Previous symbol	REC114
+C15orf63	Previous symbol	HYPK
+C16orf11	Previous symbol	PRR35
+C16orf3	Previous symbol	GAS8-AS1
+C16orf42	Previous symbol	TSR3
+C16orf48	Previous symbol	ENKD1
+C16orf5	Previous symbol	CDIP1
+C16orf53	Previous symbol	PAGR1
+C16orf55	Previous symbol	SPATA33
+C16orf57	Previous symbol	USB1
+C16orf61	Previous symbol	CMC2
+C16orf63	Previous symbol	FOPNL
+C16orf68	Previous symbol	METTL22
+C16orf7	Previous symbol	VPS9D1
+C16orf73	Previous symbol	MEIOB
+C16orf75	Previous symbol	RMI2
+C16orf79	Previous symbol	BRICD5
+C16orf80	Previous symbol	CFAP20
+C16orf81	Previous symbol	LINC00304
+C16orf88	Previous symbol	KNOP1
+C16orf93	Previous symbol	CCDC189
+C17orf101	Previous symbol	OGFOD3
+C17orf103	Previous symbol	NATD1
+C17orf104	Previous symbol	MEIOC
+C17orf106	Previous symbol	TEN1
+C17orf108	Previous symbol	LYRM9
+C17orf28	Previous symbol	HID1
+C17orf37	Previous symbol	MIEN1
+C17orf39	Previous symbol	GID4
+C17orf42	Previous symbol	TEFM
+C17orf44	Previous symbol	LINC00324
+C17orf46	Previous symbol	SPATA32
+C17orf48	Previous symbol	ADPRM
+C17orf54	Previous symbol	LINC00469
+C17orf55	Previous symbol	LINC00482
+C17orf56	Previous symbol	ENTHD2
+C17orf57	Previous symbol	EFCAB13
+C17orf59	Previous symbol	BORCS6
+C17orf60	Previous symbol	MILR1
+C17orf61	Previous symbol	TMEM256
+C17orf63	Previous symbol	FAM222B
+C17orf65	Previous symbol	ASB16-AS1
+C17orf66	Previous symbol	HEATR9
+C17orf68	Previous symbol	CTC1
+C17orf69	Previous symbol	CRHR1-IT1
+C17orf70	Previous symbol	FAAP100
+C17orf71	Previous symbol	SMG8
+C17orf72	Previous symbol	PRR29
+C17orf73	Previous symbol	LINC00483
+C17orf76	Previous symbol	LRRC75A
+C17orf76-AS1	Previous symbol	LRRC75A-AS1
+C17orf79	Previous symbol	COPRS
+C17orf81	Previous symbol	ELP5
+C17orf85	Previous symbol	NCBP3
+C17orf86	Previous symbol	SNHG20
+C17orf87	Previous symbol	SCIMP
+C17orf88	Previous symbol	FAM215A
+C17orf90	Previous symbol	OXLD1
+C17orf91	Previous symbol	MIR22HG
+C17orf93	Previous symbol	PRAC2
+C17orf95	Previous symbol	METTL23
+C18orf1	Previous symbol	LDLRAD4
+C18orf10	Previous symbol	TPGS2
+C18orf16	Previous symbol	AQP4-AS1
+C18orf18	Previous symbol	LINC00526
+C18orf19	Previous symbol	FAM210A
+C18orf2	Synonyms	CHMP1B
+C18orf2	Previous symbol	LINC00470
+C18orf20	Previous symbol	LINC00305
+C18orf22	Previous symbol	RBFA
+C18orf26	Previous symbol	DYNAP
+C18orf34	Previous symbol	CCDC178
+C18orf45	Previous symbol	TMEM241
+C18orf55	Previous symbol	TIMM21
+C18orf56	Previous symbol	TYMSOS
+C18orf62	Previous symbol	SMIM21
+C19orf10	Previous symbol	MYDGF
+C19orf2	Previous symbol	URI1
+C19orf20	Previous symbol	TPGS1
+C19orf21	Previous symbol	MISP
+C19orf22	Previous symbol	R3HDM4
+C19orf23	Previous symbol	CIRBP-AS1
+C19orf26	Previous symbol	CBARP
+C19orf28	Previous symbol	MFSD12
+C19orf29	Previous symbol	CACTIN
+C19orf30	Previous symbol	MIR7-3HG
+C19orf34	Previous symbol	CSNK1G2-AS1
+C19orf36	Previous symbol	IZUMO4
+C19orf39	Previous symbol	SWSAP1
+C19orf40	Previous symbol	FAAP24
+C19orf41	Previous symbol	IZUMO2
+C19orf42	Previous symbol	SMIM7
+C19orf46	Previous symbol	SYNE4
+C19orf50	Previous symbol	KXD1
+C19orf51	Previous symbol	DNAAF3
+C19orf55	Previous symbol	PROSER3
+C19orf56	Previous symbol	WDR83OS
+C19orf59	Previous symbol	MCEMP1
+C19orf6	Previous symbol	TMEM259
+C19orf61	Previous symbol	SMG9
+C19orf62	Previous symbol	BABAM1
+C19orf63	Previous symbol	EMC10
+C19orf69	Previous symbol	ERICH4
+C19orf75	Previous symbol	SIGLECL1
+C19orf76	Previous symbol	ADM5
+C19orf77	Previous symbol	SMIM24
+C19orf80	Previous symbol	ANGPTL8
+C1QTNF5	Synonyms	MFRP
+C1orf103	Previous symbol	LRIF1
+C1orf104	Previous symbol	RUSC1-AS1
+C1orf107	Previous symbol	DIEXF
+C1orf110	Previous symbol	CCDC190
+C1orf113	Previous symbol	SH3D21
+C1orf114	Previous symbol	CCDC181
+C1orf124	Previous symbol	SPRTN
+C1orf125	Previous symbol	AXDND1
+C1orf126	Previous symbol	TMEM51-AS1
+C1orf128	Previous symbol	PITHD1
+C1orf129	Previous symbol	MROH9
+C1orf130	Previous symbol	NCMAP
+C1orf133	Previous symbol	SERTAD4-AS1
+C1orf135	Previous symbol	AUNIP
+C1orf14	Previous symbol	SHCBP1L
+C1orf144	Previous symbol	SZRD1
+C1orf150	Previous symbol	GCSAML
+C1orf151	Previous symbol	MINOS1
+C1orf152	Previous symbol	PFN1P2
+C1orf156	Previous symbol	METTL18
+C1orf157	Previous symbol	LINC00303
+C1orf161	Previous symbol	MAB21L3
+C1orf163	Previous symbol	COA7
+C1orf170	Previous symbol	PERM1
+C1orf172	Previous symbol	KDF1
+C1orf173	Previous symbol	ERICH3
+C1orf175	Previous symbol	MROH7
+C1orf177	Previous symbol	LEXM
+C1orf180	Previous symbol	LINC01555
+C1orf182	Previous symbol	TSACC
+C1orf183	Previous symbol	FAM212B
+C1orf187	Previous symbol	DRAXIN
+C1orf190	Previous symbol	LURAP1
+C1orf192	Previous symbol	CFAP126
+C1orf200	Previous symbol	PIK3CD-AS1
+C1orf201	Previous symbol	STPG1
+C1orf203	Previous symbol	ATP1A1-AS1
+C1orf212	Previous symbol	SMIM12
+C1orf213	Previous symbol	ZNF436-AS1
+C1orf223	Previous symbol	TEX38
+C1orf227	Previous symbol	SPATA45
+C1orf230	Previous symbol	RIIAD1
+C1orf25	Previous symbol	TRMT1L
+C1orf26	Previous symbol	SWT1
+C1orf31	Previous symbol	COA6
+C1orf38	Previous symbol	THEMIS2
+C1orf49	Previous symbol	TEX35
+C1orf51	Previous symbol	CIART
+C1orf55	Previous symbol	SDE2
+C1orf57	Previous symbol	NTPCR
+C1orf58	Previous symbol	BROX
+C1orf59	Previous symbol	HENMT1
+C1orf63	Previous symbol	RSRP1
+C1orf65	Previous symbol	CCDC185
+C1orf66	Previous symbol	RRNAD1
+C1orf69	Previous symbol	IBA57
+C1orf70	Previous symbol	TMEM240
+C1orf77	Previous symbol	CHTOP
+C1orf83	Previous symbol	TCEANC2
+C1orf84	Previous symbol	SZT2
+C1orf85	Previous symbol	GLMP
+C1orf86	Previous symbol	FAAP20
+C1orf88	Previous symbol	PIFO
+C1orf89	Previous symbol	RSG1
+C1orf9	Previous symbol	SUCO
+C1orf91	Previous symbol	TMEM234
+C1orf92	Previous symbol	LRRC71
+C1orf93	Previous symbol	FAM213B
+C1orf96	Previous symbol	CCSAP
+C1orf97	Previous symbol	LINC00467
+C20orf103	Previous symbol	LAMP5
+C20orf106	Previous symbol	FAM209A
+C20orf107	Previous symbol	FAM209B
+C20orf108	Previous symbol	FAM210B
+C20orf11	Previous symbol	GID8
+C20orf111	Previous symbol	OSER1
+C20orf112	Previous symbol	NOL4L
+C20orf114	Previous symbol	BPIFB1
+C20orf117	Previous symbol	SOGA1
+C20orf118	Previous symbol	TLDC2
+C20orf12	Previous symbol	DZANK1
+C20orf123	Previous symbol	OCSTAMP
+C20orf132	Previous symbol	MROH8
+C20orf134	Previous symbol	ACTL10
+C20orf135	Previous symbol	ABHD16B
+C20orf151	Previous symbol	RBBP8NL
+C20orf152	Previous symbol	CNBD2
+C20orf160	Previous symbol	CCM2L
+C20orf165	Previous symbol	SPATA25
+C20orf166	Previous symbol	MIR1-1HG
+C20orf177	Previous symbol	FAM217B
+C20orf185	Previous symbol	BPIFB3
+C20orf186	Previous symbol	BPIFB4
+C20orf191	Previous symbol	NCOR1P1
+C20orf199	Previous symbol	ZFAS1
+C20orf20	Previous symbol	MRGBP
+C20orf200	Previous symbol	C20orf166-AS1
+C20orf201	Previous symbol	LKAAEAR1
+C20orf26	Previous symbol	CFAP61
+C20orf29	Previous symbol	AP5S1
+C20orf3	Previous symbol	APMAP
+C20orf30	Previous symbol	TMEM230
+C20orf4	Previous symbol	AAR2
+C20orf43	Previous symbol	RTFDC1
+C20orf46	Previous symbol	TMEM74B
+C20orf54	Previous symbol	SLC52A3
+C20orf56	Previous symbol	LINC00261
+C20orf7	Previous symbol	NDUFAF5
+C20orf70	Previous symbol	BPIFA2
+C20orf71	Previous symbol	BPIFA3
+C20orf72	Previous symbol	MGME1
+C20orf79	Previous symbol	SCP2D1
+C20orf94	Previous symbol	SLX4IP
+C21orf119	Previous symbol	URB1-AS1
+C21orf121	Previous symbol	ZNF295-AS1
+C21orf122	Previous symbol	SSR4P1
+C21orf125	Previous symbol	LINC00319
+C21orf128	Previous symbol	UMODL1-AS1
+C21orf129	Previous symbol	LINC00479
+C21orf130	Previous symbol	LINC00323
+C21orf131	Previous symbol	LINC00320
+C21orf15	Previous symbol	CYP4F29P
+C21orf29	Previous symbol	TSPEAR
+C21orf34	Previous symbol	MIR99AHG
+C21orf37	Previous symbol	LINC01549
+C21orf45	Previous symbol	MIS18A
+C21orf49	Previous symbol	C21orf62-AS1
+C21orf54	Previous symbol	LINC01548
+C21orf56	Previous symbol	SPATC1L
+C21orf57	Previous symbol	YBEY
+C21orf63	Previous symbol	EVA1C
+C21orf67	Previous symbol	LINC01547
+C21orf7	Previous symbol	MAP3K7CL
+C21orf70	Previous symbol	FAM207A
+C21orf71	Previous symbol	LINC00515
+C21orf81	Previous symbol	ANKRD20A11P
+C21orf82	Previous symbol	LINC00310
+C21orf84	Previous symbol	LINC00313
+C21orf88	Previous symbol	B3GALT5-AS1
+C21orf90	Previous symbol	TSPEAR-AS2
+C21orf94	Previous symbol	LINC00314
+C21orf96	Previous symbol	RUNX1-IT1
+C21orf99	Previous symbol	ANKRD30BP2
+C22orf13	Previous symbol	GUCD1
+C22orf25	Previous symbol	TANGO2
+C22orf26	Previous symbol	PRR34
+C22orf27	Previous symbol	MORC2-AS1
+C22orf28	Previous symbol	RTCB
+C22orf30	Previous symbol	PRR14L
+C22orf32	Previous symbol	SMDT1
+C22orf33	Previous symbol	TEX33
+C22orf36	Previous symbol	LRRC75B
+C22orf40	Previous symbol	CDPF1
+C22orf41	Previous symbol	SYCE3
+C22orf43	Previous symbol	DRICH1
+C22orf45	Previous symbol	ADORA2A-AS1
+C22orf9	Previous symbol	KIAA0930
+C2orf14	Previous symbol	CYP4F30P
+C2orf18	Previous symbol	SLC35F6
+C2orf24	Previous symbol	CNPPD1
+C2orf28	Previous symbol	ATRAID
+C2orf29	Previous symbol	CNOT11
+C2orf3	Previous symbol	GCFC2
+C2orf34	Previous symbol	CAMKMT
+C2orf39	Previous symbol	DRC1
+C2orf43	Previous symbol	LDAH
+C2orf51	Previous symbol	TEX37
+C2orf52	Previous symbol	LINC00471
+C2orf53	Previous symbol	PRR30
+C2orf55	Previous symbol	KIAA1211L
+C2orf56	Previous symbol	NDUFAF7
+C2orf58	Previous symbol	CYP1B1-AS1
+C2orf60	Previous symbol	TYW5
+C2orf62	Previous symbol	CATIP
+C2orf63	Previous symbol	CLHC1
+C2orf64	Previous symbol	COA5
+C2orf65	Previous symbol	M1AP
+C2orf67	Previous symbol	KANSL1L
+C2orf7	Previous symbol	PRADC1
+C2orf77	Previous symbol	CCDC173
+C2orf79	Previous symbol	PTRHD1
+C2orf84	Previous symbol	FAM228A
+C2orf85	Previous symbol	RTP5
+C2orf86	Previous symbol	WDPCP
+C2orf89	Previous symbol	TRABD2A
+C3orf1	Previous symbol	TIMMDC1
+C3orf10	Previous symbol	BRK1
+C3orf15	Previous symbol	MAATS1
+C3orf16	Previous symbol	ANKUB1
+C3orf19	Previous symbol	CCDC174
+C3orf21	Previous symbol	XXYLT1
+C3orf23	Previous symbol	TCAIM
+C3orf24	Previous symbol	FANCD2OS
+C3orf26	Previous symbol	CMSS1
+C3orf27	Previous symbol	LINC01565
+C3orf31	Previous symbol	TAMM41
+C3orf32	Previous symbol	SSUH2
+C3orf34	Previous symbol	CEP19
+C3orf37	Previous symbol	HMCES
+C3orf39	Previous symbol	POMGNT2
+C3orf42	Previous symbol	LINC00852
+C3orf43	Previous symbol	SMCO1
+C3orf45	Previous symbol	LSMEM2
+C3orf47	Previous symbol	H1FX-AS1
+C3orf48	Previous symbol	PP2D1
+C3orf50	Previous symbol	EGFEM1P
+C3orf51	Previous symbol	ERC2-IT1
+C3orf54	Previous symbol	FAM212A
+C3orf55	Previous symbol	PQLC2L
+C3orf57	Previous symbol	SPTSSB
+C3orf59	Previous symbol	MB21D2
+C3orf63	Previous symbol	FAM208A
+C3orf64	Previous symbol	EOGT
+C3orf65	Previous symbol	IGF2BP2-AS1
+C3orf66	Previous symbol	LINC00488
+C3orf71	Previous symbol	ARIH2OS
+C3orf72	Previous symbol	FOXL2NB
+C3orf74	Previous symbol	LINC00696
+C3orf75	Previous symbol	ELP6
+C3orf77	Previous symbol	TOPAZ1
+C4B	Synonyms	C4A
+C4orf10	Previous symbol	NOP14-AS1
+C4orf11	Previous symbol	LINC00575
+C4orf12	Previous symbol	WDFY3-AS2
+C4orf14	Previous symbol	NOA1
+C4orf21	Previous symbol	ZGRF1
+C4orf23	Previous symbol	TRMT44
+C4orf29	Previous symbol	ABHD18
+C4orf31	Previous symbol	NDNF
+C4orf34	Previous symbol	SMIM14
+C4orf35	Previous symbol	CABS1
+C4orf37	Previous symbol	STPG2
+C4orf38	Previous symbol	WWC2-AS2
+C4orf39	Previous symbol	FAM218A
+C4orf40	Previous symbol	PRR27
+C4orf41	Previous symbol	TRAPPC11
+C4orf42	Previous symbol	CTBP1-AS2
+C4orf43	Previous symbol	TMA16
+C4orf44	Previous symbol	MSANTD1
+C4orf49	Previous symbol	MGARP
+C4orf52	Previous symbol	SMIM20
+C4orf6	Previous symbol	LINC01587
+C4orf7	Previous symbol	FDCSP
+C5orf13	Previous symbol	NREP
+C5orf20	Previous symbol	DCANP1
+C5orf23	Previous symbol	NPR3
+C5orf25	Previous symbol	SIMC1
+C5orf27	Previous symbol	LINC01554
+C5orf32	Previous symbol	CYSTM1
+C5orf33	Previous symbol	NADK2
+C5orf35	Previous symbol	SETD9
+C5orf36	Previous symbol	KIAA0825
+C5orf39	Previous symbol	ANXA2R
+C5orf4	Previous symbol	FAXDC2
+C5orf40	Previous symbol	FNDC9
+C5orf41	Previous symbol	CREBRF
+C5orf43	Previous symbol	SMIM15
+C5orf44	Previous symbol	TRAPPC13
+C5orf48	Previous symbol	TEX43
+C5orf53	Previous symbol	IGIP
+C5orf54	Previous symbol	ZBED8
+C5orf55	Previous symbol	EXOC3-AS1
+C5orf62	Previous symbol	SMIM3
+C6	Synonyms	PSMA7
+C6orf103	Previous symbol	ADGB
+C6orf105	Previous symbol	ADTRP
+C6orf108	Previous symbol	DNPH1
+C6orf114	Previous symbol	GFOD1
+C6orf115	Previous symbol	ABRACL
+C6orf122	Previous symbol	LINC00242
+C6orf123	Previous symbol	LINC01558
+C6orf124	Previous symbol	MLLT4-AS1
+C6orf125	Previous symbol	UQCC2
+C6orf126	Previous symbol	CLPSL2
+C6orf127	Previous symbol	CLPSL1
+C6orf129	Previous symbol	CCDC167
+C6orf130	Previous symbol	OARD1
+C6orf134	Previous symbol	ATAT1
+C6orf138	Previous symbol	PTCHD4
+C6orf142	Previous symbol	MLIP
+C6orf145	Previous symbol	PXDC1
+C6orf146	Previous symbol	FAM217A
+C6orf147	Previous symbol	KHDC1
+C6orf150	Previous symbol	MB21D1
+C6orf153	Previous symbol	RRP36
+C6orf154	Previous symbol	LRRC73
+C6orf155	Previous symbol	LINC00472
+C6orf162	Previous symbol	SMIM8
+C6orf164	Previous symbol	LINC01590
+C6orf165	Previous symbol	CFAP206
+C6orf167	Previous symbol	MMS22L
+C6orf168	Previous symbol	FAXC
+C6orf170	Previous symbol	TBC1D32
+C6orf174	Previous symbol	SOGA3
+C6orf176	Previous symbol	LINC00473
+C6orf182	Previous symbol	CEP57L1
+C6orf186	Previous symbol	METTL24
+C6orf191	Previous symbol	TMEM244
+C6orf192	Previous symbol	SLC18B1
+C6orf195	Previous symbol	LINC01600
+C6orf204	Previous symbol	CEP85L
+C6orf208	Previous symbol	LINC00574
+C6orf211	Previous symbol	ARMT1
+C6orf217	Previous symbol	LINC00271
+C6orf218	Previous symbol	LINC00518
+C6orf221	Previous symbol	KHDC3L
+C6orf225	Previous symbol	FAM229B
+C6orf227	Previous symbol	LINC00336
+C6orf26	Previous symbol	SAPCD1
+C6orf27	Previous symbol	VWA7
+C6orf35	Previous symbol	TMEM242
+C6orf41	Previous symbol	LINC00240
+C6orf57	Previous symbol	SDHAF4
+C6orf59	Previous symbol	AGPAT4-IT1
+C6orf64	Previous symbol	SAYSD1
+C6orf7	Previous symbol	LINC01621
+C6orf70	Previous symbol	ERMARD
+C6orf72	Previous symbol	GINM1
+C6orf81	Previous symbol	ARMC12
+C6orf94	Previous symbol	ZC2HC1B
+C6orf97	Previous symbol	CCDC170
+C7	Synonyms	CXCL10
+C7orf10	Previous symbol	SUGCT
+C7orf11	Previous symbol	MPLKIP
+C7orf13	Previous symbol	LINC01006
+C7orf16	Previous symbol	PPP1R17
+C7orf23	Previous symbol	TMEM243
+C7orf27	Previous symbol	BRAT1
+C7orf28A	Previous symbol	CCZ1
+C7orf28B	Previous symbol	CCZ1B
+C7orf29	Previous symbol	ZBED6CL
+C7orf30	Previous symbol	MALSU1
+C7orf36	Previous symbol	YAE1D1
+C7orf4	Previous symbol	LINC00244
+C7orf40	Previous symbol	SNHG15
+C7orf41	Previous symbol	MTURN
+C7orf42	Previous symbol	TMEM248
+C7orf44	Previous symbol	COA1
+C7orf45	Previous symbol	SSMEM1
+C7orf46	Previous symbol	FAM221A
+C7orf47	Previous symbol	PPP1R35
+C7orf51	Previous symbol	NYAP1
+C7orf52	Previous symbol	NAT16
+C7orf53	Previous symbol	LSMEM1
+C7orf54	Previous symbol	SND1-IT1
+C7orf58	Previous symbol	CPED1
+C7orf59	Previous symbol	LAMTOR4
+C7orf63	Previous symbol	CFAP69
+C7orf64	Previous symbol	RBM48
+C7orf68	Previous symbol	HILPDA
+C7orf70	Previous symbol	FAM220A
+C8orf12	Previous symbol	FAM167A-AS1
+C8orf30A	Previous symbol	HGH1
+C8orf38	Previous symbol	NDUFAF6
+C8orf39	Previous symbol	RBM12B-AS1
+C8orf40	Previous symbol	SMIM19
+C8orf41	Previous symbol	TTI2
+C8orf42	Previous symbol	TDRP
+C8orf45	Previous symbol	MCMDC2
+C8orf47	Previous symbol	ERICH5
+C8orf51	Previous symbol	RHPN1-AS1
+C8orf55	Previous symbol	THEM6
+C8orf56	Previous symbol	BAALC-AS2
+C8orf69	Previous symbol	LINC01298
+C8orf71	Previous symbol	LINC00588
+C8orf73	Previous symbol	MROH6
+C8orf75	Previous symbol	LINC00589
+C8orf77	Previous symbol	ZNF252P-AS1
+C8orf79	Previous symbol	KIAA1456
+C8orf80	Previous symbol	NUGGC
+C8orf83	Previous symbol	TRIQK
+C8orf84	Previous symbol	SBSPON
+C8orf85	Previous symbol	AARD
+C9orf100	Previous symbol	ARHGEF39
+C9orf102	Previous symbol	ERCC6L2
+C9orf103	Previous symbol	IDNK
+C9orf109	Previous symbol	FAM225A
+C9orf11	Previous symbol	EQTN
+C9orf110	Previous symbol	FAM225B
+C9orf117	Previous symbol	CFAP157
+C9orf119	Previous symbol	SWI5
+C9orf122	Previous symbol	FAM201A
+C9orf123	Previous symbol	TMEM261
+C9orf125	Previous symbol	TMEM246
+C9orf128	Previous symbol	FAM221B
+C9orf130	Previous symbol	LINC00476
+C9orf140	Previous symbol	SAPCD2
+C9orf144	Previous symbol	FAM205BP
+C9orf144B	Synonyms	FAM205A
+C9orf150	Previous symbol	LURAP1L
+C9orf156	Previous symbol	TRMO
+C9orf167	Previous symbol	TOR4A
+C9orf169	Previous symbol	CYSRT1
+C9orf171	Previous symbol	CFAP77
+C9orf174	Previous symbol	CCDC180
+C9orf21	Previous symbol	AAED1
+C9orf23	Previous symbol	RPP25L
+C9orf25	Previous symbol	FAM219A
+C9orf27	Previous symbol	LINC00474
+C9orf30	Previous symbol	MSANTD3
+C9orf37	Previous symbol	ARRDC1-AS1
+C9orf4	Previous symbol	FRRS1L
+C9orf41	Previous symbol	CARNMT1
+C9orf44	Previous symbol	LINC00475
+C9orf45	Previous symbol	MIR600HG
+C9orf46	Previous symbol	PLGRKT
+C9orf5	Previous symbol	TMEM245
+C9orf53	Previous symbol	CDKN2A-AS1
+C9orf6	Previous symbol	FAM206A
+C9orf68	Previous symbol	SPATA6L
+C9orf7	Previous symbol	CACFD1
+C9orf70	Previous symbol	GLIS3-AS1
+C9orf71	Previous symbol	TMEM252
+C9orf79	Previous symbol	SPATA31E1
+C9orf80	Previous symbol	INIP
+C9orf82	Previous symbol	CAAP1
+C9orf86	Previous symbol	RABL6
+C9orf89	Previous symbol	CARD19
+C9orf93	Previous symbol	CCDC171
+C9orf95	Previous symbol	NMRK1
+C9orf96	Previous symbol	STKLD1
+C9orf98	Previous symbol	AK8
+CA11	Synonyms	GKN1
+CA5BP	Previous symbol	CA5BP1
+CABC1	Previous symbol	ADCK3
+CABP1	Synonyms	S100G
+CAD	Synonyms	DFFB
+CAMP	Synonyms	CHAMP1
+CAMSAP1L1	Previous symbol	CAMSAP2
+CAP2	Synonyms	SERPINB8
+CAPS	Synonyms	CADPS
+CARF	Synonyms	CDKN2AIP
+CAST	Synonyms	CD3EAP
+CAST	Synonyms	ERC2
+CBARA1	Previous symbol	MICU1
+CCBP2	Synonyms	ACKR4
+CCBP2	Previous symbol	ACKR2
+CCDC101	Previous symbol	SGF29
+CCDC104	Previous symbol	CFAP36
+CCDC108	Previous symbol	CFAP65
+CCDC109A	Previous symbol	MCU
+CCDC11	Previous symbol	CFAP53
+CCDC111	Previous symbol	PRIMPOL
+CCDC123	Previous symbol	CEP89
+CCDC132	Previous symbol	VPS50
+CCDC135	Previous symbol	DRC7
+CCDC144C	Previous symbol	CCDC144CP
+CCDC147	Previous symbol	CFAP58
+CCDC164	Previous symbol	DRC1
+CCDC176	Previous symbol	BBOF1
+CCDC19	Previous symbol	CFAP45
+CCDC21	Previous symbol	CEP85
+CCDC23	Previous symbol	SVBP
+CCDC37	Previous symbol	CFAP100
+CCDC41	Previous symbol	CEP83
+CCDC42B	Previous symbol	CFAP73
+CCDC45	Previous symbol	CEP95
+CCDC46	Previous symbol	CEP112
+CCDC48	Previous symbol	EFCC1
+CCDC52	Previous symbol	SPICE1
+CCDC55	Previous symbol	NSRP1
+CCDC56	Previous symbol	COA3
+CCDC72	Previous symbol	TMA7
+CCDC74B-AS1	Previous symbol	MED15P9
+CCDC75	Previous symbol	GPATCH11
+CCDC76	Previous symbol	TRMT13
+CCDC90A	Previous symbol	MCUR1
+CCDC99	Previous symbol	SPDL1
+CCNL1	Previous symbol	MCM2
+CCR10	Synonyms	ACKR2
+CCR4	Synonyms	CNOT6
+CCR9	Synonyms	ACKR2
+CCRL1	Previous symbol	ACKR4
+CCRL1	Synonyms	CX3CR1
+CCRN4L	Previous symbol	NOCT
+CD28	Synonyms	CTLA4
+CD97	Previous symbol	ADGRE5
+CDH1	Synonyms	FZR1
+CDH20	Synonyms	PCDHGB4
+CDH3	Previous symbol	CDH15
+CDH7	Synonyms	CDH19
+CDKN2BAS	Synonyms	CDKN2B-AS1
+CDRT15P	Previous symbol	CDRT15P1
+CDS1	Synonyms	CHEK2
+CECR4	Previous symbol	CECR5-AS1
+CENPC	Previous symbol	CENPCP1
+CENPC1	Previous symbol	CENPC
+CEP110	Previous symbol	CNTRL
+CEP170L	Previous symbol	CEP170P1
+CER1	Synonyms	C3CER1
+CES2	Synonyms	CES1
+CES4	Previous symbol	CES1P1
+CES7	Previous symbol	CES5A
+CES8	Previous symbol	CES4A
+CFLP1	Previous symbol	CFL1P1
+CG030	Synonyms	N4BP2L2-IT2
+CHCHD8	Previous symbol	COA4
+CHD5	Synonyms	WRB
+CHD5	Synonyms	CHD6
+CHDC2	Previous symbol	CFAP47
+CHL1	Synonyms	DDX11
+CHP	Synonyms	CHP1
+CHP1	Synonyms	CHORDC1
+CIRH1A	Previous symbol	UTP4
+CKLF	Synonyms	KLF5
+CLC	Synonyms	CLCF1
+CLIC5	Synonyms	CLIC6
+CLIP4	Synonyms	UBASH3A
+CLK2P	Previous symbol	CLK2P1
+CLRN1OS	Previous symbol	CLRN1-AS1
+CMAH	Previous symbol	CMAHP
+CNIH	Previous symbol	CNIH1
+CNO	Previous symbol	BLOC1S4
+CNP	Synonyms	NPPC
+CNR1	Synonyms	PCDHA@
+CNR1	Synonyms	PCDHA4
+CNR2	Synonyms	PCDHA6
+COBRA1	Previous symbol	NELFB
+COL29A1	Previous symbol	COL6A5
+COPG	Previous symbol	COPG1
+COX4NB	Previous symbol	EMC8
+CP110	Synonyms	CCP110
+CPA3	Synonyms	CPA4
+CPA6	Synonyms	CYP2A6
+CPD	Synonyms	HOMER2
+CPN1	Synonyms	CYP11B1
+CPN1	Synonyms	CPNE1
+CPN2	Synonyms	CYP11B2
+CPN2	Synonyms	CPNE2
+CPO	Previous symbol	CPOX
+CPS1	Synonyms	CYP21A2
+CRAMP1L	Previous symbol	CRAMP1
+CREB3	Synonyms	CREB3L4
+CRIP1	Synonyms	CNRIP1
+CROCCL1	Previous symbol	CROCCP2
+CROCCL2	Previous symbol	CROCCP3
+CRP	Synonyms	PPIAP10
+CSDA	Previous symbol	YBX3
+CSDAP1	Previous symbol	YBX3P1
+CSN1S2A	Previous symbol	CSN1S2AP
+CSN2	Synonyms	COPS2
+CSN3	Synonyms	COPS3
+CSNK1A1P	Previous symbol	CSNK1A1P1
+CSNK2A1	Synonyms	CSNK2A2
+CSNK2A1P	Previous symbol	CSNK2A3
+CST6	Synonyms	CSTB
+CSTT	Synonyms	CST13P
+CT49	Previous symbol	LINC01194
+CT60	Previous symbol	LINC01193
+CT64	Previous symbol	LINC01192
+CTAGE15P	Previous symbol	CTAGE15
+CTAGE4	Synonyms	ARHGEF35
+CTAGE6P	Previous symbol	CTAGE6
+CTBP1-AS1	Previous symbol	CTBP1-AS2
+CTH	Synonyms	VSIG2
+CTPS	Previous symbol	CTPS1
+CTSL1	Previous symbol	CTSL
+CTSL1P2	Previous symbol	CTSLP2
+CTSL1P8	Previous symbol	CTSLP8
+CTSL2	Previous symbol	CTSV
+CTSL3	Previous symbol	CTSL3P
+CTSO	Previous symbol	CTSK
+CXCR7	Previous symbol	ACKR3
+CXXC11	Previous symbol	RTP5
+CXXC11	Synonyms	FBXL19
+CXorf1	Previous symbol	TMEM257
+CXorf22	Previous symbol	CFAP47
+CXorf26	Previous symbol	PBDC1
+CXorf27	Previous symbol	HYPM
+CXorf28	Previous symbol	LINC01546
+CXorf30	Previous symbol	CFAP47
+CXorf31	Previous symbol	LINC01545
+CXorf41	Previous symbol	PIH1D3
+CXorf42	Previous symbol	NKAPP1
+CXorf48	Previous symbol	CT55
+CXorf50B	Previous symbol	FAM226B
+CXorf51	Previous symbol	CXorf51A
+CXorf59	Previous symbol	CFAP47
+CXorf61	Previous symbol	CT83
+CXorf64	Previous symbol	PRR32
+CYBASC3	Previous symbol	CYB561A3
+CYP2B7P1	Previous symbol	CYP2B7P
+CYP2D7P1	Previous symbol	CYP2D7
+CYTSA	Synonyms	SPECC1L
+CYTSB	Synonyms	SPECC1
+CYorf15A	Previous symbol	TXLNGY
+CYorf15B	Previous symbol	TXLNGY
+DAD1L	Previous symbol	DAD1P1
+DAK	Previous symbol	TKFC
+DAO	Synonyms	AOC1
+DAP	Synonyms	IAPP
+DAP	Synonyms	DNPEP
+DAP3	Synonyms	DLGAP3
+DARC	Previous symbol	ACKR1
+DBC1	Previous symbol	BRINP1
+DBC1	Synonyms	CCAR2
+DBI	Synonyms	TSPO
+DBP	Synonyms	GC
+DBP	Synonyms	HSD17B4
+DCI	Previous symbol	ECI1
+DDX11L1	Previous symbol	DDX11L10
+DDX12	Previous symbol	DDX12P
+DDX39	Previous symbol	DDX39A
+DEC1	Synonyms	BHLHE40
+DEF6	Synonyms	DEFA6
+DEFA1	Synonyms	DEFA1A3
+DEFA3	Synonyms	DEFA1A3
+DEFT1P	Synonyms	DEFA1A3
+DEM1	Previous symbol	EXO5
+DEPDC6	Previous symbol	DEPTOR
+DHDPSL	Previous symbol	HOGA1
+DIMT1L	Previous symbol	DIMT1
+DIO1	Synonyms	DIDO1
+DKFZp686A1627	Synonyms	PHF2P1
+DKFZp686O1327	Synonyms	TEX41
+DKFZp686O24166	Synonyms	NCR3LG1
+DKFZp761E198	Synonyms	AP5B1
+DLC1	Synonyms	DLEC1
+DLC1	Synonyms	DYNLL1
+DLG1	Synonyms	DLGAP5
+DLG2	Previous symbol	MPP2
+DLG3	Previous symbol	MPP3
+DLG4	Previous symbol	LLGL1
+DMC1	Synonyms	HID1
+DMP1	Synonyms	DMTF1
+DNAL1	Synonyms	DNAH9
+DOK1	Synonyms	ART4
+DOM3Z	Previous symbol	DXO
+DPH3B	Previous symbol	DPH3P1
+DRG1	Synonyms	NDRG1
+DRP2	Synonyms	DPYSL2
+DSC1	Synonyms	DSC3
+DSC2	Synonyms	DSC3
+DSC3	Previous symbol	DSC2
+DSCR6	Previous symbol	RIPPLY3
+DULLARD	Previous symbol	CTDNEP1
+DUS2L	Previous symbol	DUS2
+DUSP1	Synonyms	DUSP12
+DUSP23	Synonyms	PTPMT1
+DUSP26	Synonyms	DUSP28
+DUSP27	Synonyms	DUPD1
+DUSP5P	Previous symbol	DUSP5P1
+DUX2	Previous symbol	DUX4L8
+DUX4	Previous symbol	DUX4L1
+DVWA	Previous symbol	COL6A4P1
+DYSFIP1	Previous symbol	PPP1R27
+EAF1	Synonyms	SRCAP
+EAF2	Synonyms	DMAP1
+EBP	Synonyms	GLB1
+EBP	Synonyms	SH3D19
+ECD	Synonyms	SHFM1
+EFCAB4A	Previous symbol	CRACR2B
+EFCAB4B	Previous symbol	CRACR2A
+EFHA1	Previous symbol	MICU2
+EFHA2	Previous symbol	MICU3
+EIF2A	Synonyms	EIF2S1
+EIF2AK1	Synonyms	EIF2AK2
+EIF2C1	Previous symbol	AGO1
+EIF2C2	Previous symbol	AGO2
+EIF2C3	Previous symbol	AGO3
+EIF2C4	Previous symbol	AGO4
+EIF3A	Previous symbol	EIF6
+ELF1	Synonyms	ELOF1
+ELP2P	Synonyms	DBIL5P
+ELTD1	Previous symbol	ADGRL4
+EMCN-IT3	Previous symbol	LINC01216
+EMID2	Previous symbol	COL26A1
+EMILIN3	Previous symbol	MMRN2
+EMR1	Previous symbol	ADGRE1
+EMR2	Previous symbol	ADGRE2
+EMR3	Previous symbol	ADGRE3
+EMR4P	Previous symbol	ADGRE4P
+EPB49	Previous symbol	DMTN
+EPO	Synonyms	TIMP1
+EPO	Synonyms	EPX
+ERF	Previous symbol	ETF1
+ERO1L	Previous symbol	ERO1A
+ERO1LB	Previous symbol	ERO1B
+ERVFRDE1	Synonyms	ERVFRD-1
+EXOC3L	Previous symbol	EXOC3L1
+EXT2	Synonyms	EXT3
+EZH1	Synonyms	EZH2
+F11	Synonyms	ZNF160
+F3	Synonyms	CNTN1
+FAAH	Synonyms	FA2H
+FABP5	Synonyms	FABP5P1
+FABP5L3	Previous symbol	FABP5P3
+FADS6	Synonyms	FADS1
+FAH	Synonyms	FANCA
+FAIM3	Previous symbol	FCMR
+FAM100A	Previous symbol	UBALD1
+FAM100B	Previous symbol	UBALD2
+FAM105B	Previous symbol	OTULIN
+FAM106C	Previous symbol	FAM106CP
+FAM108A1	Previous symbol	ABHD17A
+FAM108B1	Previous symbol	ABHD17B
+FAM108C1	Previous symbol	ABHD17C
+FAM10A4	Previous symbol	ST13P4
+FAM113A	Previous symbol	PCED1A
+FAM113B	Previous symbol	PCED1B
+FAM115A	Previous symbol	TCAF1
+FAM115C	Previous symbol	TCAF2
+FAM116A	Previous symbol	DENND6A
+FAM116B	Previous symbol	DENND6B
+FAM119A	Previous symbol	METTL21A
+FAM119B	Previous symbol	METTL21B
+FAM123A	Previous symbol	AMER2
+FAM123B	Previous symbol	AMER1
+FAM123C	Previous symbol	AMER3
+FAM125A	Previous symbol	MVB12A
+FAM125B	Previous symbol	MVB12B
+FAM128A	Previous symbol	MZT2A
+FAM128B	Previous symbol	MZT2B
+FAM136B	Previous symbol	FAM136BP
+FAM13AOS	Previous symbol	FAM13A-AS1
+FAM154A	Previous symbol	SAXO1
+FAM154B	Previous symbol	SAXO2
+FAM158A	Previous symbol	EMC9
+FAM164A	Previous symbol	ZC2HC1A
+FAM164C	Previous symbol	ZC2HC1C
+FAM165B	Previous symbol	SMIM11A
+FAM176A	Previous symbol	EVA1A
+FAM176B	Previous symbol	EVA1B
+FAM178A	Previous symbol	SLF2
+FAM183B	Previous symbol	FAM183BP
+FAM18A	Previous symbol	TVP23A
+FAM18B	Previous symbol	TVP23B
+FAM18B2	Previous symbol	TVP23C
+FAM190A	Previous symbol	CCSER1
+FAM190B	Previous symbol	CCSER2
+FAM194A	Previous symbol	ERICH6
+FAM194B	Previous symbol	ERICH6B
+FAM197Y2	Previous symbol	FAM197Y2P
+FAM197Y5	Previous symbol	FAM197Y5P
+FAM203A	Previous symbol	HGH1
+FAM205B	Previous symbol	FAM205BP
+FAM211A	Previous symbol	LRRC75A
+FAM211B	Previous symbol	LRRC75B
+FAM21B	Previous symbol	FAM21A
+FAM22A	Previous symbol	NUTM2A
+FAM22D	Previous symbol	NUTM2D
+FAM22F	Previous symbol	NUTM2F
+FAM22G	Previous symbol	NUTM2G
+FAM23A	Previous symbol	TMEM236
+FAM25B	Previous symbol	FAM25BP
+FAM27A	Previous symbol	FAM27C
+FAM35B	Previous symbol	FAM35BP
+FAM35B2	Previous symbol	FAM35DP
+FAM36A	Previous symbol	COX20
+FAM38A	Previous symbol	PIEZO1
+FAM38B	Previous symbol	PIEZO2
+FAM40A	Previous symbol	STRIP1
+FAM40B	Previous symbol	STRIP2
+FAM45B	Previous symbol	FAM45BP
+FAM48A	Previous symbol	SUPT20H
+FAM48B1	Previous symbol	SUPT20HL1
+FAM48B2	Previous symbol	SUPT20HL2
+FAM54A	Previous symbol	MTFR2
+FAM54B	Previous symbol	MTFR1L
+FAM55A	Previous symbol	NXPE1
+FAM55B	Previous symbol	NXPE2
+FAM55C	Previous symbol	NXPE3
+FAM55D	Previous symbol	NXPE4
+FAM58B	Previous symbol	FAM58BP
+FAM59A	Previous symbol	GAREM1
+FAM59B	Previous symbol	GAREM2
+FAM5B	Previous symbol	BRINP2
+FAM5C	Previous symbol	BRINP3
+FAM70A	Previous symbol	TMEM255A
+FAM70B	Previous symbol	TMEM255B
+FAM75A2	Previous symbol	SPATA31A1
+FAM75A3	Previous symbol	SPATA31A3
+FAM75A5	Previous symbol	SPATA31A5
+FAM75A6	Previous symbol	SPATA31A6
+FAM75C1	Previous symbol	SPATA31C1
+FAM7A2	Previous symbol	ULK4P2
+FAM7A3	Previous symbol	ULK4P3
+FAM82A1	Previous symbol	RMDN2
+FAM82A2	Previous symbol	RMDN3
+FAM82B	Previous symbol	RMDN1
+FAM86A	Previous symbol	EEF2KMT
+FAM86C	Previous symbol	FAM86C1
+FAM86D	Previous symbol	FAM86DP
+FAM90A7	Previous symbol	FAM90A7P
+FAM92A3	Previous symbol	FAM92A1P2
+FAS	Synonyms	FASN
+FBP2	Synonyms	KHSRP
+FBXO22OS	Previous symbol	FBXO22-AS1
+FCRL2	Synonyms	FCRLB
+FDPSL2A	Previous symbol	FDPSP2
+FEM1A	Synonyms	FEM1C
+FEZ1	Synonyms	LZTS1
+FGF2	Synonyms	FGF13
+FHL1	Synonyms	HPLH1
+FHL1	Synonyms	CFH
+FKBP6	Synonyms	FKBP10
+FKBP9	Synonyms	FKBP1B
+FKBP9L	Previous symbol	FKBP9P1
+FKSG2	Synonyms	TPT1P8
+FKSG73	Synonyms	ACTR3BP2
+FLG	Synonyms	FGFR1
+FLI1-AS1	Previous symbol	SENCR
+FLJ10357	Synonyms	ARHGEF40
+FLJ10661	Synonyms	FAM86C1
+FLJ11235	Synonyms	EPB41L4A-AS2
+FLJ12334	Synonyms	LINC00954
+FLJ13197	Synonyms	KLF3-AS1
+FLJ14107	Synonyms	BIN3-IT1
+FLJ14186	Synonyms	LINC01061
+FLJ16341	Synonyms	LINC01185
+FLJ23152	Synonyms	STMND1
+FLJ25328	Synonyms	LINC00905
+FLJ27352	Synonyms	C15orf65
+FLJ30403	Synonyms	LINC01530
+FLJ30838	Synonyms	LINC01122
+FLJ31306	Synonyms	PSMA3-AS1
+FLJ31485	Synonyms	FZD10-AS1
+FLJ31813	Synonyms	FAM21EP
+FLJ33630	Synonyms	LINC01184
+FLJ34690	Synonyms	LINC00670
+FLJ35220	Synonyms	ENDOV
+FLJ35424	Synonyms	LINC00955
+FLJ35776	Synonyms	DLGAP1-AS1
+FLJ36031	Synonyms	CCDC71L
+FLJ37307	Synonyms	LINC00282
+FLJ37543	Synonyms	C5orf64
+FLJ37644	Synonyms	SOX9-AS1
+FLJ38109	Synonyms	SAP30L-AS1
+FLJ39051	Synonyms	ST3GAL4-AS1
+FLJ39632	Synonyms	LINC01296
+FLJ39639	Synonyms	LINC00921
+FLJ39653	Synonyms	TAPT1-AS1
+FLJ39739	Synonyms	LINC01138
+FLJ40292	Synonyms	EHMT1-IT1
+FLJ40434	Synonyms	SLC25A3P1
+FLJ41200	Synonyms	LINC01235
+FLJ41350	Synonyms	LBX1-AS1
+FLJ41649	Synonyms	LINC00951
+FLJ42289	Synonyms	SPATA41
+FLJ42709	Synonyms	NR2F1-AS1
+FLJ42875	Synonyms	LINC00982
+FLJ43663	Synonyms	LINC-PINT
+FLJ43859	Synonyms	SPATA31D4
+FLJ43860	Synonyms	MROH5
+FLJ43950	Synonyms	SPATA31D5P
+FLJ44054	Synonyms	GAS6-AS2
+FLJ44082	Synonyms	SPATA31D3
+FLJ44606	Synonyms	C5orf63
+FLJ45244	Synonyms	DICER1-AS1
+FLJ45340	Synonyms	LINC01000
+FLJ45974	Synonyms	LINC01446
+FLJ46321	Synonyms	SPATA31D1
+FLJ46446	Synonyms	LINC00891
+FMO2	Previous symbol	FMO4
+FOLR4	Previous symbol	IZUMO1R
+FONG	Synonyms	FTCDNL1
+FOXD4L2	Previous symbol	FOXD4L4
+FP588	Synonyms	LINC00950
+FRG1B	Previous symbol	FRG1BP
+FRMPD2L1	Previous symbol	FRMPD2B
+FRMPD2P1	Previous symbol	FRMPD2B
+FTHL3	Previous symbol	FTH1P3
+FTSJD1	Previous symbol	CMTR2
+FTSJD2	Previous symbol	CMTR1
+FXC1	Previous symbol	TIMM10B
+FZD3	Synonyms	FZD9
+GAB1	Synonyms	PIGU
+GABPB1	Previous symbol	GABPAP
+GABPB2	Previous symbol	GABPB1
+GAGE8	Synonyms	GAGE2E
+GAGE8	Synonyms	GAGE2D
+GAL3ST2	Synonyms	GAL3ST3
+GALNT15	Previous symbol	GALNTL5
+GALNT15	Synonyms	GALNT18
+GALNT7	Synonyms	GALNT15
+GALNTL1	Previous symbol	GALNT16
+GALNTL2	Previous symbol	GALNT15
+GALNTL4	Previous symbol	GALNT18
+GAR1	Synonyms	CNGB1
+GAREM	Previous symbol	GAREM1
+GAREML	Previous symbol	GAREM2
+GATSL1	Previous symbol	GATSL2
+GCET2	Previous symbol	GCSAM
+GCFC1	Previous symbol	PAXBP1
+GCK	Synonyms	MAP4K2
+GCKR	Synonyms	MAP4K5
+GCN1L1	Previous symbol	GCN1
+GCOM1	Synonyms	POLR2M
+GCOM1	Synonyms	MYZAP
+GDA	Synonyms	SLC25A16
+GDEP	Synonyms	PCAT4
+GEFT	Synonyms	ARHGEF25
+GGTA1	Previous symbol	GGTA1P
+GGTA1P	Previous symbol	GGTA2P
+GIF	Synonyms	MT3
+GIF	Synonyms	MIF
+GIP	Synonyms	C1QTNF1
+GIP	Synonyms	GNAI2
+GIYD2	Previous symbol	SLX1B
+GJA10	Previous symbol	GJA9
+GJA9	Previous symbol	GJD2
+GJC1	Previous symbol	GJD3
+GK2	Synonyms	GALK2
+GLA	Synonyms	NAT8
+GLS	Synonyms	GLS2
+GLT25D1	Previous symbol	COLGALT1
+GLT25D2	Previous symbol	COLGALT2
+GLTPD1	Previous symbol	CPTP
+GMCL1L	Previous symbol	GMCL1P1
+GNASAS	Previous symbol	GNAS-AS1
+GOLGA2B	Previous symbol	GOLGA2P5
+GOLGA2P3	Previous symbol	GOLGA2P3Y
+GOLGA6L5	Previous symbol	GOLGA6L5P
+GOLGA8C	Previous symbol	GOLGA8CP
+GOLGA8E	Previous symbol	GOLGA8EP
+GOLGA8I	Previous symbol	GOLGA8IP
+GOLGA9P	Previous symbol	GOLGA8IP
+GOT1	Synonyms	GOLT1A
+GOT1	Synonyms	GOLT1B
+GPER	Previous symbol	GPER1
+GPI	Synonyms	GNPDA1
+GPR109A	Previous symbol	HCAR2
+GPR109B	Previous symbol	HCAR3
+GPR110	Previous symbol	ADGRF1
+GPR111	Previous symbol	ADGRF2
+GPR112	Previous symbol	ADGRG4
+GPR113	Previous symbol	ADGRF3
+GPR114	Previous symbol	ADGRG5
+GPR115	Previous symbol	ADGRF4
+GPR116	Previous symbol	ADGRF5
+GPR120	Previous symbol	FFAR4
+GPR123	Previous symbol	ADGRA1
+GPR124	Previous symbol	ADGRA2
+GPR125	Previous symbol	ADGRA3
+GPR126	Previous symbol	ADGRG6
+GPR128	Previous symbol	ADGRG7
+GPR133	Previous symbol	ADGRD1
+GPR144	Previous symbol	ADGRD2
+GPR172A	Previous symbol	SLC52A2
+GPR172B	Previous symbol	SLC52A1
+GPR26	Synonyms	LPAR1
+GPR44	Previous symbol	PTGDR2
+GPR56	Previous symbol	ADGRG1
+GPR64	Previous symbol	ADGRG2
+GPR77	Previous symbol	C5AR2
+GPR81	Previous symbol	HCAR1
+GPR89C	Previous symbol	GPR89B
+GPR97	Previous symbol	ADGRG3
+GPR98	Previous symbol	ADGRV1
+GPT	Synonyms	DPAGT1
+GPX6	Synonyms	GPX7
+GRIK2	Previous symbol	GRIK5
+GRIN1	Synonyms	GPRIN1
+GRINL1A	Previous symbol	POLR2M
+GRINL1A	Synonyms	GCOM1
+GRIP1	Synonyms	LGALS12
+GRIP1	Synonyms	NCOA2
+GRLF1	Previous symbol	ARHGAP35
+GRP	Synonyms	LGALSL
+GRRP1	Previous symbol	FAM110D
+GSG1	Synonyms	TRAPPC8
+GSS	Previous symbol	PRNP
+GTDC2	Previous symbol	POMGNT2
+GTF2H2D	Previous symbol	GTF2H2C_2
+GTPBP5	Previous symbol	MTG2
+GUCY2E	Previous symbol	GUCY2EP
+GUSBL1	Previous symbol	GUSBP2
+GUSBL2	Previous symbol	GUSBP4
+GVIN1	Previous symbol	GVINP1
+HAP1	Synonyms	APEX1
+HARS2	Previous symbol	DTD1
+HAS2AS	Previous symbol	HAS2-AS1
+HBB	Synonyms	KRT89P
+HBD	Synonyms	HBB
+HBD	Synonyms	KRT87P
+HBII-52-24	Synonyms	SNORD115-24
+HBII-52-27	Synonyms	SNORD115-27
+HBII-52-28	Synonyms	SNORD115-28
+HBII-52-45	Synonyms	SNORD115-45
+HBII-52-46	Synonyms	SNORD115-46
+HBM	Synonyms	LRP5
+HBXIP	Previous symbol	LAMTOR5
+HCG4P6	Previous symbol	HCG4B
+HCP5	Synonyms	CYCSP5
+HCRP1	Synonyms	VPS37A
+HCRTR2	Synonyms	CD200R1
+HDC	Synonyms	HECA
+HDHD1	Previous symbol	PUDP
+HDHD1A	Previous symbol	PUDP
+HEATR2	Previous symbol	DNAAF5
+HEATR7A	Previous symbol	MROH1
+HEATR7B2	Previous symbol	MROH2B
+HES1	Synonyms	C21orf33
+HESRG	Synonyms	ESRG
+HGF	Synonyms	IL6
+HGF	Synonyms	SOS1
+HIAT1	Previous symbol	MFSD14A
+HIATL1	Previous symbol	MFSD14B
+HIATL2	Previous symbol	MFSD14C
+HK1	Synonyms	KCNA4
+HK1	Synonyms	HOOK1
+HK2	Synonyms	KCNA5
+HK2	Synonyms	KIF2A
+HK2	Synonyms	HOOK2
+HK3	Synonyms	HOOK3
+HLA-H	Synonyms	HFE
+HLF	Synonyms	EPAS1
+HMGB3L1	Previous symbol	HMGB3P1
+HNRNPU-AS1	Previous symbol	HNRNPU
+HNRPDL	Previous symbol	HNRNPDL
+HNRPLL	Previous symbol	HNRNPLL
+HOXA-AS4	Previous symbol	HOXA10-AS
+HOXA11AS	Previous symbol	HOXA11-AS
+HOXB-AS5	Previous symbol	PRAC2
+HOXC-AS5	Previous symbol	HOXC13-AS
+HOXD-AS1	Previous symbol	HAGLR
+HP	Synonyms	DLC1
+HPCA	Synonyms	CACNA1A
+HRG	Synonyms	NRG1
+HRH1	Synonyms	DHX8
+HRH2	Synonyms	DHX15
+HRNBP3	Synonyms	RBFOX3
+HS3ST5	Previous symbol	HS3ST6
+HSD17B7	Synonyms	HSD17B7P2
+HSFYL1	Synonyms	HSFY1P1
+HSN2	Previous symbol	WNK1
+HSPC072	Synonyms	LINC00652
+HSPC157	Synonyms	LINC00339
+HSPC159	Synonyms	LGALSL
+HTA	Synonyms	HCCAT5
+HTRA3	Synonyms	CAPN5
+HTT	Previous symbol	SLC6A4
+HTT-AS1	Previous symbol	HTT-AS
+ICOS	Synonyms	CTLA4
+IFLTD1	Previous symbol	LMNTD1
+IFNA13	Synonyms	IFNA1
+IGF2AS	Previous symbol	IGF2-AS
+IGJ	Previous symbol	JCHAIN
+IGK@	Previous symbol	IGK
+IGLL3	Previous symbol	IGLL3P
+IK	Synonyms	KCNN4
+IL1F5	Previous symbol	IL36RN
+IL1F6	Previous symbol	IL36A
+IL1F7	Previous symbol	IL37
+IL1F8	Previous symbol	IL36B
+IL1F9	Previous symbol	IL36G
+IL25	Synonyms	MYDGF
+IL27	Synonyms	IL17D
+IL27	Previous symbol	MYDGF
+IL28A	Previous symbol	IFNL2
+IL28B	Previous symbol	IFNL3
+IL28RA	Previous symbol	IFNLR1
+IL29	Previous symbol	IFNL1
+IL8	Previous symbol	CXCL8
+IMP3	Synonyms	IGF2BP3
+IMP3	Synonyms	SPPL2A
+IMP4	Synonyms	SPPL2B
+IMP5	Synonyms	SPPL2C
+ING2	Previous symbol	INGX
+INPP5E	Previous symbol	PMPCA
+INTS4L1	Previous symbol	INTS4P1
+INTS4L2	Previous symbol	INTS4P2
+IQCH	Synonyms	SPATA17
+ISY1	Synonyms	RAB43
+ITFG3	Previous symbol	FAM234A
+ITGB1BP3	Previous symbol	NMRK2
+ITIH5L	Previous symbol	ITIH6
+JHDM1D	Previous symbol	KDM7A
+JMJD5	Previous symbol	KDM8
+JUB	Previous symbol	AJUBA
+KAL1	Previous symbol	ANOS1
+KBTBD10	Previous symbol	KLHL41
+KBTBD5	Previous symbol	KLHL40
+KCNE1L	Previous symbol	KCNE5
+KCNMB2	Previous symbol	KCNMB3
+KCNMB2-IT1	Previous symbol	LINC01014
+KDM4DL	Previous symbol	KDM4E
+KDM5B-AS1	Previous symbol	PCAT6
+KIAA0020	Previous symbol	PUM3
+KIAA0090	Previous symbol	EMC1
+KIAA0114	Previous symbol	DANCR
+KIAA0146	Previous symbol	SPIDR
+KIAA0174	Previous symbol	IST1
+KIAA0182	Previous symbol	GSE1
+KIAA0195	Previous symbol	TMEM94
+KIAA0226	Previous symbol	RUBCN
+KIAA0240	Previous symbol	GLTSCR1L
+KIAA0247	Previous symbol	SUSD6
+KIAA0284	Previous symbol	CEP170B
+KIAA0317	Previous symbol	AREL1
+KIAA0406	Previous symbol	TTI1
+KIAA0415	Previous symbol	AP5Z1
+KIAA0427	Previous symbol	CTIF
+KIAA0467	Previous symbol	SZT2
+KIAA0494	Previous symbol	EFCAB14
+KIAA0495	Previous symbol	TP73-AS1
+KIAA0528	Previous symbol	C2CD5
+KIAA0562	Previous symbol	CEP104
+KIAA0564	Previous symbol	VWA8
+KIAA0649	Previous symbol	PPP1R26
+KIAA0652	Previous symbol	ATG13
+KIAA0664	Previous symbol	CLUH
+KIAA0664P3	Previous symbol	CLUHP3
+KIAA0748	Previous symbol	TESPA1
+KIAA0776	Previous symbol	UFL1
+KIAA0802	Previous symbol	MTCL1
+KIAA0831	Previous symbol	ATG14
+KIAA0892	Previous symbol	MAU2
+KIAA0913	Previous symbol	ZSWIM8
+KIAA0947	Previous symbol	ICE1
+KIAA1009	Previous symbol	CEP162
+KIAA1012	Previous symbol	TRAPPC8
+KIAA1045	Previous symbol	PHF24
+KIAA1199	Previous symbol	CEMIP
+KIAA1239	Previous symbol	NWD2
+KIAA1244	Previous symbol	ARFGEF3
+KIAA1267	Previous symbol	KANSL1
+KIAA1274	Previous symbol	PALD1
+KIAA1279	Previous symbol	KIF1BP
+KIAA1310	Previous symbol	KANSL3
+KIAA1370	Previous symbol	FAM214A
+KIAA1377	Previous symbol	CEP126
+KIAA1383	Previous symbol	MAP10
+KIAA1407	Previous symbol	CCDC191
+KIAA1409	Previous symbol	UNC79
+KIAA1430	Previous symbol	CFAP97
+KIAA1432	Previous symbol	RIC1
+KIAA1467	Previous symbol	FAM234B
+KIAA1486	Previous symbol	NYAP2
+KIAA1529	Previous symbol	CCDC180
+KIAA1530	Previous symbol	UVSSA
+KIAA1539	Previous symbol	FAM214B
+KIAA1543	Previous symbol	CAMSAP3
+KIAA1598	Previous symbol	SHTN1
+KIAA1609	Previous symbol	TLDC1
+KIAA1632	Previous symbol	EPG5
+KIAA1704	Previous symbol	GPALPP1
+KIAA1712	Previous symbol	CEP44
+KIAA1731	Previous symbol	CEP295
+KIAA1737	Previous symbol	CIPC
+KIAA1751	Previous symbol	CFAP74
+KIAA1797	Previous symbol	FOCAD
+KIAA1826	Previous symbol	MSANTD4
+KIAA1875	Previous symbol	WDR97
+KIAA1908	Synonyms	PSMG3-AS1
+KIAA1949	Previous symbol	PPP1R18
+KIAA1967	Previous symbol	CCAR2
+KIAA1984	Previous symbol	CCDC183
+KIAA1984-AS1	Previous symbol	CCDC183-AS1
+KIAA2018	Previous symbol	USF3
+KLF14	Synonyms	SP6
+KLHDC5	Previous symbol	KLHL42
+KLHL6	Synonyms	KLHL7
+KLK3	Previous symbol	KLKB1
+KLRA1	Previous symbol	KLRAP1
+KLRAQ1	Previous symbol	PPP1R21
+KPNA7	Synonyms	KPNA6
+KRT6C	Previous symbol	KRT6A
+KRTAP5-1	Synonyms	KRTAP5-9
+KRTAP5-11	Synonyms	KRTAP5-5
+KRTAP5-2	Synonyms	KRTAP5-8
+KRTAP5-3	Synonyms	KRTAP5-7
+KRTAP5-6	Synonyms	KRTAP5-11
+KRTAP5-8	Synonyms	KRTAP5-2
+KRTAP5-9	Synonyms	KRTAP5-3
+KSR2	Synonyms	CNKSR2
+KTELC1	Previous symbol	POGLUT1
+L3MBTL	Previous symbol	L3MBTL1
+LAMA3	Synonyms	LAMA4
+LAMB2	Previous symbol	LAMC1
+LAMB2L	Previous symbol	LAMB2P1
+LASS1	Previous symbol	CERS1
+LASS2	Previous symbol	CERS2
+LASS3	Previous symbol	CERS3
+LASS4	Previous symbol	CERS4
+LASS5	Previous symbol	CERS5
+LASS6	Previous symbol	CERS6
+LAT	Synonyms	SPNS1
+LAT2	Synonyms	SLC7A8
+LBH	Synonyms	C6orf1
+LBXCOR1	Previous symbol	SKOR1
+LCP1	Synonyms	TOX4
+LDB1	Synonyms	LDB2
+LEPRE1	Previous symbol	P3H1
+LEPREL1	Previous symbol	P3H2
+LEPREL2	Previous symbol	P3H3
+LEPREL4	Previous symbol	P3H4
+LGALS2	Previous symbol	LGALS3
+LGTN	Synonyms	EIF2D
+LHFPL4	Previous symbol	LHFPL3
+LIG1	Synonyms	LRIG1
+LINC00035	Previous symbol	ABHD11-AS1
+LINC00085	Previous symbol	SPACA6
+LINC00086	Previous symbol	SMIM10L2A
+LINC00087	Previous symbol	SMIM10L2B
+LINC00263	Previous symbol	OLMALINC
+LINC00277	Previous symbol	EWSAT1
+LINC00338	Previous symbol	SNHG20
+LINC00340	Previous symbol	CASC15
+LINC00478	Previous symbol	MIR99AHG
+LINC00516	Previous symbol	BMS1P18
+LINC00568	Previous symbol	FALEC
+LINC00617	Previous symbol	TUNAR
+LINC00651	Previous symbol	TRERNA1
+LINC00657	Previous symbol	NORAD
+LINC00669	Previous symbol	MIR924HG
+LINS	Previous symbol	LINS1
+LIPA	Synonyms	SCGB1D1
+LNP1	Synonyms	KIAA1715
+LOC100130776	Synonyms	AGAP2-AS1
+LOC100132354	Synonyms	LINC01512
+LOC100216545	Synonyms	KMT2E-AS1
+LOC100505495	Previous symbol	PCAT19
+LOC100505812	Synonyms	CARD8-AS1
+LOC100507266	Synonyms	STX18-AS1
+LOC150622	Synonyms	LINC01105
+LOC152578	Synonyms	LINC01618
+LOC284100	Synonyms	YWHAEP7
+LOC284889	Synonyms	MIF-AS1
+LOC284998	Synonyms	LINC01114
+LOC285194	Synonyms	TUSC7
+LOC285758	Synonyms	LINC01268
+LOC388789	Synonyms	LINC00493
+LOC440905	Synonyms	FAR2P1
+LOC550112	Synonyms	UBA6-AS1
+LOC554202	Synonyms	MIR31HG
+LOC643714	Synonyms	CASC16
+LOC645323	Synonyms	LINC00461
+LOC645638	Synonyms	WFDC21P
+LOC728228	Synonyms	LINC01433
+LOC728431	Synonyms	LINC01137
+LOH12CR1	Previous symbol	BORCS5
+LOH3CR2A	Previous symbol	LINC00312
+LPHN1	Previous symbol	ADGRL1
+LPHN2	Previous symbol	ADGRL2
+LPHN3	Previous symbol	ADGRL3
+LPPR1	Synonyms	PLPPR1
+LPPR2	Synonyms	PLPPR2
+LPPR3	Synonyms	PLPPR3
+LPPR4	Synonyms	PLPPR4
+LPPR5	Synonyms	PLPPR5
+LQK1	Synonyms	FLVCR1-AS1
+LRDD	Previous symbol	PIDD1
+LRP1	Synonyms	C1D
+LRRC33	Previous symbol	NRROS
+LRRC37A4	Previous symbol	LRRC37A4P
+LRRC37B2	Previous symbol	LRRC37BP1
+LRRC48	Previous symbol	DRC3
+LRRC50	Previous symbol	DNAAF1
+LRRC67	Previous symbol	PPP1R42
+LRRC74	Previous symbol	LRRC74A
+LRRN1	Previous symbol	LRCH4
+LSAMP-AS3	Previous symbol	TUSC7
+LSMD1	Previous symbol	NAA38
+LTBP2	Previous symbol	LTBP3
+LTBP3	Previous symbol	LTBP2
+LUST	Synonyms	RBM5-AS1
+LY6G6D	Previous symbol	LY6G6F
+M1	Synonyms	MRLN
+MADD	Synonyms	ETFA
+MAFA	Synonyms	KLRG1
+MAG	Synonyms	ERCC2
+MAGEA2	Synonyms	MAGEA2B
+MAGEE1	Previous symbol	MAGEC2
+MAGI1	Previous symbol	CNKSR3
+MAGOH2	Previous symbol	MAGOH2P
+MAK	Synonyms	ALPK3
+MAL	Synonyms	MKL1
+MAP1A	Synonyms	METAP1
+MAP1D	Synonyms	METAP1D
+MAP2	Synonyms	METAP2
+MAPKSP1	Previous symbol	LAMTOR3
+MAST1	Synonyms	CLASP1
+MBP	Synonyms	PRG2
+MCART1	Previous symbol	SLC25A51
+MCART2	Previous symbol	SLC25A52
+MCART3P	Previous symbol	SLC25A51P1
+MCART6	Previous symbol	SLC25A53
+MCIN	Previous symbol	MCIDAS
+MCM2	Previous symbol	MCM7
+MCM3APAS	Previous symbol	MCM3AP-AS1
+ME1	Synonyms	PCDHB16
+ME2	Synonyms	CELSR1
+ME2	Synonyms	PCDHB11
+ME3	Synonyms	PCDHGA5
+MED1	Synonyms	MBD4
+MED25	Synonyms	MED9
+MEF2BNB	Previous symbol	BORCS8
+MEF2BNB-MEF2B	Previous symbol	BORCS8-MEF2B
+MEIS3	Previous symbol	MEIS3P1
+METT10D	Previous symbol	METTL16
+METT11D1	Previous symbol	METTL17
+METT5D1	Previous symbol	METTL15
+METTL11A	Previous symbol	NTMT1
+METTL21D	Previous symbol	VCPKMT
+MGA	Synonyms	MGAM
+MGAT1	Synonyms	MOGAT1
+MGAT2	Synonyms	MOGAT2
+MGAT3	Synonyms	MOGAT3
+MGC11082	Synonyms	DLGAP1-AS2
+MGC12982	Synonyms	FOXD2-AS1
+MGC16121	Synonyms	MIR503HG
+MGC21881	Synonyms	GLIDR
+MGC23270	Synonyms	LINC00638
+MGC23284	Synonyms	SNAI3-AS1
+MGC26647	Synonyms	C7orf62
+MGC29506	Synonyms	MZB1
+MGC34034	Synonyms	LINC01312
+MGC3771	Synonyms	ZNF205-AS1
+MGC39372	Synonyms	SERPINB9P1
+MGC42105	Synonyms	NIM1K
+MGC4473	Synonyms	LINC00626
+MGC70857	Synonyms	C8orf82
+MIA2	Synonyms	CFAP73
+MIF	Synonyms	S100A9
+MIP	Synonyms	MIPEP
+MIP	Synonyms	TNPO1
+MIP	Synonyms	MAFIP
+MIR1270-1	Previous symbol	MIR1270
+MIR1270-2	Previous symbol	MIR1270
+MIR143HG	Previous symbol	CARMN
+MIR203	Previous symbol	MIR203A
+MIR219-1	Previous symbol	MIR219A1
+MIR219-2	Previous symbol	MIR219A2
+MIR2964A	Previous symbol	MIR219B
+MIR3545	Previous symbol	MIR203B
+MIR3648	Previous symbol	MIR3648-1
+MIR3687	Previous symbol	MIR3687-1
+MIR4482-1	Previous symbol	MIR4482
+MIR4520A	Previous symbol	MIR4520-1
+MIR4520B	Previous symbol	MIR4520-2
+MIR486	Previous symbol	MIR486-1
+MIR499A	Previous symbol	MIR499B
+MIR511-1	Previous symbol	MIR511
+MIR511-2	Previous symbol	MIR511
+MIR549	Previous symbol	MIR549A
+MIR644B	Previous symbol	MIR664B
+MIR664	Previous symbol	MIR664A
+MKI67IP	Previous symbol	NIFK
+MLF1IP	Previous symbol	CENPU
+MLL	Previous symbol	KMT2A
+MLL2	Synonyms	KMT2B
+MLL2	Previous symbol	KMT2D
+MLL3	Previous symbol	KMT2C
+MLL4	Synonyms	KMT2B
+MLL4	Synonyms	KMT2D
+MLL5	Previous symbol	KMT2E
+MLN	Synonyms	MRLN
+MMP20	Previous symbol	MMP25
+MMP21	Previous symbol	MMP23A
+MNF1	Previous symbol	UQCC2
+MOBKL1A	Previous symbol	MOB1B
+MOBKL1B	Previous symbol	MOB1A
+MOBKL2A	Previous symbol	MOB3A
+MOBKL2B	Previous symbol	MOB3B
+MOBKL2C	Previous symbol	MOB3C
+MOBKL3	Previous symbol	MOB4
+MOS	Synonyms	MOCOS
+MOSC1	Previous symbol	MARC1
+MOSC2	Previous symbol	MARC2
+MPDZ	Synonyms	LNX1
+MPP1	Synonyms	KIF20B
+MPP2	Synonyms	FOXM1
+MPP4	Synonyms	ILF3
+MPP6	Synonyms	MPHOSPH6
+MPP7	Synonyms	CHAF1B
+MRP63	Previous symbol	MRPL57
+MRPL27	Synonyms	MRPL41
+MRPS28	Synonyms	MRPS35
+MRPS35	Synonyms	MRPS28
+MS4A1	Synonyms	MS4A2
+MS4A2	Synonyms	MS4A1
+MS4A7	Synonyms	MS4A4A
+MS4A8	Synonyms	MS4A7
+MS4A8B	Previous symbol	MS4A8
+MSL3L2	Previous symbol	MSL3P1
+MST1	Synonyms	STK4
+MST1P9	Previous symbol	MST1L
+MST4	Synonyms	STK26
+MT1P2	Previous symbol	MT1HL1
+MTCP1	Synonyms	SH2D1A
+MTCP1	Previous symbol	CMC4
+MTCP1NB	Previous symbol	CMC4
+MTERF	Previous symbol	MTERF1
+MTERFD1	Previous symbol	MTERF3
+MTERFD2	Previous symbol	MTERF4
+MTERFD3	Previous symbol	MTERF2
+MTF1	Synonyms	MFI2
+MTF1	Synonyms	MYT1
+MTMR15	Previous symbol	FAN1
+MTMR8	Previous symbol	MTMR9
+MTMR9L	Previous symbol	MTMR9LP
+MTP18	Synonyms	MTFP1
+MTTP	Previous symbol	MT-TP
+MUDENG	Previous symbol	AP5M1
+MUM1	Previous symbol	IRF4
+MUTED	Previous symbol	BLOC1S5
+MYCL1	Previous symbol	MYCL
+MYH14	Synonyms	MYH7B
+MYO1C	Synonyms	MYO1E
+MYST1	Previous symbol	KAT8
+MYST2	Previous symbol	KAT7
+MYST3	Previous symbol	KAT6A
+MYST4	Previous symbol	KAT6B
+MYT1	Synonyms	PKMYT1
+NADKD1	Previous symbol	NADK2
+NAF1	Synonyms	TNIP1
+NAPA	Synonyms	NAPSA
+NAPB	Synonyms	NAPSB
+NAPRT1	Previous symbol	NAPRT
+NARF	Synonyms	RNF138
+NARG2	Previous symbol	ICE2
+NAT1	Previous symbol	SLC6A2
+NAT1	Synonyms	EIF4G2
+NAT15	Previous symbol	NAA60
+NAT2	Synonyms	SLC38A1
+NAT6	Synonyms	HYAL1
+NBLA00301	Synonyms	HAND2-AS1
+NBN	Synonyms	ARTN
+NBPF16	Previous symbol	NBPF15
+NBPF24	Previous symbol	NBPF11
+NCRNA00028	Previous symbol	LINC00028
+NCRNA00029	Previous symbol	LINC00029
+NCRNA00032	Previous symbol	LINC00032
+NCRNA00051	Previous symbol	LINC00051
+NCRNA00052	Previous symbol	LINC00052
+NCRNA00081	Previous symbol	BBIP1
+NCRNA00085	Previous symbol	SPACA6
+NCRNA00086	Previous symbol	SMIM10L2A
+NCRNA00087	Previous symbol	SMIM10L2B
+NCRNA00092	Previous symbol	LINC00092
+NCRNA00093	Previous symbol	DNMBP-AS1
+NCRNA00094	Previous symbol	LINC00094
+NCRNA00095	Previous symbol	FBXL19-AS1
+NCRNA00099	Previous symbol	KCNIP4-IT1
+NCRNA00105	Previous symbol	ASMTL-AS1
+NCRNA00107	Previous symbol	LINC00685
+NCRNA00110	Previous symbol	GRIK1-AS1
+NCRNA00111	Previous symbol	LINC00111
+NCRNA00112	Previous symbol	LINC00112
+NCRNA00113	Previous symbol	LINC00113
+NCRNA00114	Previous symbol	LINC00114
+NCRNA00115	Previous symbol	LINC00115
+NCRNA00116	Previous symbol	LINC00116
+NCRNA00119	Previous symbol	NPHP3-AS1
+NCRNA00152	Previous symbol	LINC00152
+NCRNA00157	Previous symbol	CHODL-AS1
+NCRNA00158	Previous symbol	LINC00158
+NCRNA00159	Previous symbol	LINC00159
+NCRNA00160	Previous symbol	LINC00160
+NCRNA00161	Previous symbol	LINC00161
+NCRNA00162	Previous symbol	LINC00162
+NCRNA00164	Previous symbol	ANKRD30BL
+NCRNA00167	Previous symbol	LINC00167
+NCRNA00169	Previous symbol	CRYM-AS1
+NCRNA00171	Previous symbol	ZNRD1-AS1
+NCRNA00173	Previous symbol	LINC00173
+NCRNA00174	Previous symbol	LINC00174
+NCRNA00175	Previous symbol	COL18A1-AS1
+NCRNA00176	Previous symbol	LINC00176
+NCRNA00181	Previous symbol	A1BG-AS1
+NCRNA00182	Previous symbol	FTX
+NCRNA00183	Previous symbol	JPX
+NCRNA00185	Previous symbol	TTTY14
+NCRNA00188	Previous symbol	LRRC75A-AS1
+NCRNA00189	Previous symbol	LINC00189
+NCRNA00200	Previous symbol	LINC00200
+NCRNA00201	Previous symbol	HNRNPU
+NCRNA00202	Previous symbol	LINC00202-1
+NCRNA00203	Previous symbol	ITPK1-AS1
+NCRNA00204B	Previous symbol	FAM223B
+NCRNA00207	Previous symbol	LINC00207
+NCRNA00219	Previous symbol	EPB41L4A-AS1
+NCRNA00230B	Previous symbol	FAM224B
+NCRNA00235	Previous symbol	LINC00235
+NDNL2	Previous symbol	NSMCE3
+NELF	Previous symbol	NSMF
+NET1	Previous symbol	SLC6A2
+NET1	Previous symbol	SLC6A5
+NET1	Synonyms	PRPF38B
+NEURL	Previous symbol	NEURL1
+NFKBIL2	Previous symbol	TONSL
+NGB	Synonyms	GTPBP4
+NHEDC1	Previous symbol	SLC9B1
+NHEDC2	Previous symbol	SLC9B2
+NHP2L1	Previous symbol	SNU13
+NIM1	Synonyms	NIM1K
+NLK	Synonyms	GPI
+NMB	Synonyms	GPNMB
+NME1	Synonyms	RMRP
+NOP9	Synonyms	LTB4R2
+NOS1	Synonyms	NANOS1
+NOS2	Synonyms	NANOS2
+NOS3	Synonyms	NANOS3
+NOV	Synonyms	RPL10
+NOV	Synonyms	PLXNA1
+NPIP	Previous symbol	NPIPA1
+NPIPL2	Previous symbol	NPIPB15
+NPIPL3	Previous symbol	NPIPB3
+NPR2	Synonyms	NPRL2
+NPR3	Synonyms	NPRL3
+NRD1	Previous symbol	NRDC
+NRF1	Synonyms	NFE2L1
+NRP2	Synonyms	NELL2
+NSL1	Synonyms	KANSL1
+NT5C3	Previous symbol	NT5C3A
+NT5C3L	Previous symbol	NT5C3B
+NTN4	Synonyms	MLF2
+NTNG1	Previous symbol	NTNG2
+NUPL1	Previous symbol	NUP58
+NUPR1L	Previous symbol	NUPR2
+OBFC2A	Previous symbol	NABP1
+OBFC2B	Previous symbol	NABP2
+ODC1	Synonyms	SLC25A21
+ODZ1	Previous symbol	TENM1
+ODZ2	Previous symbol	TENM2
+ODZ3	Previous symbol	TENM1
+ODZ3	Previous symbol	TENM3
+ODZ4	Previous symbol	TENM4
+OPA1	Synonyms	MED12
+OR3A4	Previous symbol	OR3A4P
+OR52A4	Previous symbol	OR52A4P
+ORC1	Synonyms	SLC25A15
+ORC1L	Previous symbol	ORC1
+ORC2L	Previous symbol	ORC2
+ORC3L	Previous symbol	ORC3
+ORC4L	Previous symbol	ORC4
+ORC5L	Previous symbol	ORC5
+ORC6L	Previous symbol	ORC6
+OSM	Synonyms	CCM2
+OSR1	Previous symbol	OXSR1
+OSTCL	Previous symbol	OSTCP1
+OSTalpha	Synonyms	SLC51A
+P704P	Synonyms	POTEM
+PAK1	Synonyms	PKN1
+PAK3	Synonyms	ARHGEF7
+PAM	Synonyms	MYCBP2
+PAN2	Synonyms	NLRP4
+PAN2	Synonyms	RDH14
+PAN3	Synonyms	NLRP6
+PAR-SN	Synonyms	PWARSN
+PAR1	Synonyms	F2R
+PAR1	Synonyms	SLC52A2
+PAR1	Synonyms	PWAR1
+PAR4	Synonyms	F2RL3
+PAR4	Synonyms	PAWR
+PAR4	Synonyms	PWAR4
+PAR5	Synonyms	PWAR5
+PBX2	Previous symbol	PBX2P1
+PC	Synonyms	PODXL
+PCDHB17	Previous symbol	PCDHB17P
+PCDHB18	Previous symbol	PCDHB18P
+PCDP1	Synonyms	CFAP221
+PCM1	Synonyms	MBD1
+PCOTH	Synonyms	C1QTNF9B-AS1
+PDC	Synonyms	PNKD
+PDF	Synonyms	GDF15
+PDIA3P	Previous symbol	PDIA3P1
+PDK1	Synonyms	PDPK1
+PDP1	Synonyms	PLPP6
+PDX1	Synonyms	PDHX
+PDXDC2	Previous symbol	PDXDC2P
+PECI	Previous symbol	ECI2
+PEG3AS	Previous symbol	PEG3-AS1
+PER1	Synonyms	PGAP3
+PET112	Previous symbol	GATB
+PET112L	Previous symbol	GATB
+PGAM1	Synonyms	PGAM4
+PGCP	Synonyms	CPQ
+PGP	Synonyms	PGPEP1
+PHF15	Previous symbol	JADE2
+PHF16	Previous symbol	JADE3
+PHF17	Previous symbol	JADE1
+PIDD	Previous symbol	PIDD1
+PIM1	Synonyms	LONP1
+PIN1L	Previous symbol	PIN1P1
+PION	Previous symbol	GSAP
+PISD	Synonyms	SFI1
+PKD2	Synonyms	PRKD2
+PKM2	Previous symbol	PKM
+PL-5283	Synonyms	C7orf73
+PLAC1L	Previous symbol	OOSP2
+PLAC2	Previous symbol	TINCR
+PLAC8	Synonyms	LGALS13
+PLD1	Previous symbol	PRKCSH
+PLDN	Previous symbol	BLOC1S6
+PLEKHA9	Previous symbol	PLEKHA8P1
+PLEKHM1P	Previous symbol	PLEKHM1P1
+PLK1S1	Previous symbol	KIZ
+PLK5P	Previous symbol	PLK5
+PLUNC	Previous symbol	BPIFA1
+PMP22	Synonyms	PXMP2
+PMS2L1	Previous symbol	PMS2P1
+PMS2L11	Previous symbol	PMS2P11
+PMS2L2	Previous symbol	PMS2P2
+PMS2L3	Previous symbol	PMS2P3
+PMS2L4	Previous symbol	PMS2P4
+PMS2L5	Previous symbol	PMS2P5
+PNMA6C	Previous symbol	PNMA6A
+PNMA6D	Previous symbol	PNMA6B
+PNP	Synonyms	PPY
+POLH	Synonyms	POLQ
+POLK	Synonyms	PAPD7
+POLQ	Synonyms	POLK
+POM121	Synonyms	POMZP3
+POMP	Synonyms	NT5C3A
+POP1	Synonyms	BVES
+POP1	Synonyms	PYDC1
+POU4F1-AS1	Previous symbol	RNF219-AS1
+PP13	Synonyms	LGALS13
+PPAP2A	Previous symbol	PLPP1
+PPAP2B	Previous symbol	PLPP3
+PPAP2C	Previous symbol	PLPP2
+PPAPDC1A	Previous symbol	PLPP4
+PPAPDC1B	Previous symbol	PLPP5
+PPAPDC2	Previous symbol	PLPP6
+PPAPDC3	Previous symbol	PLPP7
+PPAT	Synonyms	COASY
+PPBPL2	Previous symbol	PPBPP2
+PPIAL4B	Previous symbol	PPIAL4A
+PPIL5	Previous symbol	LRR1
+PPOX	Synonyms	HCRT
+PPPDE1	Previous symbol	DESI2
+PPPDE2	Previous symbol	DESI1
+PPY2	Previous symbol	PPY2P
+PPYR1	Previous symbol	NPY4R
+PRAC	Previous symbol	PRAC1
+PRAMEF21	Previous symbol	PRAMEF20
+PRB1	Synonyms	RBL1
+PRDX6	Synonyms	PRDX5
+PRDXDD1P	Previous symbol	PRORSD1P
+PRG1	Synonyms	IER3
+PRG1	Previous symbol	SRGN
+PRG2	Synonyms	PXDN
+PRG2	Synonyms	PLPPR3
+PRG3	Synonyms	AIFM2
+PRHOXNB	Previous symbol	URAD
+PRIC285	Synonyms	HELZ2
+PRMT10	Previous symbol	PRMT9
+PRO1768	Synonyms	FOXN3-AS2
+PRODH2	Synonyms	PRODH
+PRR24	Previous symbol	INAFM1
+PRR4	Synonyms	PVRL4
+PRSSL1	Previous symbol	KLK10
+PRSSL1	Previous symbol	PRSS57
+PRX	Synonyms	PRDX6
+PSAP	Synonyms	MTCH1
+PSG1	Synonyms	PSG2
+PSG10	Previous symbol	PSG10P
+PSG11	Previous symbol	PSG9
+PTH2	Synonyms	PTRH2
+PTH2	Synonyms	PTENP1
+PTPLA	Previous symbol	HACD1
+PTPLAD1	Previous symbol	HACD3
+PTPLAD2	Previous symbol	HACD4
+PTPLB	Previous symbol	HACD2
+PTPN20A	Previous symbol	PTPN20
+PTPN20B	Previous symbol	PTPN20
+PTPRO	Synonyms	PTPRU
+PTPRQ	Previous symbol	PTPRR
+PVALB	Synonyms	MB
+PXN	Synonyms	PXDN
+QARS	Previous symbol	EPRS
+RAB11B	Synonyms	RAB43
+RAB39	Synonyms	RAB34
+RAB39	Previous symbol	RAB39A
+RAB41	Synonyms	RAB43
+RAB42	Previous symbol	RAB42P1
+RAB7L1	Previous symbol	RAB29
+RABL5	Previous symbol	IFT22
+RAC1	Synonyms	RNASE1
+RAC3	Synonyms	NCOA3
+RAD1	Synonyms	RNASE6
+RAD1	Synonyms	ERCC4
+RAD51L1	Previous symbol	RAD51B
+RAD51L3	Previous symbol	RAD51D
+RAE1	Synonyms	RNASE7
+RAF1	Synonyms	RNASE3
+RAG1AP1	Previous symbol	SLC50A1
+RAGE	Previous symbol	MOK
+RAGE	Synonyms	AGER
+RAGE	Synonyms	LINC00914
+RAI1	Synonyms	RNASE12
+RASSF4	Synonyms	RIN2
+RAX	Synonyms	PRKRA
+RBM16	Previous symbol	SCAF8
+RBM9	Previous symbol	RBFOX2
+RBP1	Synonyms	ARID4A
+RBP2	Synonyms	RIMBP2
+RBP3	Synonyms	E2F1
+RBP4	Synonyms	POLR2D
+RBP5	Previous symbol	CRABP1
+RDBP	Previous symbol	NELFE
+REG1P	Previous symbol	REG1CP
+REN	Synonyms	KCTD11
+REXO1L1	Previous symbol	REXO1L1P
+RFPL1-AS1	Previous symbol	RFPL1S
+RG9MTD1	Previous symbol	TRMT10C
+RG9MTD2	Previous symbol	TRMT10A
+RG9MTD3	Previous symbol	TRMT10B
+RGNEF	Synonyms	ARHGEF28
+RGP1	Synonyms	RGPD1
+RGS13	Synonyms	RGS18
+RGS9	Synonyms	RGS9BP
+RHEB	Synonyms	RHEBP1
+RICH2	Synonyms	ARHGAP44
+RIF1	Synonyms	INSL6
+RIF1	Synonyms	LRIF1
+RILP	Synonyms	PRICKLE1
+RLF	Synonyms	INSL3
+RN5S9	Previous symbol	RNA5S9
+RNASE9	Synonyms	RNASE10
+RNASEH1	Previous symbol	RNASEH1P1
+RNASEN	Previous symbol	DROSHA
+RNF160	Previous symbol	LTN1
+RNF216L	Previous symbol	RNF216P1
+RNH1	Synonyms	RNASEH1P1
+RNU105A	Previous symbol	SNORA73B
+RNU12	Previous symbol	RNU12-2P
+RNU5E	Previous symbol	RNU5E-1
+RNU6-16	Previous symbol	RNU6-16P
+RNU6-19	Previous symbol	RNU6-19P
+RNU6-28	Previous symbol	RNU6-28P
+RNU6-33	Previous symbol	RNU6-33P
+RNU6-34	Previous symbol	RNU6-34P
+RNU6-35	Previous symbol	RNU6-35P
+RNU6-52	Previous symbol	RNU6-52P
+RNU6-53	Previous symbol	RNU6-53P
+RNU6-57	Previous symbol	RNU6-57P
+RNU6-6	Previous symbol	RNU6-6P
+RNU6-64	Previous symbol	RNU6-64P
+RNU6-66	Previous symbol	RNU6-66P
+RNU6-67	Previous symbol	RNU6-67P
+RNU6-69	Previous symbol	RNU6-69P
+RNU6-71	Previous symbol	RNU6-71P
+RNU6-72	Previous symbol	RNU6-72P
+RNU6-76	Previous symbol	RNU6-76P
+RNU6-78	Previous symbol	RNU6-78P
+RNU6-79	Previous symbol	RNU6-79P
+RNU6-81	Previous symbol	RNU6-81P
+RNU6-83	Previous symbol	RNU6-83P
+ROBLD3	Previous symbol	LAMTOR2
+ROD1	Previous symbol	PTBP3
+ROR1	Synonyms	RORA
+ROR2	Synonyms	RORA
+RP1	Synonyms	STK19
+RP1	Synonyms	MAPRE2
+RP2	Synonyms	STK19B
+RP2	Synonyms	NUDT19
+RPA1	Synonyms	POLR1A
+RPA2	Synonyms	POLR1B
+RPF1	Synonyms	NEDD4
+RPL10	Synonyms	RPL15
+RPL13	Synonyms	MRPL13
+RPL24	Synonyms	RSL24D1
+RPL36A	Previous symbol	RPL36AL
+RPS12	Synonyms	MRPS12
+RPS17L	Previous symbol	RPS17
+RRP1	Synonyms	RRP1B
+RRP7B	Previous symbol	RRP7BP
+RS1	Synonyms	RSC1A1
+RSBN1L-AS1	Previous symbol	APTR
+RTCD1	Previous symbol	RTCA
+RTDR1	Previous symbol	RSPH14
+RUNDC2A	Previous symbol	SNX29
+RUNDC2C	Previous symbol	SNX29P2
+RWDD4A	Previous symbol	RWDD4
+S100A14	Previous symbol	S100A11P1
+S100A16	Synonyms	HRNR
+SAG	Synonyms	RNF7
+SAP130	Synonyms	SF3B3
+SAPS1	Previous symbol	PPP6R1
+SAPS2	Previous symbol	PPP6R2
+SAPS3	Previous symbol	PPP6R3
+SARS	Synonyms	SARS2
+SAT1	Synonyms	SLC38A1
+SAT2	Synonyms	SLC38A2
+SC4MOL	Previous symbol	MSMO1
+SC5DL	Previous symbol	SC5D
+SC65	Synonyms	P3H4
+SCAND2	Previous symbol	SCAND2P
+SCAND3	Previous symbol	ZBED9
+SCD	Synonyms	SLC22A5
+SCG3	Synonyms	SGCG
+SCGBL	Previous symbol	SCGB2B2
+SCP2	Synonyms	SYCP2
+SCP2	Synonyms	CTDSP2
+SCXA	Previous symbol	SCX
+SCXB	Previous symbol	SCX
+SCYL1	Synonyms	CCL13
+SCYL2	Synonyms	CCL14
+SCYL3	Synonyms	CCL15
+SDCCAG1	Previous symbol	NEMF
+SDS	Synonyms	SBDS
+SELRC1	Previous symbol	COA7
+SELS	Synonyms	VIMP
+SEPT2	Synonyms	SEPT6
+SEPT7L	Previous symbol	SEPT7P9
+SEPX1	Previous symbol	MSRB1
+SERPINA13	Previous symbol	SERPINA13P
+SERPINA2P	Previous symbol	SERPINA2
+SERPINB11	Previous symbol	SERPINB8P1
+SETD5-AS1	Previous symbol	THUMPD3-AS1
+SETD8	Previous symbol	KMT5A
+SF4	Previous symbol	SUGP1
+SFN	Synonyms	REXO2
+SFRS1	Previous symbol	SRSF1
+SFRS11	Previous symbol	SRSF11
+SFRS12	Previous symbol	SREK1
+SFRS12IP1	Previous symbol	SREK1IP1
+SFRS13A	Previous symbol	SRSF10
+SFRS13B	Previous symbol	SRSF12
+SFRS14	Previous symbol	SUGP2
+SFRS15	Previous symbol	SCAF4
+SFRS16	Previous symbol	CLASRP
+SFRS17A	Previous symbol	AKAP17A
+SFRS18	Previous symbol	PNISR
+SFRS2	Previous symbol	SRSF2
+SFRS2B	Previous symbol	SRSF8
+SFRS2IP	Previous symbol	SCAF11
+SFRS3	Previous symbol	SRSF3
+SFRS4	Previous symbol	SRSF4
+SFRS5	Previous symbol	SRSF5
+SFRS6	Previous symbol	SRSF6
+SFRS7	Previous symbol	SRSF7
+SFRS8	Previous symbol	SFSWAP
+SFRS9	Previous symbol	SRSF9
+SGEF	Synonyms	ARHGEF26
+SGK2	Previous symbol	SGK3
+SH3D20	Previous symbol	ARHGAP27
+SI	Synonyms	PMEL
+SIGLECL1	Previous symbol	SIGLEC12
+SIGLECP3	Previous symbol	SIGLEC17P
+SILV	Previous symbol	PMEL
+SIP1	Previous symbol	GEMIN2
+SIP1	Synonyms	SCAF11
+SIP1	Synonyms	ZEB2
+SIRPB2	Previous symbol	SIRPG
+SLA	Synonyms	SEPSECS
+SLC17A2	Previous symbol	SLC34A1
+SLC23A1	Previous symbol	SLC23A2
+SLC23A2	Previous symbol	SLC23A1
+SLC24A6	Previous symbol	SLC8B1
+SLC4A5	Previous symbol	SLC4A4
+SLC6A5	Previous symbol	SLC6A2
+SLC9A10	Previous symbol	SLC9C1
+SLC9A11	Previous symbol	SLC9C2
+SLIT1	Synonyms	SLIT3
+SLIT3	Synonyms	SLIT1
+SLK	Synonyms	FYN
+SLMO1	Previous symbol	PRELID3A
+SLMO2	Previous symbol	PRELID3B
+SMAD1	Synonyms	GARS
+SMAD5OS	Previous symbol	SMAD5-AS1
+SMAP2	Synonyms	SMOC2
+SMCR7	Previous symbol	MIEF2
+SMCR7L	Previous symbol	MIEF1
+SMEK1	Previous symbol	PPP4R3A
+SMEK2	Previous symbol	PPP4R3B
+SMEK3P	Previous symbol	PPP4R3CP
+SMIM11	Previous symbol	SMIM11A
+SMIM16	Previous symbol	LINC00862
+SMO	Synonyms	SMOX
+SMS	Synonyms	RAI1
+SNORA17	Previous symbol	SNORA17A
+SNORA3	Previous symbol	SNORA3A
+SNORA34	Previous symbol	SNORA2C
+SNORA39	Previous symbol	SNORA71E
+SNORA42	Previous symbol	SNORA80E
+SNORA43	Previous symbol	SNORA17B
+SNORA45	Previous symbol	SNORA3B
+SNORA50	Previous symbol	SNORA50A
+SNORA76	Previous symbol	SNORA50C
+SNORA80	Previous symbol	SNORA80A
+SNORD115-48	Synonyms	SNORD115-45
+SNORD85	Previous symbol	SNORD103C
+SNRPD1	Previous symbol	SNRPD2
+SNURF	Synonyms	RNF4
+SNX30	Synonyms	SNX33
+SOCS4	Previous symbol	SOCS6
+SOCS7	Previous symbol	SOCS4
+SOGA2	Previous symbol	MTCL1
+SOLH	Previous symbol	CAPN15
+SOX2OT	Previous symbol	SOX2-OT
+SPANXB2	Previous symbol	SPANXB1
+SPANXE	Previous symbol	SPANXD
+SPANXF1	Previous symbol	SPANXB1
+SPATA31A2	Previous symbol	SPATA31A1
+SPATA31A4	Previous symbol	SPATA31A7
+SPATA8	Synonyms	SPATS1
+SPG20OS	Previous symbol	SPG20-AS1
+SPIN1	Synonyms	SPNS1
+SPINLW1	Previous symbol	EPPIN
+SPN	Synonyms	DEAF1
+SPP1	Synonyms	CXXC1
+SPP2	Synonyms	SGPP2
+SPR	Synonyms	TACR1
+SPRYD5	Previous symbol	TRIM51
+SR140	Synonyms	U2SURP
+SRA1	Synonyms	SOX9
+SRCRB4D	Previous symbol	SSC4D
+SRG7	Synonyms	SPATA42
+SRGAP2	Previous symbol	SRGAP3
+SRM	Synonyms	SRMS
+SRPR	Previous symbol	SRPRA
+ST7	Synonyms	LRP12
+ST7OT1	Previous symbol	ST7-AS1
+ST7OT2	Previous symbol	ST7-AS2
+ST7OT3	Previous symbol	ST7-OT3
+ST7OT4	Previous symbol	ST7-OT4
+STAG1	Synonyms	PMEPA1
+STAP1	Synonyms	UXT
+STAR	Synonyms	GUCY2C
+STK3	Synonyms	STK24
+STL	Synonyms	RNF217-AS1
+STRA13	Previous symbol	BHLHE40
+STRAP	Synonyms	SRFBP1
+SUGT1L1	Previous symbol	SUGT1P3
+SULT1C2	Previous symbol	SULT1C4
+SUV420H1	Previous symbol	KMT5B
+SUV420H2	Previous symbol	KMT5C
+SUZ12P	Previous symbol	SUZ12P1
+SYT14L	Previous symbol	SYT16
+SYT14L	Previous symbol	SYT14P1
+TAF4B	Synonyms	PAPPA-AS1
+TAP1	Synonyms	SEC14L2
+TAP2	Synonyms	SEC14L3
+TAZ	Synonyms	WWTR1
+TCEA1	Synonyms	TCEA1P2
+TCF3	Previous symbol	TCF7L1
+TCF4	Previous symbol	TCF7L2
+TDGF3	Previous symbol	TDGF1P3
+TENC1	Previous symbol	TNS2
+TEP1	Synonyms	PTEN
+TH1L	Previous symbol	NELFCD
+THOC4	Previous symbol	ALYREF
+TIMM16	Synonyms	PAM16
+TKT	Synonyms	DDR2
+TM7SF4	Previous symbol	DCSTAMP
+TMCO7	Previous symbol	TANGO6
+TMEM111	Previous symbol	EMC3
+TMEM146	Previous symbol	CATSPERD
+TMEM149	Previous symbol	IGFLR1
+TMEM14E	Previous symbol	TMEM14EP
+TMEM178	Previous symbol	TMEM178A
+TMEM180	Previous symbol	MFSD13A
+TMEM188	Previous symbol	CNEP1R1
+TMEM194A	Previous symbol	NEMP1
+TMEM194B	Previous symbol	NEMP2
+TMEM195	Previous symbol	AGMO
+TMEM20	Previous symbol	SLC35G1
+TMEM22	Previous symbol	SLC35G2
+TMEM48	Previous symbol	NDC1
+TMEM49	Previous symbol	VMP1
+TMEM66	Previous symbol	SARAF
+TMEM84	Previous symbol	EWSAT1
+TMEM85	Previous symbol	EMC4
+TMEM90A	Previous symbol	SYNDIG1L
+TMEM90B	Previous symbol	SYNDIG1
+TMEM93	Previous symbol	EMC6
+TMPRSS3	Synonyms	TMPRSS4
+TMSL3	Previous symbol	TMSB4XP8
+TNFRSF11B	Synonyms	BTF3P11
+TNNC1	Synonyms	TNNI3
+TPH2	Synonyms	TDO2
+TPO	Synonyms	THPO
+TRAF2	Previous symbol	TANK
+TRAP1	Previous symbol	HSP90B2P
+TRAP1	Synonyms	TGFBRAP1
+TRAPPC2P1	Previous symbol	TRAPPC2B
+TREML2P1	Previous symbol	TREML5P
+TREML3	Previous symbol	TREML3P
+TRIM49D1P	Previous symbol	TRIM49D1
+TRIM49D2P	Previous symbol	TRIM49D2
+TRIM49L	Previous symbol	TRIM49D2
+TRIM53	Previous symbol	TRIM53AP
+TRNP1	Previous symbol	TRP-AGG2-3
+TRNP1	Previous symbol	TRP-AGG2-4
+TRNP1	Previous symbol	TRL-AAG2-1
+TRPC7	Previous symbol	TRPM2
+TRY6	Synonyms	PRSS3P2
+TRYX3	Synonyms	PRSS58
+TSGA14	Previous symbol	CEP41
+TSPYL3	Previous symbol	TSPY26P
+TTC15	Previous symbol	TRAPPC12
+TTC18	Previous symbol	CFAP70
+TTC35	Previous symbol	EMC2
+TTC40	Previous symbol	CFAP46
+TTF1	Synonyms	NKX2-1
+TTL	Synonyms	LINC00598
+TTLL13	Previous symbol	TTLL13P
+TTLL5	Previous symbol	TTLL10
+TUBB	Previous symbol	TUBB2A
+TUBB2C	Previous symbol	TUBB4B
+TUBB4	Previous symbol	TUBB4A
+TUBB4Q	Previous symbol	TUBB7P
+TXLNG2P	Previous symbol	TXLNGY
+TXNDC3	Previous symbol	NME8
+TXNDC6	Previous symbol	NME9
+TXNRD3IT1	Previous symbol	TXNRD3NB
+U2AF1L4	Previous symbol	IGFLR1
+UBE2CBP	Previous symbol	UBE3D
+UBE2Q2P3	Previous symbol	UBE2Q2P2
+UCKL1AS	Previous symbol	UCKL1-AS1
+UCN2	Synonyms	UTS2
+UGT2B11	Synonyms	UGT2B4
+UNQ6975	Synonyms	LINC01121
+UPF0639	Synonyms	PLEKHD1
+UQCC	Previous symbol	UQCC1
+USE1	Synonyms	UBE2Z
+USP10	Synonyms	USP32
+USP12	Previous symbol	USP12P1
+USP16	Synonyms	USP21
+USP17	Previous symbol	USP17L9P
+USP17L1P	Previous symbol	USP17L1
+USP21	Synonyms	USP25
+USP31	Previous symbol	USP48
+UTS2D	Previous symbol	UTS2B
+VARS2	Previous symbol	VARS
+VAT1	Previous symbol	SLC18A1
+VDAC3	Previous symbol	VDAC1P5
+VIP	Synonyms	CPAMD8
+VIPAR	Synonyms	VIPAS39
+VPS24	Previous symbol	CHMP3
+WAPAL	Previous symbol	WAPL
+WBP1	Synonyms	DDOST
+WBSCR26	Previous symbol	ABHD11-AS1
+WDR11	Previous symbol	PHIP
+WDR16	Previous symbol	CFAP52
+WDR45L	Previous symbol	WDR45B
+WDR52	Previous symbol	CFAP44
+WDR52-AS1	Previous symbol	CFAP44-AS1
+WDR65	Previous symbol	CFAP57
+WDR67	Previous symbol	TBC1D31
+WDR69	Previous symbol	DAW1
+WDR8	Previous symbol	WRAP73
+WDR82	Previous symbol	WDR82P1
+WDR85	Previous symbol	DPH7
+WDR96	Previous symbol	CFAP43
+WHAMML1	Previous symbol	WHAMMP3
+WHAMML2	Previous symbol	WHAMMP2
+WHSC2	Previous symbol	NELFA
+WIBG	Previous symbol	PYM1
+WIT1	Previous symbol	WT1-AS
+XAGE2B	Previous symbol	XAGE2
+XBP1	Previous symbol	XBP1P1
+XGPY2	Previous symbol	XGY2
+YSK4	Previous symbol	MAP3K19
+ZFATAS	Previous symbol	ZFAT-AS1
+ZFP106	Previous symbol	ZNF106
+ZFP112	Previous symbol	ZNF112
+ZFP161	Previous symbol	ZBTB14
+ZFYVE20	Previous symbol	RBSN
+ZMYND17	Previous symbol	MSS51
+ZNF137	Previous symbol	ZNF137P
+ZNF167	Previous symbol	ZKSCAN7
+ZNF187	Previous symbol	ZSCAN26
+ZNF192	Previous symbol	ZKSCAN8
+ZNF193	Previous symbol	ZSCAN9
+ZNF20	Synonyms	ZNF121
+ZNF225	Synonyms	EGR1
+ZNF230	Synonyms	RNF141
+ZNF238	Previous symbol	ZBTB18
+ZNF252	Previous symbol	ZNF252P
+ZNF259	Previous symbol	ZPR1
+ZNF271	Previous symbol	ZNF271P
+ZNF295	Previous symbol	ZBTB21
+ZNF321	Previous symbol	ZNF321P
+ZNF322	Previous symbol	ZNF322P1
+ZNF322A	Previous symbol	ZNF322
+ZNF322B	Previous symbol	ZNF322P1
+ZNF323	Previous symbol	ZSCAN31
+ZNF37B	Previous symbol	ZNF37BP
+ZNF389	Previous symbol	ZNF192P1
+ZNF397OS	Previous symbol	ZSCAN30
+ZNF434	Previous symbol	ZSCAN32
+ZNF474	Synonyms	ZNF106
+ZNF487P	Previous symbol	ZNF487
+ZNF498	Previous symbol	ZSCAN25
+ZNF542	Previous symbol	ZNF542P
+ZNF642	Previous symbol	ZFP69
+ZNF643	Previous symbol	ZFP69B
+ZNF663	Previous symbol	ZNF663P
+ZNF673	Previous symbol	KRBOX4
+ZNF767	Previous symbol	ZNF767P
+ZNF812	Previous symbol	ZNF812P
+ZNF815	Previous symbol	ZNF815P
+ZNF816A	Previous symbol	ZNF816
+ZNF826	Previous symbol	ZNF826P
+ZNF828	Previous symbol	CHAMP1
+ZNF833	Previous symbol	ZNF833P
+psiTPTE22	Synonyms	TPTEP1
