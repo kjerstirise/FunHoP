@@ -75,18 +75,19 @@ def ortholog_remover(root):
 def change_namestring(pathway_path, hsalist_path, outfile_path):
 	names = string_list(hsalist_path)
 	g = glob.glob(os.path.join(pathway_path,'*.xml'))
-
+	
 	for file in g:
 		#filename = file.split("/")
 		head, tail = os.path.split(os.path.split(file)[-1])	
 		out_file_name = os.path.join(outfile_path, "changed_name_" + tail)
-		#tree = ET.parse(file)
-		#root = tree.getroot()
-		#ortholog_remover(root)
-		#string_changer(root, names)
-		#tree.write(out_file_name)
+		tree = ET.parse(file)
+		root = tree.getroot()
+		ortholog_remover(root)
+		string_changer(root, names)
+		tree.write(out_file_name)
 	
 	
 
 if __name__ == '__main__':
+	print("made it to 1")
 	change_namestring(pathway_path, hsalist_path, outfile_path)

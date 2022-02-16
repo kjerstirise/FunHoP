@@ -61,6 +61,7 @@ def main():
 
 	print("Namestrings have been changed to include all genes")
 
+	
 	create_genelist.create_genelist(pathway_path = changed_name, 
 									outfile_path = cwd)
 
@@ -94,7 +95,7 @@ def main():
 
 	print("All nodes with more than one gene have been expanded to show all genes")
 
-	create_connection.find_duplicates(pathway_path = changed_name)
+	#create_connection.find_duplicates(pathway_path = changed_name)
 
 	duplicates = calculate_counts.calculate_counts(expression_path =  os.path.join(cwd, args['expression_table']), 
 											meta_data_path = os.path.join(cwd, args['metadata']), 
@@ -122,7 +123,6 @@ def main():
 													 outfilepath = os.path.join(cwd, 'single_counts.txt'))
 
 	print("The count for each single gene has been calculated based on the weights from the multiple gene nodes")
-
 """
 	try:
 		shutil.rmtree(changed_name)
