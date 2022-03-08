@@ -95,7 +95,7 @@ def main():
 
 	print("All nodes with more than one gene have been expanded to show all genes")
 
-	#create_connection.find_duplicates(pathway_path = changed_name)
+	create_connection.find_duplicates(pathway_path = changed_name)
 
 	duplicates = calculate_counts.calculate_counts(expression_path =  os.path.join(cwd, args['expression_table']), 
 											meta_data_path = os.path.join(cwd, args['metadata']), 

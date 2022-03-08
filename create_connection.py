@@ -6,11 +6,11 @@ import pandas as pd
 import os
 import sys
 
-def split_lines(boxfil):
+def duplicate_list(fil):
 
 	temp_list = []
 	fin_list = []
-	boxes = open(boxfil, 'r')
+	boxes = open(fil, 'r')
 	list_of_singles = []
 	list_of_duplicates = []
 	curfile = ""
@@ -69,17 +69,12 @@ def split_lines(boxfil):
 
 
 
-def main():
+def find_duplicates():
 	
-	mappesti = '/Users/profile/documents/GitHub/cell-lines/'
+	g = glob.glob(os.path.join(pathway_path, '*.xml'))
 
-	innfil = 'enkelt/nodelist.txt'
-	#mappesti = '/Users/profile/phd/sammenligninger/'
-	#innfil = 'boxinfo_test4_feb17.txt'
-	boxfil = os.path.join(mappesti, innfil)
-	split_lines(boxfil)
+	for file in g:
+		duplicate_list(file)
 
 
 
-if __name__ == '__main__':
-	main()
