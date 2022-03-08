@@ -95,7 +95,7 @@ def main():
 
 	print("All nodes with more than one gene have been expanded to show all genes")
 
-	create_connection.find_duplicates(pathway_path = changed_name)
+	
 
 	duplicates = calculate_counts.calculate_counts(expression_path =  os.path.join(cwd, args['expression_table']), 
 											meta_data_path = os.path.join(cwd, args['metadata']), 
@@ -106,6 +106,8 @@ def main():
 											expression_table_path = os.path.join(cwd, 'test_expression.txt'))
 
 	print("The counts for each node have been calculated")
+	print(duplicates)
+	#create_connection.find_duplicates(pathway_path = boxinfo_path)
 
 	collapsed_nodes = os.path.join(cwd, 'collapsed_nodes/')
 

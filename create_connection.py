@@ -4,6 +4,7 @@
 import numpy as np
 import pandas as pd
 import os
+import glob
 import sys
 
 def duplicate_list(fil):
@@ -69,7 +70,7 @@ def duplicate_list(fil):
 
 
 
-def find_duplicates():
+def find_duplicates(pathway_path):
 	
 	g = glob.glob(os.path.join(pathway_path, '*.xml'))
 
