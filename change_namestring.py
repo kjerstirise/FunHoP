@@ -86,8 +86,5 @@ def change_namestring(pathway_path, hsalist_path, outfile_path):
 		string_changer(root, names)
 		tree.write(out_file_name)
 	
-	
 
-if __name__ == '__main__':
-	print("made it to 1")
-	change_namestring(pathway_path, hsalist_path, outfile_path)
+	
